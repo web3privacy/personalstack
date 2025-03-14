@@ -1,18 +1,53 @@
-type User = {
+// type User = {
+//   name: string;
+//   avatar: string;
+//   company: string;
+// };
+
+// type StackItem = {
+//   category: string;
+//   name: string;
+//   logo: string;
+// };
+
+// type Stack = {
+//   user: User;
+//   items: StackItem[];
+// };
+
+// types.ts
+
+export interface ToolDetail {
   name: string;
+  url: string;
+  image?: string;
+}
+
+export interface ToolCategory {
+  [key: string]: ToolDetail;
+}
+
+export interface Tools {
+  [category: string]: ToolCategory;
+}
+
+export interface StackTools {
+  [category: string]: string;
+}
+
+export interface Stack {
+  id: string;
+  name: string;
+  org: string;
   avatar: string;
-  company: string;
-};
+  tools: StackTools;
+}
 
-type StackItem = {
-  category: string;
-  name: string;
-  logo: string;
-};
+export interface Stacks {
+  [person: string]: Stack;
+}
 
-type Stack = {
-  user: User;
-  items: StackItem[];
-};
-
-export type { Stack, User, StackItem };
+export interface DataSchema {
+  tools: Tools;
+  stacks: Stacks;
+}
