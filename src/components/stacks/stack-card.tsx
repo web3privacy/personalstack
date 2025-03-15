@@ -19,7 +19,11 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
       <div className="flex gap-4 border-b items-center">
         <div>
           <Image
-            src={stack.avatar}
+            src={
+              stack.avatar.startsWith("http")
+                ? stack.avatar
+                : `/images/pfp/${stack.avatar}`
+            }
             alt="Avatar"
             width={70}
             height={70}
@@ -41,7 +45,9 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
                 className="w-1/2"
                 name={toolDetail.name}
                 logo={
-                  "https://softwaretested.com/wp-content/uploads/2018/06/Signal-App.jpg"
+                  toolDetail.image && toolDetail.image !== ""
+                    ? `/images/icons/${toolDetail.image}`
+                    : "https://softwaretested.com/wp-content/uploads/2018/06/Signal-App.jpg"
                 }
               />
             </div>

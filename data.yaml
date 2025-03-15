@@ -24,7 +24,7 @@ tools:
     GrapheneOS:
       name: "GrapheneOS"
       url: "https://grapheneos.org/"
-      image: ""
+      image: "grapheneos.jpg"
     LineageOS:
       name: "LineageOS"
       url: "https://lineageos.org/"
@@ -88,7 +88,7 @@ tools:
     Brave:
       name: "Brave"
       url: "https://brave.com/"
-      image: ""
+      image: "brave.jpg"
     Tor:
       name: "Tor"
       url: "https://www.torproject.org/"
@@ -113,15 +113,19 @@ tools:
       name: "Mullvad"
       url: "https://mullvad.net/"
       image: ""
+    Firefox:
+      name: "Firefox"
+      url: "https://www.mozilla.org/en-US/firefox/new/"
+      image: "firefox.jpg"
   Wallet:
     Railway:
       name: "Railway"
       url: "https://railway.xyz/"
-      image: ""
+      image: "railway.jpg"
     Rabby:
       name: "Rabby"
       url: "https://rabby.io/"
-      image: ""
+      image: "rabby.jpg"
     Ledger:
       name: "Ledger"
       url: "https://www.ledger.com/"
@@ -152,7 +156,7 @@ tools:
     Brave:
       name: "Brave"
       url: "https://brave.com/"
-      image: ""
+      image: "brave.jpg"
     Zashi:
       name: "Zashi"
       url: "https://electriccoin.co/zashi/"
@@ -160,7 +164,7 @@ tools:
     MoneroDesktop:
       name: "Monero Desktop"
       url: "https://github.com/monero-project/monero-desktop"
-      image: ""
+      image: "github.png"
     Lattice:
       name: "GridPlus Lattice"
       url: "https://lattice.gridplus.io/"
@@ -173,7 +177,7 @@ tools:
     Signal:
       name: "Signal"
       url: "https://signal.org/"
-      image: ""
+      image: "signal.png"
     Threema:
       name: "Threema"
       url: "https://threema.ch/"
@@ -214,11 +218,11 @@ tools:
     Ddocs:
       name: "ddocs"
       url: "https://docs.fileverse.io/document/create"
-      image: ""
+      image: "fileverse.jpg"
     LibreOffice:
       name: "LibreOffice"
       url: "https://www.libreoffice.org/"
-      image: ""
+      image: "libreoffice.jpg"
     Obsidian:
       name: "Obsidian Sync"
       url: "https://obsidian.md/sync"
@@ -235,16 +239,30 @@ tools:
     DrawIo:
       name: "Draw.io"
       url: "https://draw.io/"
-      image: ""
+      image: "drawio.jpg"
     ExifCleaner:
       name: "ExifCleaner"
       url: "https://github.com/szTheory/exifcleaner"
-      image: ""
+      image: "github.png"
+    Inkscape:
+      name: "Inkscape"
+      url: "https://inkscape.org/"
+      image: "inkscape.jpg"
+  Graphics:
+    GIMP:
+      name: "GIMP"
+      url: "https://www.gimp.org/"
+      image: "gimp.png"
+  Hypervisor:
+    VirtualBox:
+      name: "VirtualBox"
+      url: "https://www.virtualbox.org/"
+      image: "virtualbox.png"
   SelfHostedLLM:
     Ollama:
       name: "Ollama"
       url: "https://ollama.com/"
-      image: ""
+      image: "ollama.jpg"
     JanAI:
       name: "JanAI"
       url: "https://jan.ai/"
@@ -261,16 +279,21 @@ tools:
       name: "VeniceAI"
       url: "https://venice.ai"
       image: ""
+  Audio:
+    Audacity:
+      name: "Audacity"
+      url: "https://audacity.com/"
+      image: ""
   DownloadSelfHosted:
     HuggingFace:
       name: "HuggingFace"
       url: "https://huggingface.co/"
-      image: ""
+      image: "huggingface.jpg"
   Slides:
     SlideEditor:
       name: "slide editor"
       url: "https://github.com/vbuterin/slides_editor"
-      image: ""
+      image: "github.png"
   VPN:
     GnosisVPN:
       name: "Gnosis VPN"
@@ -316,7 +339,7 @@ tools:
     ProtonMail:
       name: "ProtonMail"
       url: "https://protonmail.com/"
-      image: ""
+      image: "protonmail.png"
     TutaNota:
       name: "TutaNota"
       url: "https://mail.tutanota.com/"
@@ -348,11 +371,20 @@ tools:
       name: "Rotki"
       url: "https://rotki.com/"
       image: ""
-  Code:
+  IDE:
     VSCode:
       name: "VSCode"
       url: "https://code.visualstudio.com/"
       image: ""
+    VSCodium:
+      name: "VSCodium"
+      url: "https://vscodium.com/"
+      image: "vscodium.png"
+  Journaling:
+    GitJournal:
+      name: "GitJournal"
+      url: "https://gitjournal.io/"
+      image: "gitjournal.jpg"
   Phone:
     iPhone:
       name: "iPhone"
@@ -384,6 +416,25 @@ tools:
       name: "HackPad"
       url: "https://hackpad.org/"
       image: ""
+    AnythingLLM:
+      name: "AnythingLLM"
+      url: "https://anythingllm.com/"
+      image: "anythingllm.jpg"
+  Pomodoro:
+    TomatoBar:
+      name: "TomatoBar"
+      url: "https://github.com/ivoronin/TomatoBar"
+      image: "github.png"
+  Quizz:
+    Anki:
+      name: "Anki"
+      url: "https://apps.ankiweb.net/"
+      image: "anki.png"
+  Recording:
+    OBS:
+      name: "OBS"
+      url: "https://obsproject.com/"
+      image: "OBS.jpg"
   Network:
     I2P:
       name: "I2P"
@@ -409,7 +460,7 @@ tools:
     ProtonDrive:
       name: "ProtonDrive"
       url: "https://proton.me/drive"
-      image: ""
+      image: "protondrive.png"
     LUKS:
       name: "LUKS encryption"
       url: "https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md"
@@ -426,7 +477,7 @@ tools:
     OsmAnd:
       name: "OsmAnd"
       url: "https://osmand.net/"
-      image: ""
+      image: "osmand.jpg"
   Youtube:
     Libretube:
       name: "Libretube"
@@ -440,11 +491,24 @@ tools:
       name: "NewPipe"
       url: "https://newpipe.net/"
       image: ""
-  Reader:
+    YtDLP:
+      name: "yt-dlp"
+      url: "https://github.com/yt-dlp/yt-dlp"
+      image: "ytdlp.png"
+  Zip:
+    SevenZip:
+      name: "7-Zip"
+      url: "https://www.7-zip.org/"
+      image: "7zip.png"
+  Library:
     Omnivore:
       name: "Omnivore"
       url: "https://github.com/omnivore-app/omnivore"
-      image: ""
+      image: "github.png"
+    Calibre:
+      name: "Calibre"
+      url: "https://calibre-ebook.com/"
+      image: "calibre.png"
   Keyboard:
     Futo:
       name: "Futo"
@@ -454,21 +518,21 @@ tools:
     MagicWormhole:
       name: "Magic Wormhole"
       url: "https://github.com/magic-wormhole/magic-wormhole"
-      image: ""
+      image: "github.png"
   ShortLinks:
     MaglitMe:
       name: "Maglit.me"
       url: "https://maglit.me/"
       image: ""
-  VideoConf:
+  Meeting:
     Jitsi:
       name: "Jit.si"
       url: "https://jit.si/"
-      image: ""
+      image: "jitsi.jpg"
     BraveTalk:
       name: "Brave Talk"
       url: "https://brave.com/talk/"
-      image: ""
+      image: "brave.jpg"
   Multisig:
     ZKSafe:
       name: "ZKSafe"
@@ -494,10 +558,6 @@ tools:
     Penumbra:
       name: "Penumbra"
       url: "https://penumbra.zone/"
-      image: ""
-    Anoma:
-      name: "Anoma"
-      url: "https://anoma.net/"
       image: ""
     Anoma:
       name: "Anoma"
@@ -529,7 +589,7 @@ tools:
       Bluesky:
         name: "Bluesky"
         url: "https://bsky.app/"
-        image: "" 
+        image: ""
     DarkWeb:
       Mullvad:
         name: "Mullvad Browser"
@@ -581,7 +641,7 @@ tools:
         name: "Little Snitch"
         url: "https://obdev.at/index.html"
         image: ""
-    ERP: 
+    ERP:
       OODO:
         name: "OODO"
         url: "https://oodo.com/"
@@ -623,7 +683,7 @@ tools:
       AndroidImsi:
         name: "Android IMSI Catcher"
         url: "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector"
-        image: ""
+        image: "github.png"
     TrafficMonitoring:
       Wigle:
         name: "Wigle"
@@ -643,11 +703,21 @@ tools:
         name: "Efani"
         url: "https://efani.com/"
         image: ""
+    Videos:
+      VLC:
+        name: "VLC"
+        url: "https://www.videolan.org/"
+        image: "vlc.png"
+    XR:
+      OpenImmersive:
+        name: "OpenImmersive"
+        url: "https://github.com/acuteimmersive/openimmersive"
+        image: "github.png"
     DataManagement:
       Wholeaked:
         name: "WholeLeaked"
         url: "https://github.com/utkusen/wholeaked"
-        image: ""
+        image: "github.png"
     AppStore:
       FDroid:
         name: "FDroid"
@@ -662,7 +732,7 @@ tools:
         name: "Musikcube"
         url: "https://musikcube.com/"
         image: ""
-    P2P: 
+    P2P:
       BitTorrent:
         name: "BitTorrent"
         url: "https://www.bittorrent.com/"
@@ -676,6 +746,20 @@ tools:
         name: "Calcurse"
         url: "https://calcurse.org/"
         image: ""
+      ProtonCalendar:
+        name: "ProtonCalendar"
+        url: "https://calendar.proton.me/"
+        image: "protonmail.png"
+    Terminal:
+      Alacritty:
+        name: "Alacritty"
+        url: "https://alacritty.org/"
+        image: "alacritty.jpg"
+    Upscaling:
+      Upscaler:
+        name: "Upscayl"
+        url: "https://upscayl.org/"
+        image: "upscayl.jpg"
     TaskManager:
       Tau:
         name: "Tau"
@@ -690,9 +774,8 @@ tools:
       Pump:
         name: "Pump"
         url: "https://github.com/narodnik/pump/"
-        image: ""
-   
-   
+        image: "github.png"
+
 stacks:
   Vitalik:
     id: "vitalik"
@@ -706,9 +789,11 @@ stacks:
       Docs: Ddocs
       Drawings: DrawIo
       SelfHostedLLM: Ollama
+      DownloadSelfHosted: HuggingFace
+      Slides: SlideEditor
   SebastianBurgel:
     id: "sebastian-burgel"
-    avatar: "https://i.dailymail.co.uk/1s/2021/05/03/23/42530078-9538765-Vitalik_Buterin_27_reached_billionaire_status_after_digital_curr-m-62_1620079752140.jpg"
+    avatar: "SebastianB.jpg"
     name: "Sebastian Burgel"
     org: "GnosisDAO"
     tools:
@@ -719,9 +804,10 @@ stacks:
       VPN: GnosisVPN
       Email: ProtonMail
       Password: KeePassXC
+      Storage: USB
   LefterisKarapetsas:
     id: "lefteris-karapetsas"
-    avatar: "https://i.dailymail.co.uk/1s/2021/05/03/23/42530078-9538765-Vitalik_Buterin_27_reached_billionaire_status_after_digital_curr-m-62_1620079752140.jpg"
+    avatar: "LefterisKarapetsas.jpg"
     name: "Lefteris Karapetsas"
     org: "Rotki"
     tools:
@@ -733,3 +819,35 @@ stacks:
       VPN: Mullvad
       Search: Kagi
       Portfolio: Rotki
+  AudreyTang:
+    id: "audrey-tang"
+    avatar: "audreytang.jpg"
+    name: "Audrey Tang"
+    org: "Taiwan"
+    tools:
+      Audio: Audacity
+      Browser: Firefox
+      Messenger: Signal
+      Drawing: Inkscape
+      Email: ProtonMail
+      Storage: ProtonDrive
+      Graphics: GIMP
+      Hypervisor: VirtualBox
+      IDE: VSCodium
+      Journaling: GitJournal
+      KnowledgeBase: AnythingLLM
+      Library: Calibre
+      Meeting: Jitsi
+      Map: OsmAnd
+      Office: LibreOffice
+      Pomodoro: TomatoBar
+      Quizz: Anki
+      Recording: OBS
+      Calendar: ProtonCalendar
+      Terminal: Alacritty
+      Upscaling: Upscayl
+      Video: VLC
+      Wallet: Brave
+      XR: OpenImmersive
+      Youtube: YtDLP
+      Zip: SevenZip

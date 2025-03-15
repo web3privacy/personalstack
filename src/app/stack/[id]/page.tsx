@@ -1,6 +1,5 @@
 import { PageHeader } from "@/components/page-header";
 import { StackCard } from "@/components/stacks/stack-card";
-import { stacks } from "@/dummy";
 import { loadYamlData } from "@/lib/data";
 
 export default async function StackDetails({
@@ -22,7 +21,7 @@ export default async function StackDetails({
     <main className="flex flex-col items-center">
       <PageHeader img="/images/banner.jpg" title="" tagline="" />
 
-      <div className="-mt-32 z-10 bg-card w-2/5">
+      <div className="-mt-32 z-10 bg-card w-2/5 mb-16">
         <StackCard stack={stack} tools={data.tools} />
       </div>
     </main>
