@@ -1,9 +1,8 @@
 import { Categories } from "@/components/categories/categories";
 import { PageHeader } from "@/components/page-header";
-import { StacksGrid } from "@/components/stacks/featured-stacks";
 import { loadYamlData } from "@/lib/data";
 
-export default function Home() {
+export default function CategoriesPage() {
   const data = loadYamlData("./data.yaml");
 
   return (
@@ -13,10 +12,8 @@ export default function Home() {
         title="privacy stack explorer"
         tagline="explore what privacy stack experts are using"
       />
-      <h3 className="w-full text-center">featured experts</h3>
-      <StacksGrid stacks={data.stacks} tools={data.tools} take={3} />
-      <h3 className="w-full text-center">featured categories</h3>
-      <Categories categories={data.tools} stacks={data.stacks} take={8} />
+      <h3 className="w-full text-center">all categories</h3>
+      <Categories categories={data.tools} stacks={data.stacks} />
     </main>
   );
 }
