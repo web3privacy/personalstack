@@ -35,6 +35,7 @@ export const Categories = ({ categories, stacks, take }: Props) => {
             name={category}
             items={Object.values(tools).slice(0, 3)}
             stacks={stacks}
+            total={Object.keys(tools).length}
           />
         ))}
       </div>
@@ -47,7 +48,7 @@ export const Categories = ({ categories, stacks, take }: Props) => {
               href={`/categories/${category.toLowerCase()}`}
               className="text-lg hover:underline"
             >
-              {category}
+              {category} ({Object.keys(categories[category]).length})
             </Link>
           ))}
         </div>

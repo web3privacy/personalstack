@@ -15,26 +15,40 @@ type Props = {
   name: string;
   items: ToolDetail[];
   stacks: Stacks;
+  total: number;
 };
 
-export const CategoryCard = ({ name, items, stacks }: Props) => {
+export const CategoryCard = ({ name, items, stacks, total }: Props) => {
   const findUsersWithTool = (toolName: string): string[] => {
     return Object.values(stacks)
       .filter((stack) => {
-        // Check if any of the stack's tools match this tool name
         return Object.values(stack.tools).some((tool) => tool === toolName);
       })
       .map((stack) =>
         stack.avatar.startsWith("http")
           ? stack.avatar
           : `/images/pfp/${stack.avatar}`
-      ); // Return array of avatar URLs
+      );
   };
+
+  const getToolFrequency = (toolName: string): number => {
+    return Object.values(stacks).filter((stack) =>
+      Object.values(stack.tools).some((tool) => tool === toolName)
+    ).length;
+  };
+
+  const sortedItems = [...items].sort((a, b) => {
+    const freqA = getToolFrequency(a.name);
+    const freqB = getToolFrequency(b.name);
+    return freqB - freqA;
+  });
 
   return (
     <div className="border flex flex-col bg-neutral-900/80">
-      <h4 className="text-xl font-mono border-b p-2">{name.toLowerCase()}</h4>
-      {items.map((item) => {
+      <h4 className="text-xl font-mono border-b p-2 flex items-center gap-2">
+        {name.toLowerCase()}
+      </h4>
+      {sortedItems.map((item) => {
         const userAvatars = findUsersWithTool(item.name);
 
         return (
@@ -45,7 +59,7 @@ export const CategoryCard = ({ name, items, stacks }: Props) => {
               logo={
                 item.image
                   ? `/images/icons/${item.image}`
-                  : "https://softwaretested.com/wp-content/uploads/2018/06/Signal-App.jpg"
+                  : "/images/icons/placeholder.png"
               }
               className="w-3/5"
             />
@@ -58,9 +72,9 @@ export const CategoryCard = ({ name, items, stacks }: Props) => {
       })}
       <Link
         href={"/"}
-        className="p-2 flex items-center hover:bg-white hover:text-black"
+        className="p-2 flex  text-muted-foreground items-center hover:bg-white hover:text-black"
       >
-        <span className="grow">Explore</span>
+        <span className="grow ">Explore {total} tools</span>
         <Icons.arrowRight className="size-6" />
       </Link>
     </div>

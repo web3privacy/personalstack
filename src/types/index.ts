@@ -32,7 +32,7 @@ export interface Tools {
 }
 
 export interface StackTools {
-  [category: string]: string;
+  [category: string]: string | string[];
 }
 
 export interface Stack {

@@ -32,32 +32,42 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
         </div>
         <div className="flex flex-col">
           <h2 className="text-2xl font-mono uppercase">{stack.name}</h2>
-          <h3 className="text-lg font-mono uppercase">{stack.org}</h3>
+          <h3 className="text-sm font-mono">{stack.org.toLowerCase()}</h3>
         </div>
       </div>
       <div>
-        {items.map(([category, toolKey]) => {
-          const toolDetail = tools[category]?.[toolKey];
-          return toolDetail ? (
+        {items.map(([category, toolKeys]) => {
+          const toolKeyArray = Array.isArray(toolKeys) ? toolKeys : [toolKeys];
+
+          return (
             <div key={category} className="flex justify-between border-b p-2">
-              <span className="text-sm font-semibold w-1/2">{category}</span>
-              <ToolLabel
-                url={toolDetail.url}
-                className="w-1/2"
-                name={toolDetail.name}
-                logo={
-                  toolDetail.image && toolDetail.image !== ""
-                    ? `/images/icons/${toolDetail.image}`
-                    : "https://softwaretested.com/wp-content/uploads/2018/06/Signal-App.jpg"
-                }
-              />
+              <span className="text-sm font-semibold w-1/2">
+                {category.replace(/_/g, " ")}
+              </span>
+              <div className="w-1/2 flex gap-4 overflow-x-scroll">
+                {toolKeyArray.map((toolKey) => {
+                  const toolDetail = tools[category]?.[toolKey];
+                  return toolDetail ? (
+                    <ToolLabel
+                      key={toolKey}
+                      url={toolDetail.url}
+                      name={toolDetail.name}
+                      logo={
+                        toolDetail.image && toolDetail.image !== ""
+                          ? `/images/icons/${toolDetail.image}`
+                          : "/images/icons/placeholder.png"
+                      }
+                    />
+                  ) : null;
+                })}
+              </div>
             </div>
-          ) : null;
+          );
         })}
 
         {preview && (
           <Link
-            href={`/stack/${stack.id}`}
+            href={`/stacks/${stack.id}`}
             className="p-2 flex items-center hover:bg-white hover:text-black"
           >
             <span className="grow">Explore</span>

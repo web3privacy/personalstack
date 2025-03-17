@@ -17,7 +17,7 @@ export const ToolLabel = ({ name, url, logo, className }: Props) => {
           alt="Logo"
           width={25}
           height={25}
-          className="rounded-full"
+          className="rounded-full min-w-6 min-h-6"
         />
       </div>
 
