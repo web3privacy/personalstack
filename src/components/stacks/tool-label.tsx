@@ -3,11 +3,12 @@ import Image from "next/image";
 
 type Props = {
   name: string;
+  url: string;
   logo: string;
   className?: string;
 };
 
-export const ToolLabel = ({ name, logo, className }: Props) => {
+export const ToolLabel = ({ name, url, logo, className }: Props) => {
   return (
     <div className={cn("flex items-center gap-2", className)}>
       <div>
@@ -20,7 +21,14 @@ export const ToolLabel = ({ name, logo, className }: Props) => {
         />
       </div>
 
-      <span className="trext-md">{name}</span>
+      <a
+        href={url}
+        target="_blank"
+        rel="noreferrer"
+        className="trext-md hover:underline"
+      >
+        {name}
+      </a>
     </div>
   );
 };

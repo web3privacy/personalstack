@@ -42,6 +42,7 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
             <div key={category} className="flex justify-between border-b p-2">
               <span className="text-sm font-semibold w-1/2">{category}</span>
               <ToolLabel
+                url={toolDetail.url}
                 className="w-1/2"
                 name={toolDetail.name}
                 logo={
