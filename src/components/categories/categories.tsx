@@ -18,10 +18,18 @@ export const Categories = ({ categories, stacks, take }: Props) => {
     ? sortedCategories.slice(0, take)
     : sortedCategories;
 
+  const mainCategories = categoriesToShow.filter(
+    ([, tools]) => Object.keys(tools).length >= 3
+  );
+
+  const smallCategories = categoriesToShow.filter(
+    ([, tools]) => Object.keys(tools).length < 3
+  );
+
   return (
     <div className="mx-4 md:mx-8 flex flex-col gap-8">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {categoriesToShow.map(([category, tools]) => (
+        {mainCategories.map(([category, tools]) => (
           <CategoryCard
             key={category}
             name={category}
@@ -30,6 +38,21 @@ export const Categories = ({ categories, stacks, take }: Props) => {
           />
         ))}
       </div>
+
+      {smallCategories.length > 0 && (
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-2">
+          {smallCategories.map(([category]) => (
+            <Link
+              key={category}
+              href={`/categories/${category.toLowerCase()}`}
+              className="text-lg hover:underline"
+            >
+              {category}
+            </Link>
+          ))}
+        </div>
+      )}
+
       {take && (
         <Link
           href="/categories"
