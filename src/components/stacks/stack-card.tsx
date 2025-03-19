@@ -17,7 +17,7 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
   return (
     <div className="flex flex-col border bg-neutral-900/80">
       <div className="flex gap-4 border-b items-center">
-        <div>
+        <div className="min-w-20 min-h-20">
           <Image
             src={
               stack.avatar.startsWith("http")
@@ -25,14 +25,16 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
                 : `/images/pfp/${stack.avatar}`
             }
             alt="Avatar"
-            width={70}
-            height={70}
-            className="aspect-square"
+            width={90}
+            height={90}
+            className="aspect-square "
           />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-full">
           <h2 className="text-2xl font-mono uppercase">{stack.name}</h2>
-          <h3 className="text-sm font-mono">{stack.org.toLowerCase()}</h3>
+          <h3 className="text-sm font-mono line-clamp-2">
+            {stack.org.toLowerCase()}
+          </h3>
         </div>
       </div>
       <div>
@@ -41,9 +43,12 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
 
           return (
             <div key={category} className="flex justify-between border-b p-2">
-              <span className="text-sm font-semibold w-1/2">
+              <Link
+                href={`/categories/${category}`}
+                className="text-sm font-semibold w-1/2"
+              >
                 {category.replace(/_/g, " ")}
-              </span>
+              </Link>
               <div className="w-1/2 flex gap-4 overflow-x-scroll">
                 {toolKeyArray.map((toolKey) => {
                   const toolDetail = tools[category]?.[toolKey];
