@@ -4,13 +4,6 @@ import Link from "next/link";
 import { Icons } from "../icons";
 import type { Stacks, ToolDetail } from "@/types";
 
-const avatarUrls = [
-  "https://avatars.githubusercontent.com/u/16860528",
-  "https://avatars.githubusercontent.com/u/20110627",
-  "https://avatars.githubusercontent.com/u/106103625",
-  "https://avatars.githubusercontent.com/u/59228569",
-];
-
 type Props = {
   name: string;
   items: ToolDetail[];
@@ -46,7 +39,7 @@ export const CategoryCard = ({ name, items, stacks, total }: Props) => {
   return (
     <div className="border flex flex-col bg-neutral-900/80">
       <h4 className="text-xl font-mono border-b p-2 flex items-center gap-2">
-        {name.toLowerCase()}
+        {name.toLowerCase().replace(/_/g, " ")}
       </h4>
       {sortedItems.map((item) => {
         const userAvatars = findUsersWithTool(item.name);
@@ -71,7 +64,7 @@ export const CategoryCard = ({ name, items, stacks, total }: Props) => {
         );
       })}
       <Link
-        href={"/"}
+        href={`/categories/${name}`}
         className="p-2 flex  text-muted-foreground items-center hover:bg-white hover:text-black"
       >
         <span className="grow ">Explore {total} tools</span>

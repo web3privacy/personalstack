@@ -2,6 +2,14 @@ import { PageHeader } from "@/components/page-header";
 import { StackCard } from "@/components/stacks/stack-card";
 import { loadYamlData } from "@/lib/data";
 
+export async function generateStaticParams() {
+  const data = loadYamlData("./data.yaml");
+
+  return Object.values(data.stacks).map((stack) => ({
+    id: stack.id,
+  }));
+}
+
 export default async function StackDetails({
   params,
 }: {
@@ -25,5 +33,5 @@ export default async function StackDetails({
         <StackCard stack={stack} tools={data.tools} />
       </div>
     </main>
-  );
+  ); 
 }

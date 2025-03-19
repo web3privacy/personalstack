@@ -24,7 +24,7 @@ tools:
     QubesOS:
       name: "QubesOS"
       url: "https://www.qubes-os.org/"
-      image: ""
+      image: "qubesos.svg.png"
     ArchLinux:
       name: "Arch Linux"
       url: "https://archlinux.org/"
@@ -44,7 +44,7 @@ tools:
     TailsOS:
       name: "TailsOS"
       url: "https://tails.net/"
-      image: "tails.png"
+      image: "tailsos.png"
     Ubuntu:
       name: "Ubuntu"
       url: "https://ubuntu.com/"
@@ -72,7 +72,7 @@ tools:
     KaiOS:
       name: "KaiOS"
       url: "https://kaios.org/"
-      image: "kaios.jpg"
+      image: ""
   OS_Mobile:
     GrapheneOS:
       name: "GrapheneOS"
@@ -181,7 +181,7 @@ tools:
     MoneroCli:
       name: "Monero-Cli"
       url: "https://docs.getmonero.org/interacting/monero-wallet-cli-reference/"
-      image: "monerodesktop.png"
+      image: "monerodesktop.jpg"
   Messenger:
     Signal:
       name: "Signal"
@@ -194,7 +194,7 @@ tools:
     Telegram:
       name: "Telegram"
       url: "https://telegram.org/"
-      image: ""
+      image: "telegram.jpg"
     Session:
       name: "Session"
       url: "https://getsession.org/"
@@ -276,7 +276,7 @@ tools:
       name: "JanAI"
       url: "https://jan.ai/"
       image: "janai.png"
-  SelfHostedLLM:
+  Self_Hosted_LLM:
     Ollama:
       name: "Ollama"
       url: "https://ollama.com/"
@@ -301,8 +301,8 @@ tools:
     Audacity:
       name: "Audacity"
       url: "https://audacity.com/"
-      image: ""
-  DownloadSelfHosted:
+      image: "audacity.png"
+  Download_Self_Hosted:
     HuggingFace:
       name: "HuggingFace"
       url: "https://huggingface.co/"
@@ -433,7 +433,7 @@ tools:
       name: "Open Archive"
       url: "https://archive.org/"
       image: "openarchive.jpg"
-  Knowledge:
+  Knowledge_Base:
     Obsidian:
       name: "Obsidian"
       url: "https://obsidian.md/"
@@ -786,7 +786,7 @@ tools:
       url: "https://alacritty.org/"
       image: "alacritty.jpg"
   Upscaling:
-    Upscaler:
+    Upscayl:
       name: "Upscayl"
       url: "https://upscayl.org/"
       image: "upscayl.jpg"
@@ -807,6 +807,38 @@ tools:
       image: "github.png"
 
 stacks:
+  AudreyTang:
+    id: "audrey-tang"
+    avatar: "audreytang.jpg"
+    name: "Audrey Tang"
+    org: "Taiwan"
+    tools:
+      Audio: Audacity
+      Browser_Desktop: Firefox
+      Messenger: Signal
+      Drawings: Inkscape
+      Email: ProtonMail
+      Storage: ProtonDrive
+      Graphics: GIMP
+      Hypervisor: VirtualBox
+      IDE: VSCodium
+      Journaling: GitJournal
+      Knowledge_Base: AnythingLLM
+      Library: Calibre
+      Meeting: Jitsi
+      Map: OsmAnd
+      Docs: LibreOffice
+      Pomodoro: TomatoBar
+      Quizz: Anki
+      Recording: OBS
+      Calendar: ProtonCalendar
+      Terminal: Alacritty
+      Upscaling: Upscayl
+      Videos: VLC
+      Wallet: Brave
+      XR: OpenImmersive
+      Youtube: YtDLP
+      Zip: SevenZip
   Vitalik:
     id: "vitalik"
     avatar: "https://i.dailymail.co.uk/1s/2021/05/03/23/42530078-9538765-Vitalik_Buterin_27_reached_billionaire_status_after_digital_curr-m-62_1620079752140.jpg"
@@ -821,9 +853,43 @@ stacks:
       Messenger: Signal
       Docs: Ddocs
       Drawings: DrawIo
-      SelfHostedLLM: Ollama
-      DownloadSelfHosted: HuggingFace
+      Self_Hosted_LLM: Ollama
+      Download_Self_Hosted: HuggingFace
       Slides: SlideEditor
+  JarradHope:
+    id: "jarrad-hope"
+    avatar: "JarradHope.png"
+    name: "Jarrad Hope"
+    org: "Status, Nomos, Codex, Waku"
+    tools:
+      Hardware: Tuxedo
+      OS_Desktop: NixOS
+      OS_Mobile: GrapheneOS
+      Browser_Desktop:
+        - Librewolf
+        - Chromium
+      Browser_Mobile:
+        - Mull
+        - Mulch
+      VPN:
+        - Mullvad
+        - NymVPN
+        - IVPN
+      Messenger: Status
+      Storage:
+        - Codex
+        - Tarsnap
+      Network:
+        - Tor
+        - I2P
+      Search: Searx
+      Wallet:
+        - Status
+        - Keycard
+      Docs: LibreOffice
+      Map: OsmAnd
+      Youtube: Libretube
+      IDE: Emacs
   SebastianBurgel:
     id: "sebastian-burgel"
     avatar: "SebastianB.jpg"
@@ -869,38 +935,6 @@ stacks:
       Email: ProtonMail
       Docs: Ddocs
       Password: Bitwarden
-  AudreyTang:
-    id: "audrey-tang"
-    avatar: "audreytang.jpg"
-    name: "Audrey Tang"
-    org: "Taiwan"
-    tools:
-      Audio: Audacity
-      Browser_Desktop: Firefox
-      Messenger: Signal
-      Drawing: Inkscape
-      Email: ProtonMail
-      Storage: ProtonDrive
-      Graphics: GIMP
-      Hypervisor: VirtualBox
-      IDE: VSCodium
-      Journaling: GitJournal
-      KnowledgeBase: AnythingLLM
-      Library: Calibre
-      Meeting: Jitsi
-      Map: OsmAnd
-      Office: LibreOffice
-      Pomodoro: TomatoBar
-      Quizz: Anki
-      Recording: OBS
-      Calendar: ProtonCalendar
-      Terminal: Alacritty
-      Upscaling: Upscayl
-      Video: VLC
-      Wallet: Brave
-      XR: OpenImmersive
-      Youtube: YtDLP
-      Zip: SevenZip
   NickAlmond:
     id: "nick-almond"
     avatar: "NickAlmond.jpg"
@@ -917,40 +951,6 @@ stacks:
       Docs: Fileverse
       Wallet: Ledger
       VPN: Mullvad
-  JarradHope:
-    id: "jarrad-hope"
-    avatar: "JarradHope.png"
-    name: "Jarrad Hope"
-    org: "Status, Nomos, Codex, Waku"
-    tools:
-      Hardware: Tuxedo
-      OS_Desktop: NixOS
-      OS_Mobile: GrapheneOS
-      Browser_Desktop:
-        - Librewolf
-        - Chromium
-      Browser_Mobile:
-        - Mull
-        - Mulch
-      VPN:
-        - Mullvad
-        - NymVPN
-        - IVPN
-      Messenger: Status
-      Storage:
-        - Codex
-        - Tarsnap
-      Network:
-        - Tor
-        - I2P
-      Search: Searx
-      Wallet:
-        - Status
-        - Keycard
-      Docs: LibreOffice
-      Map: OsmAnd
-      Youtube: Libretube
-      IDE: Emacs
   AlanScott:
     id: "alan-scott"
     avatar: "AlanScott.jpg"

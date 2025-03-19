@@ -45,7 +45,7 @@ export const Categories = ({ categories, stacks, take }: Props) => {
           {smallCategories.map(([category]) => (
             <Link
               key={category}
-              href={`/categories/${category.toLowerCase()}`}
+              href={`/categories/${category}`}
               className="text-lg hover:underline"
             >
               {category} ({Object.keys(categories[category]).length})
