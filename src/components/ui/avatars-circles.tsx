@@ -3,7 +3,7 @@
 import React from "react";
 
 import { cn } from "@/lib/utils";
-
+import { basePath } from "@/lib/utils";
 interface AvatarCirclesProps {
   className?: string;
   numPeople?: number;
@@ -21,7 +21,7 @@ const AvatarCircles = ({
         <img
           key={url}
           className="size-6 rounded-full border-2 border-white dark:border-gray-800"
-          src={url}
+          src={`${basePath}/${url}`}
           width={30}
           height={30}
           alt={`Avatar ${index + 1}`}
