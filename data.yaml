@@ -244,14 +244,14 @@ tools:
       name: "Obsidian Sync"
       url: "https://obsidian.md/sync"
       image: "obsidian.jpg"
-    AnyType:
-      name: "AnyType"
-      url: "https://anytype.io/"
-      image: "anytype.png"
     CryptPad:
       name: "CryptPad"
       url: "https://cryptpad.fr/"
       image: "cryptpad.jpg"
+    AnyType:
+      name: "AnyType"
+      url: "https://anytype.io/"
+      image: "anytype.png"
   Drawings:
     DrawIo:
       name: "Draw.io"
@@ -530,7 +530,7 @@ tools:
       name: "7-Zip"
       url: "https://www.7-zip.org/"
       image: "7zip.png"
-  Library:
+  Reader:
     Omnivore:
       name: "Omnivore"
       url: "https://github.com/omnivore-app/omnivore"
@@ -539,6 +539,10 @@ tools:
       name: "Calibre"
       url: "https://calibre-ebook.com/"
       image: "calibre.png"
+    Plenary:
+      name: "Plenary"
+      url: "https://play.google.com/store/apps/details?id=com.spians.plenary&hl=en-US"
+      image: "plenary.png"
   Keyboard:
     Futo:
       name: "Futo"
@@ -1077,3 +1081,27 @@ stacks:
       TrafficMonitoring: Wigle
       Data_Management: Wholeaked
       Sim_Provider: Efani
+  Park:
+    id: "park"
+    avatar: "Park.jpg"
+    name: "Park"
+    org: "Penumbra"
+    tools:
+      Hardware: MacBook
+      OS_Mobile: GrapheneOS
+      Browser_Desktop: Brave
+      Messenger: Signal
+      Keyboard: Futo
+      Filesharing: MagicWormhole
+      Search: DuckDuckGo
+      Wallet: PraxWallet
+      Docs:
+        - Obsidian
+        - AnyType
+      VPN:
+        - Mullvad
+        - NordVPN
+      Reader:
+        - Omnivore
+        - Plenary
+      Knowledge_Base: Obsidian
