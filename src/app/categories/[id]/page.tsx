@@ -7,8 +7,8 @@ import { loadYamlData } from "@/lib/data";
 export async function generateStaticParams() {
   const data = loadYamlData("./data.yaml");
 
-  return Object.values(data.stacks).map((stack) => ({
-    id: stack.id,
+  return Object.keys(data.tools).map((categoryId) => ({
+    id: categoryId,
   }));
 }
 

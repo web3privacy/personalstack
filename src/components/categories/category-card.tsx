@@ -3,7 +3,7 @@ import { AvatarCircles } from "../ui/avatars-circles";
 import Link from "next/link";
 import { Icons } from "../icons";
 import type { Stacks, ToolDetail } from "@/types";
-
+import { basePath } from "@/lib/utils";
 type Props = {
   name: string;
   items: ToolDetail[];
@@ -20,7 +20,7 @@ export const CategoryCard = ({ name, items, stacks, total }: Props) => {
       .map((stack) =>
         stack.avatar.startsWith("http")
           ? stack.avatar
-          : `/images/pfp/${stack.avatar}`
+          : `${basePath}/images/pfp/${stack.avatar}`
       );
   };
 
@@ -51,8 +51,8 @@ export const CategoryCard = ({ name, items, stacks, total }: Props) => {
               url={item.url}
               logo={
                 item.image
-                  ? `/images/icons/${item.image}`
-                  : "/images/icons/placeholder.png"
+                  ? `${basePath}/images/icons/${item.image}`
+                  : `${basePath}/images/icons/placeholder.png`
               }
               className="w-3/5"
             />
