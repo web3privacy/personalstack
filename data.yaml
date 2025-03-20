@@ -632,7 +632,7 @@ tools:
       name: "Bluesky"
       url: "https://bsky.app/"
       image: "bluesky.jpg"
-  DarkWeb:
+  Dark_Web:
     Mullvad:
       name: "Mullvad Browser"
       url: "https://mullvad.net/en/browser"
@@ -641,7 +641,7 @@ tools:
       name: "Mullvad VPN"
       url: "https://mullvad.net/en/vpn"
       image: "mullvad.png"
-  PersonalReadTeaming:
+  Personal_Red_Teaming:
     FlipperZero:
       name: "Flipper Zero"
       url: "https://flipperzero.one/"
@@ -676,7 +676,7 @@ tools:
       image: "pihole.jpg"
   Sex:
     Buttplug:
-      name: "Buttplug"
+      name: "Buttplug.io"
       url: "https://buttplug.io/"
       image: "buttplugio.png"
   Firewall:
@@ -684,6 +684,10 @@ tools:
       name: "Little Snitch"
       url: "https://obdev.at/index.html"
       image: "littlesnitch.jpg"
+    OpenSnitch:
+      name: "OpenSnitch"
+      url: "https://github.com/evilsocket/opensnitch"
+      image: "github.png"
   ERP:
     OODO:
       name: "OODO"
@@ -1157,3 +1161,28 @@ stacks:
       VPN: NymVPN
       Cloud: PrivateStorage
       Dev_Environment: NixOS
+  FatemehFannizadeh:
+    id: "fatemeh-fannizadeh"
+    avatar: "fatemeh.png"
+    name: "Fatemeh Fannizadeh"
+    org: "Anoma Foundation"
+    tools:
+      Firewall: OpenSnitch
+      AdBlocker: PiHole
+      Browser_Desktop: Brave
+      Crypto: Bitcoin
+      OnChain:
+        - Namada
+        - Ethereum
+      Messenger:
+        - Signal
+        - Session
+      VPN: Mullvad
+      Dark_Web:
+        - Mullvad
+        - MullvadVPN
+      Personal_Red_Teaming:
+        - FlipperZero
+        - HackRF
+      Sex:
+        - Buttplug
