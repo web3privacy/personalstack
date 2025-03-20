@@ -31,7 +31,7 @@ export const PageHeader: React.FC<Props> = ({ img, title, tagline }) => {
   return (
     <div
       className="relative w-full h-[300px] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url('${img}')` }}
+      style={{ backgroundImage: `url('${basePath}${img}')` }}
     >
       <Link href="/" className="absolute top-4 left-4">
         <Image
