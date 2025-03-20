@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
   images: {
     // TODO add appropriate setup
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
