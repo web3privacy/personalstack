@@ -34,7 +34,7 @@ export default async function CategoryDetails({
       .map((stack) =>
         stack.avatar.startsWith("http")
           ? stack.avatar
-          : `/images/pfp/${stack.avatar}`
+          : `${basePath}/images/pfp/${stack.avatar}`
       );
   };
 
