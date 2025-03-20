@@ -2,7 +2,7 @@ import type React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Icons } from "./icons";
-
+import { basePath } from "@/lib/utils";
 type Props = {
   img: string;
   title: string;
@@ -35,7 +35,7 @@ export const PageHeader: React.FC<Props> = ({ img, title, tagline }) => {
     >
       <Link href="/" className="absolute top-4 left-4">
         <Image
-          src="/logo-white.svg"
+          src={`${basePath}/logo-white.svg`}
           alt="Logo"
           className="h-12"
           width={200}

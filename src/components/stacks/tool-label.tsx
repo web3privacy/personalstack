@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-
+import { basePath } from "@/lib/utils";
 type Props = {
   name: string;
   url: string;
@@ -13,7 +13,7 @@ export const ToolLabel = ({ name, url, logo, className }: Props) => {
     <div className={cn("flex items-center gap-2", className)}>
       <div>
         <Image
-          src={logo}
+          src={`${basePath}/${logo}`}
           alt="Logo"
           width={25}
           height={25}
