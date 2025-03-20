@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Icons } from "../icons";
 import Link from "next/link";
 import { ToolLabel } from "./tool-label";
+import { basePath } from "@/lib/utils";
 
 type Props = {
   stack: Stack;
@@ -22,7 +23,7 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
             src={
               stack.avatar.startsWith("http")
                 ? stack.avatar
-                : `/images/pfp/${stack.avatar}`
+                : `${basePath}/images/pfp/${stack.avatar}`
             }
             alt="Avatar"
             width={90}
@@ -59,8 +60,8 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
                       name={toolDetail.name}
                       logo={
                         toolDetail.image && toolDetail.image !== ""
-                          ? `/images/icons/${toolDetail.image}`
-                          : "/images/icons/placeholder.png"
+                          ? `${basePath}/images/icons/${toolDetail.image}`
+                          : `${basePath}/images/icons/placeholder.png`
                       }
                     />
                   ) : null;
