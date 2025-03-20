@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/page-header";
 import { ToolLabel } from "@/components/stacks/tool-label";
 import { AvatarCircles } from "@/components/ui/avatars-circles";
 import { loadYamlData } from "@/lib/data";
-
+import { basePath } from "@/lib/utils";
 export async function generateStaticParams() {
   const data = loadYamlData("./data.yaml");
 
@@ -70,8 +70,8 @@ export default async function CategoryDetails({
                 url={tool.url}
                 logo={
                   tool.image
-                    ? `/images/icons/${tool.image}`
-                    : "/images/icons/placeholder.png"
+                    ? `${basePath}/images/icons/${tool.image}`
+                    : `${basePath}/images/icons/placeholder.png`
                 }
                 className="w-3/5"
               />

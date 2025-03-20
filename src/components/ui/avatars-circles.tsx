@@ -21,7 +21,7 @@ const AvatarCircles = ({
         <img
           key={url}
           className="size-6 rounded-full border-2 border-white dark:border-gray-800"
-          src={`${basePath}/${url}`}
+          src={`${url}`}
           width={30}
           height={30}
           alt={`Avatar ${index + 1}`}
