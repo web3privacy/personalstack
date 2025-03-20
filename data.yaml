@@ -223,6 +223,10 @@ tools:
       name: "HexChat"
       url: "https://hexchat.org/"
       image: "hexchat.jpeg"
+    Keybase:
+      name: "Keybase"
+      url: "https://keybase.io/"
+      image: "keybase.jpg"
   Docs:
     Ddocs:
       name: "ddocs"
@@ -397,7 +401,7 @@ tools:
     VSCode:
       name: "VSCode"
       url: "https://code.visualstudio.com/"
-      image: ""
+      image: "vscode.png"
     VSCodium:
       name: "VSCodium"
       url: "https://vscodium.com/"
@@ -915,7 +919,9 @@ stacks:
       OS_Desktop: ArchLinux
       Browser_Desktop: Brave
       Wallet: Frame
-      Messenger: Signal
+      Messenger:
+        - Signal
+        - Keybase
       Docs: Ddocs
       VPN: Mullvad
       Search: Kagi
@@ -929,7 +935,9 @@ stacks:
       IDE: VSCode
       OS_Desktop: PopOS
       Browser_Desktop: Brave
-      Messenger: Signal
+      Messenger:
+        - Signal
+        - Session
       Search: DuckDuckGo
       AI: JanAI
       Email: ProtonMail
@@ -949,7 +957,9 @@ stacks:
       Search: DuckDuckGo
       Email: ProtonMail
       Docs: Fileverse
-      Wallet: Ledger
+      Wallet:
+        - Ledger
+        - Frame
       VPN: Mullvad
   AlanScott:
     id: "alan-scott"
@@ -998,3 +1008,23 @@ stacks:
         - ProtonVPN
       OS_Mobile: GrapheneOS
       Phone: Pixel
+  AnnBrody:
+    id: "ann-brody"
+    avatar: "Ann Brody.png"
+    name: "Ann Brody"
+    org: "@MCGILLU @WEB3PRIVACY - PHD Candidate"
+    tools:
+      Hardware: MacBook
+      Phone: iPhone
+      OS_Mobile: iOS
+      Browser_Desktop:
+        - Brave
+        - Tor
+      Messenger:
+        - Signal
+      Search: DuckDuckGo
+      Knowledge_Base: Obsidian
+      Email: ProtonMail
+      Docs: Fileverse
+      Wallet: Trezor
+      VPN: WireGuard
