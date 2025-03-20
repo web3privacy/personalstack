@@ -704,7 +704,7 @@ tools:
       name: "AnyRun"
       url: "https://any.run/"
       image: "anyrun.png"
-  PrivateKey:
+  OnChain_Security:
     Delegate:
       name: "Delegate"
       url: "https://delegate.xyz/"
@@ -713,7 +713,12 @@ tools:
       name: "Airgap"
       url: "http://airgap.it/"
       image: ""
-  PhysicalSecurity:
+  PrivateKey:
+    EncryptKey:
+      name: "EncryptKey"
+      url: ""
+      image: ""
+  Physical_Security:
     AndroidImsi:
       name: "Android IMSI Catcher"
       url: "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector"
@@ -732,7 +737,7 @@ tools:
       name: "Comodo"
       url: "https://antivirus.comodo.com/"
       image: ""
-  SimProvider:
+  Sim_Provider:
     Efani:
       name: "Efani"
       url: "https://efani.com/"
@@ -747,7 +752,7 @@ tools:
       name: "OpenImmersive"
       url: "https://github.com/acuteimmersive/openimmersive"
       image: "github.png"
-  DataManagement:
+  Data_Management:
     Wholeaked:
       name: "WholeLeaked"
       url: "https://github.com/utkusen/wholeaked"
@@ -1028,3 +1033,47 @@ stacks:
       Docs: Fileverse
       Wallet: Trezor
       VPN: WireGuard
+  VladimirS:
+    id: "vladimir-s"
+    avatar: "Vladimir S.jpg"
+    name: "Vladimir S"
+    org: "Threat Researcher - Remedy"
+    tools:
+      Phone:
+        - iPhone
+        - Librem5
+      Browser_Desktop:
+        - Tor
+        - Mullvad
+      Messenger:
+        - Telegram
+      Search: DuckDuckGo
+      Knowledge_Base: Obsidian
+      Email:
+        - Tutanota
+        - ProtonMail
+      Docs: Fileverse
+      Wallet:
+        - GridPlus
+        - Lattice
+      VPN: Mullvad
+      Password: KeePassXC
+      OS_Mobile:
+        - LineageOS
+        - DivestOS
+      OS_Desktop:
+        - Whonix
+        - ParrotOS
+      Sandbox: AnyRun
+      PDF: DangerZone
+      OnChain_Security:
+        - Delegate
+        - Airgap
+      PrivateKey: EncryptKey
+      Physical_Security: AndroidImsi
+      Antivirus:
+        - MalwareBytes
+        - Comodo
+      TrafficMonitoring: Wigle
+      Data_Management: Wholeaked
+      Sim_Provider: Efani
