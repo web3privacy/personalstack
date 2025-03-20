@@ -257,14 +257,15 @@ tools:
       name: "Draw.io"
       url: "https://draw.io/"
       image: "drawio.jpg"
-    ExifCleaner:
-      name: "ExifCleaner"
-      url: "https://github.com/szTheory/exifcleaner"
-      image: "github.png"
     Inkscape:
       name: "Inkscape"
       url: "https://inkscape.org/"
       image: "inkscape.jpg"
+  Images:
+    ExifCleaner:
+      name: "ExifCleaner"
+      url: "https://github.com/szTheory/exifcleaner"
+      image: "github.png"
   Graphics:
     GIMP:
       name: "GIMP"
@@ -280,6 +281,10 @@ tools:
       name: "JanAI"
       url: "https://jan.ai/"
       image: "janai.png"
+    VeniceAI:
+      name: "VeniceAI"
+      url: "https://venice.ai"
+      image: ""
   Self_Hosted_LLM:
     Ollama:
       name: "Ollama"
@@ -553,7 +558,7 @@ tools:
       name: "Magic Wormhole"
       url: "https://github.com/magic-wormhole/magic-wormhole"
       image: "github.png"
-  ShortLinks:
+  Short_Links:
     MaglitMe:
       name: "Maglit.me"
       url: "https://maglit.me/"
@@ -1105,3 +1110,27 @@ stacks:
         - Omnivore
         - Plenary
       Knowledge_Base: Obsidian
+  Andreas:
+    id: "andreas"
+    avatar: "Andreas x Fileverse.jpg"
+    name: "Andreas"
+    org: "Cyberflaneur - Fileverse"
+    tools:
+      Browser_Desktop: Brave
+      Docs:
+        - Ddocs
+        - Fileverse
+      Messenger: Signal
+      Map: OpenStreetMap
+      Short_Links: MaglitMe
+      Multisig: ZKSafe
+      Meeting: Jitsi
+      OnChain:
+        - Railgun
+        - Penumbra
+      Images: ExifCleaner
+      Archive: AnnaArchive
+      CensorshipScan: OONI
+      Anime: HiAnime
+      Wallet: Frame
+      AI: VeniceAI
