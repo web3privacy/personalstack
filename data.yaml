@@ -613,7 +613,7 @@ tools:
       name: "Namada"
       url: "https://namada.net/"
       image: "namada.jpg"
-  DevEnvironment:
+  Dev_Environment:
     NixOS:
       name: "NixOS"
       url: "https://nixos.org/"
@@ -736,6 +736,11 @@ tools:
     Wigle:
       name: "Wigle"
       url: "https://wigle.net/"
+      image: ""
+  Cloud:
+    PrivateStorage:
+      name: "Private Storage"
+      url: "https://private.storage/"
       image: ""
   Antivirus:
     MalwareBytes:
@@ -1134,3 +1139,21 @@ stacks:
       Anime: HiAnime
       Wallet: Frame
       AI: VeniceAI
+  SamHart:
+    id: "sam-hart"
+    avatar: "sam hart.jpg"
+    name: "Sam Hart"
+    org: "Skip"
+    tools:
+      Messenger: Signal
+      Microblogging: Bluesky
+      Bookmarking: Arena
+      Wallet:
+        - PraxWallet
+        - Namada
+      OnChain:
+        - Penumbra
+        - Anoma
+      VPN: NymVPN
+      Cloud: PrivateStorage
+      Dev_Environment: NixOS
