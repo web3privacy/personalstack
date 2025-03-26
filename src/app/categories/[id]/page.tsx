@@ -29,12 +29,12 @@ export async function generateMetadata({
     title: `${categoryTools} - ${siteConfig.name}`,
     openGraph: {
       title: {
-        default: `${categoryTools} - ${siteConfig.name}`,
+        default: categoryTools,
       },
     },
     twitter: {
       title: {
-        default: `${categoryTools} - ${siteConfig.name}`,
+        default: categoryTools,
       },
     },
   };

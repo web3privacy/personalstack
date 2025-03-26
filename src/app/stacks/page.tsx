@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   title: `Stacks - ${siteConfig.name}`,
   openGraph: {
     title: {
-      default: `Stacks - ${siteConfig.name}`,
+      default: "Stacks",
       template: `%s - ${siteConfig.name}`,
     },
   },
   twitter: {
     title: {
-      default: `Stacks - ${siteConfig.name}`,
+      default: "Stacks",
       template: `%s - ${siteConfig.name}`,
     },
   },

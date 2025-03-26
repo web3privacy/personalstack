@@ -26,12 +26,12 @@ export async function generateMetadata({
     title: `${stack?.name} - ${siteConfig.name}`,
     openGraph: {
       title: {
-        default: `${stack?.name} - ${siteConfig.name}`,
+        default: stack?.name,
       },
     },
     twitter: {
       title: {
-        default: `${stack?.name} - ${siteConfig.name}`,
+        default: stack?.name,
       },
     },
   };
