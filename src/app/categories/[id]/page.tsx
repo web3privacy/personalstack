@@ -4,7 +4,8 @@ import { ToolLabel } from "@/components/stacks/tool-label";
 import { AvatarCircles } from "@/components/ui/avatars-circles";
 import { loadYamlData } from "@/lib/data";
 import { basePath } from "@/lib/utils";
-import { siteConfig } from "@/app/layout";
+import { siteConfig } from "@/lib/config";
+
 export async function generateStaticParams() {
   const data = loadYamlData("./data.yaml");
 

@@ -1,4 +1,4 @@
-import { siteConfig } from "@/app/layout";
+import { siteConfig } from "@/lib/config";
 import { PageHeader } from "@/components/page-header";
 import { StackCard } from "@/components/stacks/stack-card";
 import { loadYamlData } from "@/lib/data";

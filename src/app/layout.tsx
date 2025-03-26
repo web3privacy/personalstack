@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Major_Mono_Display, Archivo } from "next/font/google";
 import "./globals.css";
+import { siteConfig } from "@/lib/config";
 
 const archivoSans = Archivo({
   variable: "--font-archivo-sans",
@@ -14,11 +15,6 @@ const majorMono = Major_Mono_Display({
   weight: "400",
 });
 
-export const siteConfig = {
-  name: "Privacy Stack Explorer",
-  description: "Explore what privacy stack experts are using",
-  ogImage: "https://stacks.web3privacy.info/images/og.png",
-};
 
 export const metadata: Metadata = {
   title: siteConfig.name,

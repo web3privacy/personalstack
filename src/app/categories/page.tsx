@@ -2,7 +2,7 @@ import { Categories } from "@/components/categories/categories";
 import { PageHeader } from "@/components/page-header";
 import { loadYamlData } from "@/lib/data";
 import type { Metadata } from "next";
-import { siteConfig } from "../layout";
+import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: `Categories - ${siteConfig.name}`,
