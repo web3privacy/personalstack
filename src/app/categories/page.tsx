@@ -6,6 +6,18 @@ import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: `Categories - ${siteConfig.name}`,
+  openGraph: {
+    title: {
+      default: `Categories - ${siteConfig.name}`,
+      template: `%s - ${siteConfig.name}`,
+    },
+  },
+  twitter: {
+    title: {
+      default: `Categories - ${siteConfig.name}`,
+      template: `%s - ${siteConfig.name}`,
+    },
+  },
 };
 
 export default function CategoriesPage() {

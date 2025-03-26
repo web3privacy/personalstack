@@ -6,6 +6,18 @@ import { siteConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: `Stacks - ${siteConfig.name}`,
+  openGraph: {
+    title: {
+      default: `Stacks - ${siteConfig.name}`,
+      template: `%s - ${siteConfig.name}`,
+    },
+  },
+  twitter: {
+    title: {
+      default: `Stacks - ${siteConfig.name}`,
+      template: `%s - ${siteConfig.name}`,
+    },
+  },
 };
 
 export default function StacksPage() {

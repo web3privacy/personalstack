@@ -24,6 +24,16 @@ export async function generateMetadata({
 
   return {
     title: `${stack?.name} - ${siteConfig.name}`,
+    openGraph: {
+      title: {
+        default: `${stack?.name} - ${siteConfig.name}`,
+      },
+    },
+    twitter: {
+      title: {
+        default: `${stack?.name} - ${siteConfig.name}`,
+      },
+    },
   };
 }
 
