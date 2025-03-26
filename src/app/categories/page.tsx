@@ -1,6 +1,12 @@
 import { Categories } from "@/components/categories/categories";
 import { PageHeader } from "@/components/page-header";
 import { loadYamlData } from "@/lib/data";
+import type { Metadata } from "next";
+import { siteConfig } from "../layout";
+
+export const metadata: Metadata = {
+  title: `Categories - ${siteConfig.name}`,
+};
 
 export default function CategoriesPage() {
   const data = loadYamlData("./data.yaml");

@@ -665,7 +665,7 @@ tools:
       name: "Bitcoin"
       url: "https://bitcoin.org/"
       image: "bitcoin.jpeg"
-    Zcash:
+    Zcash:  
       name: "Zcash"
       url: "https://z.cash/"
       image: "zcash.jpg"

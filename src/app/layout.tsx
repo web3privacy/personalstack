@@ -14,9 +14,34 @@ const majorMono = Major_Mono_Display({
   weight: "400",
 });
 
+export const siteConfig = {
+  name: "Privacy Stack Explorer",
+  description: "Explore what privacy stack experts are using",
+  ogImage: "https://stacks.web3privacy.info/images/og.png",
+};
+
 export const metadata: Metadata = {
-  title: "Privacy Stack Explorer",
-  description: "explore what privacy stack experts are using",
+  title: siteConfig.name,
+  description: siteConfig.description,
+  openGraph: {
+    type: "website",
+    siteName: siteConfig.name,
+    title: {
+      default: siteConfig.name,
+      template: `%s - ${siteConfig.name}`,
+    },
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: {
+      default: siteConfig.name,
+      template: `%s - ${siteConfig.name}`,
+    },
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+  },
 };
 
 export default function RootLayout({

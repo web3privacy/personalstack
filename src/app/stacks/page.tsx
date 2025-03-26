@@ -1,6 +1,12 @@
 import { PageHeader } from "@/components/page-header";
 import { StacksGrid } from "@/components/stacks/featured-stacks";
 import { loadYamlData } from "@/lib/data";
+import type { Metadata } from "next";
+import { siteConfig } from "../layout";
+
+export const metadata: Metadata = {
+  title: `Stacks - ${siteConfig.name}`,
+};
 
 export default function StacksPage() {
   const data = loadYamlData("./data.yaml");

@@ -4,12 +4,29 @@ import { ToolLabel } from "@/components/stacks/tool-label";
 import { AvatarCircles } from "@/components/ui/avatars-circles";
 import { loadYamlData } from "@/lib/data";
 import { basePath } from "@/lib/utils";
+import { siteConfig } from "@/app/layout";
 export async function generateStaticParams() {
   const data = loadYamlData("./data.yaml");
 
   return Object.keys(data.tools).map((categoryId) => ({
     id: categoryId,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const id = (await params).id;
+
+  const data = loadYamlData("./data.yaml");
+
+  const categoryTools = id.replace(/_/g, " ");
+
+  return {
+    title: `${categoryTools} - ${siteConfig.name}`,
+  };
 }
 
 export default async function CategoryDetails({
