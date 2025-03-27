@@ -15,7 +15,6 @@ const majorMono = Major_Mono_Display({
   weight: "400",
 });
 
-
 export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
@@ -36,7 +35,14 @@ export const metadata: Metadata = {
       template: `%s - ${siteConfig.name}`,
     },
     description: siteConfig.description,
-    images: [siteConfig.ogImage],
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
   },
 };
 
