@@ -1216,7 +1216,7 @@ stacks:
       OS_Mobile: 
         - GrapheneOS
         - postmarketOS
-      Phone: pinephone
+      Phone: Pinephone
       Browser: Librewolf
       Messenger:
         - Signal
