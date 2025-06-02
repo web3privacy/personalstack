@@ -1393,9 +1393,8 @@ stacks:
     org: "Nym"
     tools:
       Hardware: Lenovo   
-      OS_Desktop:
-        - Gnu/Linux
-        - iOS
+      OS_Desktop: GnuLinux
+      OS_Mobile: iOS
       Browser_Desktop:
         - Brave
         - Tor
