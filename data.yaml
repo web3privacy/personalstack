@@ -1186,3 +1186,51 @@ stacks:
         - HackRF
       Sex:
         - Buttplug
+  AmirTaaki:
+    id: "amir-taaki"
+    avatar: "Amir Taaki.png"
+    name: "Amir Taaki"
+    org: "DarkFi"
+    tools:
+      Hardware: Framework
+      OS_Desktop:
+        - Void Linux
+      OS_Mobile: 
+        - GrapheneOS
+        - postmarketOS
+      Phone: pinephone
+      Browser: LibreWolf
+      Messenger:
+        - Signal
+        - SimpleX
+        - weechat
+        - RevolutionIRC
+        - DarkIRC
+      Media: mpv
+      Task manager: DarkFi Tau
+      Music: 
+        - mod music scraper
+        - xmp
+      Video:
+        - QBitTorrent
+        - KDEnlive
+        - yt-dlp
+      Books: 
+        - Libgen.is
+        - Zathura
+        - Kobo Libre
+        - Plato reader
+      3D: Blender
+      Graphics:
+        - Gimp
+        - inkspace
+      Maps: Organic Maps
+      Code: 
+        - Nvim
+        - Github
+      Calls: Jisti Meet
+      Passwords: KeePassXC
+      Wallet:
+        - Cake Wallet
+        - Monero-CLI
+  
