@@ -1431,3 +1431,36 @@ stacks:
       VPN: Mullvad
       Search: DuckDuckGo
       Meeting: Jitsi
+  Matthias Tarasiewicz:
+    id: "matthias-tarasiewicz"
+    avatar: "Matthias Tarasiewicz.png"
+    name: "Matthias Tarasiewicz"
+    org: "RIAT Institute"
+    tools:
+      Hardware: 
+        - Lenovo X230
+        - Lenovo T430
+        - Lenovo W530 (Libreboot, GNU Boot)
+      Wi-fi: blob-free Atheros AR9462 ath9k
+      Phone: Pinephone, oneplus-enchilada
+      Routers: LibreCMC supported routers
+      OS_Desktop: Qubes
+      OS_Mobile: 
+        - Replicant
+        - CalyxOS
+        - Mobile NixOS
+      Browser security: 
+      Browser fingerprinting: 
+      Browser: 
+        - Mullvad
+        - Ladybird
+        - Dillo
+      File sync:
+      - Syncthing
+      - LocalSend
+      Data: visidata
+      Meeting: Jitsi
+      Organization: org-mode
+      Messeging: 
+      - irc-otr
+      - SimpleX
