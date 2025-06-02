@@ -864,6 +864,16 @@ tools:
       name: "Upscayl"
       url: "https://upscayl.org/"
       image: "upscayl.jpg"
+  Science:
+    Sci-Hub:
+      name: "Sci-Hub"
+      url: "https://sci-hub.se"
+      image: "scihub.jpg"
+  BDS: 
+    Boycat App:
+      name: "Boycat App"
+      url: "https://www.boycat.io"
+      image: "boycat.jpg"
   TaskManager:
     Tau:
       name: "Tau"
@@ -1307,11 +1317,11 @@ stacks:
       Knowledge_Base: InternetArchive
       P2P: Fileverse
       Docs: LibreOffice
-      OS_Desktop: Linux Mint
+      OS_Desktop: LinuxMint
       Books: 
         - LibroFM
         - Libgen
-      Scientific Articles: Sci-Hub
+      Science: Sci-Hub
       BDS: Boycat App
   WassimAlsindi:
     id: "wassim-alsindi"
