@@ -1312,3 +1312,40 @@ stacks:
       Store of value: Bitcoin
       Medium of exchange: Monero
       Unit of account: Rai stones
+   ais.eth:
+     id: "ais-connolly"
+     avatar: "Ais Connolly.jpg"
+     name: "Ais Connolly"
+     org: "Taceo"
+     tools:
+       OS_Desktop: 
+         - MacOS
+         - TailsOS
+       Browser: 
+         - Brave
+         - Zen
+       Browser Mobile: Brave
+       Wallet: 
+         - Status
+         - Brave
+         - Trust Wallet
+      Messenger: Signal
+      Docs: 
+        - ddocs
+        - Obsidian
+      Forms: Tally
+      VPN: 
+        - NymVPN
+        - Proton
+      Email: Proton
+      Passwords: Bitwarden
+      Portfolio: Rotki
+      Meeting: Jitsi
+      Private Keys: Airgap
+      Maps: 
+      - OsmAnd
+      - Mapy.cz
+      Reading (Hardware): Kobo
+      Reading (Software): 
+        - Calibre
+        - Kiwix (offline wikipedia)
