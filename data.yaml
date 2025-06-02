@@ -459,6 +459,11 @@ tools:
       name: "GitJournal"
       url: "https://gitjournal.io/"
       image: "gitjournal.jpg"
+  Code:
+    Rust:
+      name: "Rust"
+      url: "http://rust-lang.org"
+      image: "rust.jpg"
   Marketplace:
     Vexl:
       name: "vexl"
@@ -485,7 +490,7 @@ tools:
       name: "pinephone"
       url: "https://pine64.org/devices/pinephone/"
       image: "pinephone.jpg"
-  Media:
+  Archiving:
     OpenArchive:
       name: "Open Archive"
       url: "https://archive.org/"
@@ -755,6 +760,11 @@ tools:
       name: "Buttplug.io"
       url: "https://buttplug.io/"
       image: "buttplugio.png"
+  Pen testing: 
+    Metasploit Framework:
+      name: "Metasploit Framework"
+      url: "https://www.metasploit.com"
+      image: "metasploit.jpg"  
   Firewall:
     LittleSnitch:
       name: "Little Snitch"
@@ -1452,8 +1462,8 @@ stacks:
         - Brave
       Messenger: Signal
       VPN: OpenVPN
-      Archive: Open Archive
-      Knowledge: Hackpad
+      Archiving: Open Archive
+      Knowledge_Base: Hackpad
       Code: Rust
       Pen testing: Metasploit Framework
       Crypto: Zcash
@@ -1518,7 +1528,7 @@ stacks:
       Messenger: 
         - Signal
         - Session
-      Docs: ddocs
+      Docs: Ddocs
       VPN: Mullvad
       Search: DuckDuckGo
       Meeting: Jitsi
