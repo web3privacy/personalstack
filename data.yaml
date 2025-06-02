@@ -420,6 +420,10 @@ tools:
       name: "SearX"
       url: "https://searx.space/"
       image: "searx.png"
+    StartPage:
+      name: "StartPage"
+      url: "https://www.startpage.com"
+      image: "startpage.jpg"
   Portfolio:
     Rotki:
       name: "Rotki"
@@ -443,6 +447,11 @@ tools:
       name: "GitJournal"
       url: "https://gitjournal.io/"
       image: "gitjournal.jpg"
+  Marketplace:
+    Vexl:
+      name: "vexl"
+      url: "https://vexl.it"
+      image: "vexl.jpg"
   Phone:
     iPhone:
       name: "iPhone"
@@ -1352,27 +1361,28 @@ stacks:
     org: "0xSalon"
     tools:
       Notebook: Thinkpad X230
-      Messaging: 
+      Messenger: 
         - Signal
         - xmpp
-      MobileOS: GrapheneOS
+      OS_Mobile: GrapheneOS
       Search: 
         - StartPage
         - Kagi
-      Email: Tutanota
+      Email: TutaNota
       Browser_Desktop: Librefox
       Maps: Organic Maps 
       VPN: Mullvad
       Online Collaboration: HackMD
-      Docs: Libreoffice
-      P2P marketplace: vexl
+      Docs: LibreOffice
+      Marketplace: vexl
       Knowledge_Base: Obsidian 
-      Social bookmarks: are.na
-      Meeting: Jitsi Meet
+      Bookmarking: are.na
+      Meetings: Jitsi
       Passwords: KeePassXC
-      PDF: dangerzone.rocks
-      Store of value: Bitcoin
-      Medium of exchange: Monero
+      PDF: DangerZone
+      Crypto: 
+      - Bitcoin
+      - Monero
       Unit of account: Rai stones
   ais.eth:
     id: "ais-connolly"
