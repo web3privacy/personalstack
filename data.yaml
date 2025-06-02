@@ -836,13 +836,13 @@ tools:
       name: "QbitTorrent"
       url: "http://qbittorrent.org"
       image: "qbittorrent.jpg"
-     Fileverse:
+    Fileverse:
       name: "Fileverse"
       url: "http://fileverse.io"
       image: "fileverse.jpg"
   Calendar:
     Calcurse:
-      name: "Calcurse"
+     name: "Calcurse"
       url: "https://calcurse.org/"
       image: "calcurse.png"
     ProtonCalendar:
