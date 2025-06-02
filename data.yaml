@@ -1246,8 +1246,8 @@ stacks:
       Code: 
         - Nvim
         - Github
-      Meeting: Jisti
+      Meeting: Jitsi
       Passwords: KeePassXC
       Wallet:
-        - Cake Wallet
-        - Monero-CLI
+        - CakeWallet
+        - MoneroCLI
