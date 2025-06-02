@@ -124,7 +124,6 @@ tools:
       name: "Firefox"
       url: "https://www.mozilla.org/en-US/firefox/new/"
       image: "firefox.jpg"
-
   Wallet:
     Railway:
       name: "Railway"
@@ -182,6 +181,10 @@ tools:
       name: "Monero-Cli"
       url: "https://docs.getmonero.org/interacting/monero-wallet-cli-reference/"
       image: "monerodesktop.jpg"
+    CakeWallet: 
+      name: "Cake Wallet"
+      url: "https://cakewallet.com"
+      image: "cakewallet.jpg"
   Messenger:
     Signal:
       name: "Signal"
@@ -1228,9 +1231,8 @@ stacks:
       Code: 
         - Nvim
         - Github
-      Calls: Jisti Meet
+      Meeting: Jisti
       Passwords: KeePassXC
       Wallet:
         - Cake Wallet
         - Monero-CLI
-  
