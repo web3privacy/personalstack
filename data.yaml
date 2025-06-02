@@ -251,7 +251,7 @@ tools:
       name: "Fileverse"
       url: "https://docs.fileverse.io/document/create"
       image: "fileverse.jpg"
-    LibreOffice:
+    Docs:
       name: "LibreOffice"
       url: "https://www.libreoffice.org/"
       image: "libreoffice.jpg"
@@ -756,11 +756,19 @@ tools:
       name: "Wigle"
       url: "https://wigle.net/"
       image: "wiglenet.jpg"
-  Cloud:
+  Storage:
     PrivateStorage:
       name: "Private Storage"
       url: "https://private.storage/"
       image: "privatestorage.jpg"
+    LUKSencryption:
+      name: "LUKSencryption"
+      url: "https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md"
+      image: "luksencryption.jpg"
+    ProtonDrive:
+      name: "ProtonDrive"
+      url: "https://drive.proton.me"
+      image: "protondrive.jpg"
   Antivirus:
     MalwareBytes:
       name: "MalwareBytes"
@@ -1052,8 +1060,7 @@ stacks:
       Browser_Desktop:
         - Brave
         - Librewolf
-      Storage:
-        - ProtonDrive
+      Storage: ProtonDrive
       VPN:
         - Mullvad
         - ProtonVPN
@@ -1276,7 +1283,7 @@ stacks:
       Validation: Dappnode
       Knowledge Preservation: Internet Archive
       File Sharing: Fileverse
-      Office: LibreOffice
+      Docs: LibreOffice
       OS_Desktop: Linux Mint
       Books: 
         - LibroFM
@@ -1298,11 +1305,11 @@ stacks:
         - StartPage
         - Kagi
       Email: Tutanota
-      Browser: Librefox
+      Browser_Desktop: Librefox
       Maps: Organic Maps 
       VPN: Mullvad
       Online Collaboration: HackMD
-      Office: Libreoffice
+      Docs: Libreoffice
       P2P marketplace: vexl
       Knowledgebase: Obsidian 
       Social bookmarks: are.na
@@ -1321,10 +1328,10 @@ stacks:
       OS_Desktop: 
         - MacOS
         - TailsOS
-      Browser: 
+      Browser_Desktop: 
         - Brave
         - Zen
-      Browser Mobile: Brave
+      Browser_Mobile: Brave
       Wallet: 
         - Status
         - Brave
@@ -1355,7 +1362,7 @@ stacks:
     name: "Kurt Opsahl"
     org: "Filecoin Foundation"
     tools:
-      Browser:
+      Browser_Desktop:
         - Tor
         - Brave
       Messenger: Signal
@@ -1371,7 +1378,7 @@ stacks:
     name: "Peter Van Valkenburgh"
     org: "Coin Center"
     tools:
-      Browser:
+      Browser_Desktop:
         - DuckDuckGo
         - Chromium
       Wallet:
@@ -1392,9 +1399,9 @@ stacks:
     tools:
       Hardware: Lenovo   
       OS_Desktop:
-        - GNU/Linux
+        - Gnu/Linux
         - iOS
-      Browser:
+      Browser_Desktop:
         - Brave
         - Tor
       Wallet:
@@ -1406,8 +1413,8 @@ stacks:
         - SimpleX
         - Matrix
         - Zulip
-      Office: LibreOffice
-      Mail: ProtonMail
+      Docs: LibreOffice
+      Email: ProtonMail
       Search: BraveSearch
       Storage: LUKSencryption
       ERP: OODO
@@ -1423,7 +1430,7 @@ stacks:
       OS_Desktop:
         - iOS
         - TailsOS
-      Browser: Tor
+      Browser_Desktop: Tor
       Messenger: 
         - Signal
         - Session
@@ -1451,7 +1458,7 @@ stacks:
         - Mobile NixOS
       Browser security: 
       Browser fingerprinting: 
-      Browser: 
+      Browser_Desktop: 
         - Mullvad
         - Ladybird
         - Dillo
