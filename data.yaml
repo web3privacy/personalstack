@@ -1242,7 +1242,7 @@ stacks:
       Graphics:
         - GIMP
         - inkscape
-      Maps: Organic Maps
+      Maps: OrganicMaps
       Code: 
         - Nvim
         - Github
@@ -1250,4 +1250,4 @@ stacks:
       Passwords: KeePassXC
       Wallet:
         - CakeWallet
-        - MoneroCLI
+        - MoneroCli
