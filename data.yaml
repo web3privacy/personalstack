@@ -90,6 +90,10 @@ tools:
       name: "LineageOS"
       url: "https://lineageos.org/"
       image: "lineageos.jpeg"
+    CubesOS:
+      name: "CubesOS"
+      url: "https://qubes-os.org"
+      image: "cubes.jpg"
     iOS:
       name: "iOS"
       url: "https://www.apple.com/ios/"
@@ -97,6 +101,10 @@ tools:
     postmarketOS:
       name: "postmarketOS"
       url: "https://postmarketos.org"
+      image: "postmarketos.jpg"
+    replicant:
+      name: "replicant"
+      url: "https://www.replicant.us"
       image: "postmarketos.jpg"
   Browser_Desktop:
     Brave:
@@ -790,7 +798,7 @@ tools:
       url: "https://www.ubiquiti.com/"
       image: "uniquity.png"
   Router:
-    PSSense:
+    PfSense:
       name: "pfSense"
       url: "https://www.pfsense.org/download/"
       image: "pfsense.jpg"
@@ -1484,8 +1492,8 @@ stacks:
         - DarkIRC
       VPN: DuckDuckGo
       Search: DuckDuckGo
-      Security: ubiquity
-      Router: psSense
+      SecurityCamera:: Ubiquity
+      Router: pfSense
   Harry Halpin:
     id: "harry-halpin"
     avatar: "Harry Halpin.jpg"
@@ -1528,7 +1536,7 @@ stacks:
       Messenger: 
         - Signal
         - Session
-      Docs: Ddocs
+      Docs: ddocs
       VPN: Mullvad
       Search: DuckDuckGo
       Meeting: Jitsi
@@ -1543,9 +1551,11 @@ stacks:
         - Lenovo T430
         - Lenovo W530 (Libreboot, GNU Boot)
       Wi-fi: blob-free Atheros AR9462 ath9k
-      Phone: Pinephone, oneplus-enchilada
+      Phone: 
+        - pinephone
+        - oneplus-enchilada
       Routers: LibreCMC supported routers
-      OS_Desktop: Qubes
+      OS_Desktop: QubesOS
       OS_Mobile: 
         - Replicant
         - CalyxOS
@@ -1562,7 +1572,7 @@ stacks:
       Data: visidata
       Meeting: Jitsi
       Organization: org-mode
-      Messeging: 
+      Messeger: 
         - irc-otr
         - SimpleX
   Luis Bezzenberger:
