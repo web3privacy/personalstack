@@ -511,7 +511,7 @@ tools:
       name: "ProtonDrive"
       url: "https://proton.me/drive"
       image: "protondrive.png"
-    LUKS:
+    LUKSencryption:
       name: "LUKS encryption"
       url: "https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md"
       image: "github.png"
@@ -519,6 +519,10 @@ tools:
       name: "SIA"
       url: "https://sia.tech/"
       image: "sia.png"
+     PrivateStorage:
+      name: "Private Storage"
+      url: "https://private.storage/"
+      image: "privatestorage.jpg"
   Map:
     OpenStreetMap:
       name: "OpenStreetMap"
@@ -756,19 +760,6 @@ tools:
       name: "Wigle"
       url: "https://wigle.net/"
       image: "wiglenet.jpg"
-  Storage:
-    PrivateStorage:
-      name: "Private Storage"
-      url: "https://private.storage/"
-      image: "privatestorage.jpg"
-    LUKSencryption:
-      name: "LUKSencryption"
-      url: "https://gitlab.com/cryptsetup/cryptsetup/blob/master/README.md"
-      image: "luksencryption.jpg"
-    ProtonDrive:
-      name: "ProtonDrive"
-      url: "https://drive.proton.me"
-      image: "protondrive.jpg"
   Antivirus:
     MalwareBytes:
       name: "MalwareBytes"
