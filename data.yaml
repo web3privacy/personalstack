@@ -474,6 +474,10 @@ tools:
       name: "AnythingLLM"
       url: "https://anythingllm.com/"
       image: "anythingllm.jpg"
+    InternetArchive:
+      name: "InternetArchive"
+      url: "https://archive.org"
+      image: "internetarchive.jpg"
   Pomodoro:
     TomatoBar:
       name: "TomatoBar"
@@ -777,6 +781,10 @@ tools:
       name: "Comodo"
       url: "https://antivirus.comodo.com/"
       image: "comodo.jpg"
+  Organizing: 
+      name: "Loomio"
+      url: "https://www.loomio.com"
+      image: "loomio.jpg"
   Sim_Provider:
     Efani:
       name: "Efani"
@@ -833,6 +841,11 @@ tools:
       name: "ProtonCalendar"
       url: "https://calendar.proton.me/"
       image: "protonmail.png"
+  Node:
+    Dappnode:
+      name: "Dappnode"
+      url: "http://dappnode.com"
+      image: "dappnode.png"
   Terminal:
     Alacritty:
       name: "Alacritty"
@@ -858,6 +871,11 @@ tools:
       name: "Pump"
       url: "https://github.com/narodnik/pump/"
       image: "github.png"
+  Mutual Credit: 
+    Circles:
+      name: "Circles"
+      url: "https://aboutcircles.com"
+      image: "circles.jpg"
   Books:
     LibroFM:
       name: "LibroFM"
@@ -1143,9 +1161,7 @@ stacks:
       Filesharing: MagicWormhole
       Search: DuckDuckGo
       Wallet: PraxWallet
-      Docs:
-        - Obsidian
-        - AnyType
+      Docs: AnyType
       VPN:
         - Mullvad
         - NordVPN
@@ -1277,10 +1293,10 @@ stacks:
       Messenger: Signal
       Email: ProtonMail
       VPN: NymVPN
-      Collective Organizing: Loomio
+      Organizing: Loomio
       Mutual Credit: Circles
-      Validation: Dappnode
-      Knowledge Preservation: Internet Archive
+      Node: Dappnode
+      Knowledge_Base: InternetArchive
       File Sharing: Fileverse
       Docs: LibreOffice
       OS_Desktop: Linux Mint
@@ -1310,7 +1326,7 @@ stacks:
       Online Collaboration: HackMD
       Docs: Libreoffice
       P2P marketplace: vexl
-      Knowledgebase: Obsidian 
+      Knowledge_Base: Obsidian 
       Social bookmarks: are.na
       Meeting: Jitsi Meet
       Passwords: KeePassXC
@@ -1336,9 +1352,8 @@ stacks:
         - Brave
         - Trust Wallet
       Messenger: Signal
-      Docs: 
-        - ddocs
-        - Obsidian
+      Docs: ddocs
+      Knowledge_Base: Obsidian
       Forms: Tally
       VPN: 
         - NymVPN
