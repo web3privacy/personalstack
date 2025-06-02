@@ -230,6 +230,14 @@ tools:
       name: "Keybase"
       url: "https://keybase.io/"
       image: "keybase.jpg"
+    RevolutionIrc:
+      name: "Revolution IRC"
+      url: "https://f-droid.org/packages/io.mrarm.irc/"
+      image: "revolutionirc.jpg"
+    Weechat:
+      name: "weechat"
+      url: "https://weechat.org/"
+      image: "weechat.jpg"
   Docs:
     Ddocs:
       name: "ddocs"
@@ -436,6 +444,10 @@ tools:
       name: "OnePlus 9 Pro"
       url: "https://www.oneplus.com/9pro"
       image: "oneplus.jpg"
+    Pinephone:
+      name: "pinephone"
+      url: "https://pine64.org/devices/pinephone/"
+      image: "pinephone.jpg"
   Media:
     OpenArchive:
       name: "Open Archive"
