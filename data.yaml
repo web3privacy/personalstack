@@ -760,6 +760,11 @@ tools:
       name: "OpenSnitch"
       url: "https://github.com/evilsocket/opensnitch"
       image: "github.png"
+  Collaboration: 
+    HackMD:
+      name: "HackMD"
+      url: "http://hackmd.io"
+      image: "github.png"
   ERP:
     OODO:
       name: "OODO"
@@ -1382,14 +1387,14 @@ stacks:
         - Kagi
       Email: TutaNota
       Browser_Desktop: Librefox
-      Map: Organic Maps 
+      Map: OrganicMaps 
       VPN: Mullvad
-      Online Collaboration: HackMD
+      Collaboration: HackMD
       Docs: LibreOffice
       Marketplace: Vexl
       Knowledge_Base: Obsidian 
       Bookmarking: Arena
-      Meetings: Jitsi
+      Meeting: Jitsi
       Password: KeePassXC
       PDF: DangerZone
       Crypto: 
