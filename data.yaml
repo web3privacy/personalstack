@@ -544,6 +544,10 @@ tools:
       name: "OsmAnd"
       url: "https://osmand.net/"
       image: "osmand.jpg"
+    Mapy.cz:
+      name: "Mapy.cz"
+      url: "https://mapy.com"
+      image: "mapycz.jpg"
   Youtube:
     Libretube:
       name: "Libretube"
@@ -890,6 +894,11 @@ tools:
       name: "Pump"
       url: "https://github.com/narodnik/pump/"
       image: "github.png"
+  Forms: 
+    Tally:
+      name: "Tally"
+      url: "https://tally.so"
+      image: "tally.png"
   Mutual Credit: 
     Circles:
       name: "Circles"
@@ -1371,18 +1380,18 @@ stacks:
         - Brave
         - Trust Wallet
       Messenger: Signal
-      Docs: ddocs
+      Docs: Ddocs
       Knowledge_Base: Obsidian
       Forms: Tally
       VPN: 
         - NymVPN
         - Proton
-      Email: Proton
-      Passwords: Bitwarden
+      Email: ProtonMail
+      Password: Bitwarden
       Portfolio: Rotki
       Meeting: Jitsi
-      Private Keys: Airgap
-      Maps: 
+      OnChain_Security: Airgap
+      Map: 
         - OsmAnd
         - Mapy.cz
       Reading (Hardware): Kobo
