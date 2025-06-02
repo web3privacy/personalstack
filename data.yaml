@@ -786,6 +786,7 @@ tools:
       url: "https://antivirus.comodo.com/"
       image: "comodo.jpg"
   Organizing: 
+    Loomio:
       name: "Loomio"
       url: "https://www.loomio.com"
       image: "loomio.jpg"
@@ -1306,7 +1307,7 @@ stacks:
     name: "Josh Davila"
     org: "The Blockchain Socialist"
     tools:
-      Currency: Bread
+      Crypto: Bread
       Wallet: Citizen Wallet
       Messenger: Signal
       Email: ProtonMail
