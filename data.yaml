@@ -809,6 +809,10 @@ tools:
       name: "Soulseek"
       url: "https://www.soulseek.net/"
       image: "soulseek.png"
+    QbitTorrent:
+      name: "QbitTorrent"
+      url: "http://qbittorrent.org"
+      image: "qbittorrent.jpg"
   Calendar:
     Calcurse:
       name: "Calcurse"
@@ -1210,20 +1214,20 @@ stacks:
         - GrapheneOS
         - postmarketOS
       Phone: pinephone
-      Browser: LibreWolf
+      Browser: Librewolf
       Messenger:
         - Signal
         - SimpleX
         - weechat
-        - RevolutionIRC
-        - DarkIRC
+        - revolutionirc
+        - darkirc
       Media: mpv
       Task manager: DarkFi Tau
       Music: 
         - mod music scraper
         - xmp
+      P2P: QBitTorrent
       Video:
-        - QBitTorrent
         - KDEnlive
         - yt-dlp
       Books: 
@@ -1233,8 +1237,8 @@ stacks:
         - Plato reader
       3D: Blender
       Graphics:
-        - Gimp
-        - inkspace
+        - GIMP
+        - inkscape
       Maps: Organic Maps
       Code: 
         - Nvim
