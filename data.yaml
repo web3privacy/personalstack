@@ -1217,11 +1217,11 @@ stacks:
         - GrapheneOS
         - postmarketOS
       Phone: Pinephone
-      Browser: Librewolf
+      Browser_Desktop: Librewolf
       Messenger:
         - Signal
         - SimpleX
-        - weechat
+        - Weechat
         - revolutionirc
         - darkirc
       Media: mpv
