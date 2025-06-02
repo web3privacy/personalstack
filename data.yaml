@@ -1273,28 +1273,28 @@ stacks:
        eBooks: Libgen
        Scientific Articles: Sci-Hub
        BDS: Boycat App
-   WassimAlsindi:
-     id: "wassim-alsindi"
-     avatar: "Wassim Alsindi.jpg"
-     name: "Wassim Alsindi"
-     org: "0xSalon"
-     tools:
-       Notebook: Thinkpad X230
-       Messaging: 
+  WassimAlsindi:
+    id: "wassim-alsindi"
+    avatar: "Wassim Alsindi.jpg"
+    name: "Wassim Alsindi"
+    org: "0xSalon"
+    tools:
+      Notebook: Thinkpad X230
+      Messaging: 
         - Signal
         - xmpp
-       MobileOS: GrapheneOS
-       Search: 
+      MobileOS: GrapheneOS
+      Search: 
         - StartPage
         - Kagi
-       Email: Tutanota
-       Browser: Librefox
-       Maps: Organic Maps 
-       VPN: Mullvad
-       Online Collaboration: HackMD
-       Office: Libreoffice
-       P2P marketplace: vexl
-       Knowledgebase: Obsidian 
+      Email: Tutanota
+      Browser: Librefox
+      Maps: Organic Maps 
+      VPN: Mullvad
+      Online Collaboration: HackMD
+      Office: Libreoffice
+      P2P marketplace: vexl
+      Knowledgebase: Obsidian 
       Social bookmarks: are.na
       Meeting: Jitsi Meet
       Passwords: KeePassXC
