@@ -1456,11 +1456,31 @@ stacks:
         - Ladybird
         - Dillo
       File sync:
-      - Syncthing
-      - LocalSend
+        - Syncthing
+        - LocalSend
       Data: visidata
       Meeting: Jitsi
       Organization: org-mode
       Messeging: 
-      - irc-otr
-      - SimpleX
+        - irc-otr
+        - SimpleX
+  Luis Bezzenberger:
+    id: "luis-bezzenberger"
+    avatar: "Luis x Shutter.jpg"
+    name: "Luis Bezzenberger"
+    org: "Shutter Network"
+    tools:
+      3D: 
+        - Blender
+        - Meshroom
+      Video: HandBrake
+      Motion: Gyroflow
+      AI: 
+        - ComfyUI
+        - Pinokio
+        - StabilityMatrix
+        - LM Studio
+      Graphics: GIMP
+      Portfolio: Rotki
+      Gaussian Splatting: torch-ngp
+      3D Printing: PrusaSlicer
