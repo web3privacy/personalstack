@@ -851,6 +851,15 @@ tools:
       name: "Pump"
       url: "https://github.com/narodnik/pump/"
       image: "github.png"
+  Books:
+    LibroFM:
+      name: "LibroFM"
+      url: "https://libro.fm"
+      image: "librofm.jpg"
+    Libgen:
+      name: "Libgen"
+      url: "https://www.libgen.is"
+      image: "libgen.jpg"
 
 stacks:
   AudreyTang:
@@ -1269,8 +1278,9 @@ stacks:
        File Sharing: Fileverse
        Office: LibreOffice
        OS_Desktop: Linux Mint
-       Audio Books: LibroFM
-       eBooks: Libgen
+       Books: 
+         - LibroFM
+         - Libgen
        Scientific Articles: Sci-Hub
        BDS: Boycat App
   WassimAlsindi:
