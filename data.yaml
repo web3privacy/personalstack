@@ -287,7 +287,7 @@ tools:
     VeniceAI:
       name: "VeniceAI"
       url: "https://venice.ai"
-      image: ""
+      image: "veniceai.jpg"
   Self_Hosted_LLM:
     Ollama:
       name: "Ollama"
@@ -300,15 +300,11 @@ tools:
     Mistral:
       name: "Mistral"
       url: "https://mistral.ai/"
-      image: ""
-    SDXL:
+      image: "mistralai.jpg"
+    StableDiffusion:
       name: "SDXL"
       url: "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
-      image: ""
-    VeniceAI:
-      name: "VeniceAI"
-      url: "https://venice.ai"
-      image: ""
+      image: "stablediffusion.jpg"
   Audio:
     Audacity:
       name: "Audacity"
@@ -373,7 +369,7 @@ tools:
     TutaNota:
       name: "TutaNota"
       url: "https://mail.tutanota.com/"
-      image: ""
+      image: "tutanota.jpg"
   Password:
     KeePassXC:
       name: "KeePassXC"
@@ -439,7 +435,7 @@ tools:
     OnePlus9Pro:
       name: "OnePlus 9 Pro"
       url: "https://www.oneplus.com/9pro"
-      image: ""
+      image: "oneplus.jpg"
   Media:
     OpenArchive:
       name: "Open Archive"
@@ -511,7 +507,7 @@ tools:
     OpenStreetMap:
       name: "OpenStreetMap"
       url: "https://www.openstreetmap.org/"
-      image: ""
+      image: "openstreetmap.jpg"
     OsmAnd:
       name: "OsmAnd"
       url: "https://osmand.net/"
@@ -524,11 +520,11 @@ tools:
     FreeTube:
       name: "FreeTube"
       url: "http://freetube.io/"
-      image: ""
+      image: "freetube.png"
     NewPipe:
       name: "NewPipe"
       url: "https://newpipe.net/"
-      image: ""
+      image: "newpipe.svg"
     YtDLP:
       name: "yt-dlp"
       url: "https://github.com/yt-dlp/yt-dlp"
@@ -565,7 +561,7 @@ tools:
     MaglitMe:
       name: "Maglit.me"
       url: "https://maglit.me/"
-      image: ""
+      image: "maglitme.png"
   Meeting:
     Jitsi:
       name: "Jit.si"
@@ -579,27 +575,27 @@ tools:
     ZKSafe:
       name: "ZKSafe"
       url: "http://zksafe.1kx.io/"
-      image: ""
+      image: "zksafe.png"
   Archive:
     AnnaArchive:
       name: "Anna's Archive"
       url: "http://annas-archive.se/"
-      image: ""
+      image: "annasarchive.png"
   CensorshipScan:
     OONI:
       name: "OONI"
       url: "https://ooni.org/"
-      image: ""
+      image: "ooni.jpg"
   Anime:
     HiAnime:
       name: "Hi Anime"
       url: "https://hianime.to/"
-      image: ""
+      image: "hianime.png"
   OnChain:
     Railgun:
       name: "Railgun"
       url: "https://railgun.org/"
-      image: ""
+      image: "railgun.jpg"
     Penumbra:
       name: "Penumbra"
       url: "https://penumbra.zone/"
@@ -652,7 +648,7 @@ tools:
     HackRF:
       name: "HackRF One"
       url: "https://hackrfone.com/"
-      image: ""
+      image: "hackrfone.jpg"
   NetworkScan:
     Nmap:
       name: "Nmap"
@@ -724,11 +720,11 @@ tools:
     Delegate:
       name: "Delegate"
       url: "https://delegate.xyz/"
-      image: ""
+      image: "delegate.jpg"
     Airgap:
       name: "Airgap"
       url: "http://airgap.it/"
-      image: ""
+      image: "airgap.jpg"
   PrivateKey:
     EncryptKey:
       name: "EncryptKey"
@@ -743,21 +739,21 @@ tools:
     Wigle:
       name: "Wigle"
       url: "https://wigle.net/"
-      image: ""
+      image: "wiglenet.jpg"
   Cloud:
     PrivateStorage:
       name: "Private Storage"
       url: "https://private.storage/"
-      image: ""
+      image: "privatestorage.jpg"
   Antivirus:
     MalwareBytes:
       name: "MalwareBytes"
       url: "https://www.malwarebytes.com/"
-      image: ""
+      image: "malwarebytes.jpg"
     Comodo:
       name: "Comodo"
       url: "https://antivirus.comodo.com/"
-      image: ""
+      image: "comodo.jpg"
   Sim_Provider:
     Efani:
       name: "Efani"
@@ -791,16 +787,16 @@ tools:
     Musikcube:
       name: "Musikcube"
       url: "https://musikcube.com/"
-      image: ""
+      image: "musikcube.png"
   P2P:
     BitTorrent:
       name: "BitTorrent"
       url: "https://www.bittorrent.com/"
-      image: ""
+      image: "bittorrent.jpg"
     Soulseek:
       name: "Soulseek"
       url: "https://www.soulseek.net/"
-      image: ""
+      image: "soulseek.png"
   Calendar:
     Calcurse:
       name: "Calcurse"
@@ -824,12 +820,12 @@ tools:
     Tau:
       name: "Tau"
       url: "https://darkrenaissance.github.io/darkfi/misc/tau.html"
-      image: ""
+      image: "darkfi.jpg"
   GirlsStuff:
     Drip:
       name: "Drip"
       url: "https://dripapp.org/"
-      image: ""
+      image: "drip.jpg"
   Sports:
     Pump:
       name: "Pump"
