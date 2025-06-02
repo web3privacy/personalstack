@@ -836,6 +836,10 @@ tools:
       name: "QbitTorrent"
       url: "http://qbittorrent.org"
       image: "qbittorrent.jpg"
+     Fileverse:
+      name: "Fileverse"
+      url: "http://fileverse.io"
+      image: "fileverse.jpg"
   Calendar:
     Calcurse:
       name: "Calcurse"
@@ -1301,7 +1305,7 @@ stacks:
       Mutual Credit: Circles
       Node: Dappnode
       Knowledge_Base: InternetArchive
-      File Sharing: Fileverse
+      P2P: Fileverse
       Docs: LibreOffice
       OS_Desktop: Linux Mint
       Books: 
