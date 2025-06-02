@@ -870,7 +870,7 @@ stacks:
       IDE: VSCodium
       Journaling: GitJournal
       Knowledge_Base: AnythingLLM
-      Library: Calibre
+      Reader: Calibre
       Meeting: Jitsi
       Map: OsmAnd
       Docs: LibreOffice
