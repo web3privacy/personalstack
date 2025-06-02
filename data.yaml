@@ -189,6 +189,10 @@ tools:
       name: "Cake Wallet"
       url: "https://cakewallet.com"
       image: "cakewallet.jpg"
+    Citizen Wallet: 
+      name: "Citizen Wallet"
+      url: "https://citizenwallet.xyz"
+      image: "citizenwallet.jpg"
   Messenger:
     Signal:
       name: "Signal"
@@ -1268,10 +1272,10 @@ stacks:
     name: "Josh Davila"
     org: "The Blockchain Socialist"
     tools:
-      Currency: $BREAD
+      Currency: Bread
       Wallet: Citizen Wallet
-      Messaging: Signal
-      Email: Proton Mail
+      Messenger: Signal
+      Email: ProtonMail
       VPN: NymVPN
       Collective Organizing: Loomio
       Mutual Credit: Circles
