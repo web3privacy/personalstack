@@ -17,7 +17,7 @@ tools:
       url: "https://www.lenovo.com/"
       image: "lenovo.jpg"
     ThinkpadX230:
-      name: "Thinkpad X230"
+      name: "ThinkpadX230"
       url: "http://shop.lenovo.com/us/notebooks/thinkpad/x-series"
       image: "thinkpadx230.jpg"
     RaspberryPi:
@@ -1381,7 +1381,7 @@ stacks:
     name: "Wassim Alsindi"
     org: "0xSalon"
     tools:
-      Notebook: Thinkpad X230
+      Hardware: ThinkpadX230
       Messenger: 
         - Signal
         - xmpp
