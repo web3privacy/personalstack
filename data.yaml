@@ -132,6 +132,10 @@ tools:
       name: "Firefox"
       url: "https://www.mozilla.org/en-US/firefox/new/"
       image: "firefox.jpg"
+    Brave:
+      name: "Brave"
+      url: "https://brave.com/"
+      image: "brave.jpg"
   Wallet:
     Railway:
       name: "Railway"
@@ -583,6 +587,14 @@ tools:
       name: "Plenary"
       url: "https://play.google.com/store/apps/details?id=com.spians.plenary&hl=en-US"
       image: "plenary.png"
+    Kiwix:
+      name: "Kiwix"
+      url: "https://kiwix.org/en/"
+      image: "kiwix.jpg"
+    Kobo:
+      name: "Kobo"
+      url: "https://www.kobo.com/us/en/ereaders"
+      image: "kobo.jpg"
   Keyboard:
     Futo:
       name: "Futo"
@@ -1394,10 +1406,10 @@ stacks:
       Map: 
         - OsmAnd
         - Mapy.cz
-      Reading (Hardware): Kobo
-      Reading (Software): 
+      Reader: 
         - Calibre
-        - Kiwix (offline wikipedia)
+        - Kiwix
+        - Kobo
   Kurt Opsahl:
     id: "kurt-opsahl"
     avatar: "Kurt Opsahl.jpg"
