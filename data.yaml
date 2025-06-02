@@ -899,7 +899,7 @@ tools:
     LibroFM:
       name: "LibroFM"
       url: "https://libro.fm"
-      image: "librofm.jpg"
+      image: "librofm.png"
     Libgen:
       name: "Libgen"
       url: "https://www.libgen.is"
