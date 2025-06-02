@@ -845,7 +845,7 @@ tools:
     Dappnode:
       name: "Dappnode"
       url: "http://dappnode.com"
-      image: "dappnode.png"
+      image: "dappnode.jpg"
   Terminal:
     Alacritty:
       name: "Alacritty"
