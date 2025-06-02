@@ -1251,7 +1251,7 @@ stacks:
       Wallet:
         - CakeWallet
         - MoneroCli
- JoshDavila:
+   JoshDavila:
     id: "josh-davila"
     avatar: "Josh Davila.jpg"
     name: "Josh Davila"
