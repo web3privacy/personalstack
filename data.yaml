@@ -119,6 +119,10 @@ tools:
       name: "Firefox"
       url: "https://www.mozilla.org/en-US/firefox/new/"
       image: "firefox.jpg"
+    Librefox:
+      name: "Librefox"
+      url: "https://librewolf.net"
+      image: "Librefox.jpg"
   Browser_Mobile:
     Mull:
       name: "Mull"
@@ -254,6 +258,10 @@ tools:
       name: "weechat"
       url: "https://weechat.org/"
       image: "weechat.jpg"
+    Xmpp:
+      name: "xmpp"
+      url: "https://xmpp.org"
+      image: "xmpp.jpg"
   Docs:
     Ddocs:
       name: "ddocs"
@@ -561,6 +569,10 @@ tools:
       name: "Mapy.cz"
       url: "https://mapy.com"
       image: "mapycz.jpg"
+    OrganicMaps:
+      name: "Organic Maps"
+      url: "https://organicmaps.app"
+      image: "organicmaps.jpg"
   Youtube:
     Libretube:
       name: "Libretube"
@@ -1327,7 +1339,7 @@ stacks:
         - Nvim
         - Github
       Meeting: Jitsi
-      Passwords: KeePassXC
+      Password: KeePassXC
       Wallet:
         - CakeWallet
         - MoneroCli
@@ -1370,15 +1382,15 @@ stacks:
         - Kagi
       Email: TutaNota
       Browser_Desktop: Librefox
-      Maps: Organic Maps 
+      Map: Organic Maps 
       VPN: Mullvad
       Online Collaboration: HackMD
       Docs: LibreOffice
-      Marketplace: vexl
+      Marketplace: Vexl
       Knowledge_Base: Obsidian 
-      Bookmarking: are.na
+      Bookmarking: Arena
       Meetings: Jitsi
-      Passwords: KeePassXC
+      Password: KeePassXC
       PDF: DangerZone
       Crypto: 
       - Bitcoin
