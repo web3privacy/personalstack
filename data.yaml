@@ -251,7 +251,7 @@ tools:
       name: "Fileverse"
       url: "https://docs.fileverse.io/document/create"
       image: "fileverse.jpg"
-    Docs:
+    LibreOffice:
       name: "LibreOffice"
       url: "https://www.libreoffice.org/"
       image: "libreoffice.jpg"
