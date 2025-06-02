@@ -1367,7 +1367,7 @@ stacks:
       Crypto: Zcash
   Peter Van Valkenburgh:
     id: "peter-vanvalkenburgh"
-    avatar: "Peter Van Valkenburgh.jpg"
+    avatar: "Peter van Valkenburgh.jpg"
     name: "Peter Van Valkenburgh"
     org: "Coin Center"
     tools:
@@ -1384,3 +1384,50 @@ stacks:
       Search: DuckDuckGo
       Security: ubiquity
       Router: psSense
+  Harry Halpin:
+    id: "harry-halpin"
+    avatar: "Harry Halpin.jpg"
+    name: "Harry Halpin"
+    org: "Nym"
+    tools:
+      Hardware: Lenovo   
+      OS_Desktop:
+        - GNU/Linux
+        - iOS
+      Browser:
+        - Brave
+        - Tor
+      Wallet:
+       - Zashi
+       - Monero Desktop
+       - Status
+      Messenger:
+        - Signal
+        - SimpleX
+        - Matrix
+        - Zulip
+      Office: LibreOffice
+      Mail: ProtonMail
+      Search: BraveSearch
+      Storage: LUKSencryption
+      ERP: OODO
+  Ahmed Ghappour:
+    id: "ahmed-grappour"
+    avatar: "Ahmed.jpg"
+    name: "Ahmed Ghappour"
+    org: "Flashbots"
+    tools:
+      Hardware:
+        - MacBook
+        - Raspberry Pi 
+      OS_Desktop:
+        - iOS
+        - TailsOS
+      Browser: Tor
+      Messenger: 
+        - Signal
+        - Session
+      Docs: ddocs
+      VPN: Mullvad
+      Search: DuckDuckGo
+      Meeting: Jitsi
