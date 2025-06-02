@@ -1253,7 +1253,7 @@ stacks:
         - MoneroCli
  JoshDavila:
     id: "josh-davila"
-    avatar: "Josh Davila.png"
+    avatar: "Josh Davila.jpg"
     name: "Josh Davila"
     org: "The Blockchain Socialist"
     tools:
@@ -1273,3 +1273,32 @@ stacks:
       eBooks: Libgen
       Scientific Articles: Sci-Hub
       BDS: Boycat App
+   WassimAlsindi:
+    id: "wassim-alsindi"
+    avatar: "Wassim Alsindi.jpg"
+    name: "Wassim Alsindi"
+    org: "0xSalon"
+    tools:
+      Notebook: Thinkpad X230
+      Messaging: 
+        - Signal
+        - xmpp
+      MobileOS: GrapheneOS
+      Search: 
+        - StartPage
+        - Kagi
+      Email: Tutanota
+      Browser: Librefox
+      Maps: Organic Maps 
+      VPN: Mullvad
+      Online Collaboration: HackMD
+      Office: Libreoffice
+      P2P marketplace: vexl
+      Knowledgebase: Obsidian 
+      Social bookmarks: are.na
+      Meeting: Jitsi Meet
+      Passwords: KeePassXC
+      PDF: dangerzone.rocks
+      Store of value: Bitcoin
+      Medium of exchange: Monero
+      Unit of account: Rai stones
