@@ -66,7 +66,7 @@ tools:
       url: "https://www.whonix.org/"
       image: "whonix.jpg"
     VoidLinux:
-      name: "Void Linux"
+      name: "VoidLinux"
       url: "https://voidlinux.org/"
       image: "voidlinux.png"
     KaiOS:
@@ -86,6 +86,10 @@ tools:
       name: "iOS"
       url: "https://www.apple.com/ios/"
       image: "ios.png"
+    postmarketOS:
+      name: "postmarketOS"
+      url: "https://postmarketos.org"
+      image: "postmarketos.jpg"
   Browser_Desktop:
     Brave:
       name: "Brave"
@@ -1208,7 +1212,7 @@ stacks:
     org: "DarkFi"
     tools:
       Hardware: Framework
-      OS_Desktop: Void Linux
+      OS_Desktop: VoidLinux
       OS_Mobile: 
         - GrapheneOS
         - postmarketOS
