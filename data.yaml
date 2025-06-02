@@ -73,6 +73,10 @@ tools:
       name: "KaiOS"
       url: "https://kaios.org/"
       image: "kaios.jpg"
+    LinuxMint:
+      name: "LinuxMint"
+      url: "http://linuxmint.com"
+      image: "mintlinux.jpeg"
   OS_Mobile:
     GrapheneOS:
       name: "GrapheneOS"
