@@ -519,7 +519,7 @@ tools:
       name: "SIA"
       url: "https://sia.tech/"
       image: "sia.png"
-     PrivateStorage:
+    PrivateStorage:
       name: "Private Storage"
       url: "https://private.storage/"
       image: "privatestorage.jpg"
