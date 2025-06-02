@@ -1260,29 +1260,29 @@ stacks:
       Wallet:
         - CakeWallet
         - MoneroCli
-   JoshDavila:
-     id: "josh-davila"
-     avatar: "Josh Davila.jpg"
-     name: "Josh Davila"
-     org: "The Blockchain Socialist"
-     tools:
-       Currency: $BREAD
-       Wallet: Citizen Wallet
-       Messaging: Signal
-       Email: Proton Mail
-       VPN: NymVPN
-       Collective Organizing: Loomio
-       Mutual Credit: Circles
-       Validation: Dappnode
-       Knowledge Preservation: Internet Archive
-       File Sharing: Fileverse
-       Office: LibreOffice
-       OS_Desktop: Linux Mint
-       Books: 
-         - LibroFM
-         - Libgen
-       Scientific Articles: Sci-Hub
-       BDS: Boycat App
+  JoshDavila:
+    id: "josh-davila"
+    avatar: "Josh Davila.jpg"
+    name: "Josh Davila"
+    org: "The Blockchain Socialist"
+    tools:
+      Currency: $BREAD
+      Wallet: Citizen Wallet
+      Messaging: Signal
+      Email: Proton Mail
+      VPN: NymVPN
+      Collective Organizing: Loomio
+      Mutual Credit: Circles
+      Validation: Dappnode
+      Knowledge Preservation: Internet Archive
+      File Sharing: Fileverse
+      Office: LibreOffice
+      OS_Desktop: Linux Mint
+      Books: 
+        - LibroFM
+        - Libgen
+      Scientific Articles: Sci-Hub
+      BDS: Boycat App
   WassimAlsindi:
     id: "wassim-alsindi"
     avatar: "Wassim Alsindi.jpg"
