@@ -1312,56 +1312,75 @@ stacks:
       Store of value: Bitcoin
       Medium of exchange: Monero
       Unit of account: Rai stones
-ais.eth:
-  id: "ais-connolly"
-  avatar: "Ais Connolly.jpg"
-  name: "Ais Connolly"
-  org: "Taceo"
-  tools:
-    OS_Desktop: 
-      - MacOS
-      - TailsOS
-    Browser: 
-      - Brave
-      - Zen
-    Browser Mobile: Brave
-    Wallet: 
-      - Status
-      - Brave
-      - Trust Wallet
-    Messenger: Signal
-    Docs: 
+  ais.eth:
+    id: "ais-connolly"
+    avatar: "Ais Connolly.jpg"
+    name: "Ais Connolly"
+    org: "Taceo"
+    tools:
+      OS_Desktop: 
+        - MacOS
+        - TailsOS
+      Browser: 
+        - Brave
+        - Zen
+      Browser Mobile: Brave
+      Wallet: 
+        - Status
+        - Brave
+        - Trust Wallet
+      Messenger: Signal
+      Docs: 
         - ddocs
         - Obsidian
-    Forms: Tally
-    VPN: 
+      Forms: Tally
+      VPN: 
         - NymVPN
         - Proton
-    Email: Proton
-    Passwords: Bitwarden
-    Portfolio: Rotki
-    Meeting: Jitsi
-    Private Keys: Airgap
-    Maps: 
-      - OsmAnd
-      - Mapy.cz
-    Reading (Hardware): Kobo
-    Reading (Software): 
-      - Calibre
-      - Kiwix (offline wikipedia)
-Kurt Opsahl:
-  id: "kurt-opsahl"
-  avatar: "Kurt Opsahl.jpg"
-  name: "Kurt Opsahl"
-  org: "Filecoin Foundation"
-  tools:
-    Browser:
-      - Tor
-      - Brave
-    Messenger: Signal
-    VPN: OpenVPN
-    Archive: Open Archive
-    Knowledge: Hackpad
-    Code: Rust
-    Pen testing: Metasploit Framework
-    Crypto: Zcash
+      Email: Proton
+      Passwords: Bitwarden
+      Portfolio: Rotki
+      Meeting: Jitsi
+      Private Keys: Airgap
+      Maps: 
+        - OsmAnd
+        - Mapy.cz
+      Reading (Hardware): Kobo
+      Reading (Software): 
+        - Calibre
+        - Kiwix (offline wikipedia)
+  Kurt Opsahl:
+    id: "kurt-opsahl"
+    avatar: "Kurt Opsahl.jpg"
+    name: "Kurt Opsahl"
+    org: "Filecoin Foundation"
+    tools:
+      Browser:
+        - Tor
+        - Brave
+      Messenger: Signal
+      VPN: OpenVPN
+      Archive: Open Archive
+      Knowledge: Hackpad
+      Code: Rust
+      Pen testing: Metasploit Framework
+      Crypto: Zcash
+  Peter Van Valkenburgh:
+    id: "peter-vanvalkenburgh"
+    avatar: "Peter Van Valkenburgh.jpg"
+    name: "Peter Van Valkenburgh"
+    org: "Coin Center"
+    tools:
+      Browser:
+        - DuckDuckGo
+        - Chromium
+      Wallet:
+        - Ledger
+        - Status
+      Messenger: 
+        - Signal
+        - DarkIRC
+      VPN: DuckDuckGo
+      Search: DuckDuckGo
+      Security: ubiquity
+      Router: psSense
