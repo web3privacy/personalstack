@@ -688,6 +688,10 @@ tools:
       name: "Zcash"
       url: "https://z.cash/"
       image: "zcash.jpg"
+    Bread:  
+      name: "Bread"
+      url: "https://breadchain.xyz"
+      image: "bread.jpg"
   AdBlocker:
     PiHole:
       name: "Pi-Hole"
@@ -1185,7 +1189,7 @@ stacks:
         - Penumbra
         - Anoma
       VPN: NymVPN
-      Cloud: PrivateStorage
+      Storage: PrivateStorage
       Dev_Environment: NixOS
   FatemehFannizadeh:
     id: "fatemeh-fannizadeh"
