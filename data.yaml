@@ -723,6 +723,11 @@ tools:
       name: "Maglit.me"
       url: "https://maglit.me/"
       image: "maglitme.png"
+  Media:
+    mpv:
+      name: "mpv"
+      url: "https://mpv.io"
+      image: "mpv.jpg"      
   Meeting:
     Jitsi:
       name: "Jit.si"
@@ -1474,7 +1479,7 @@ stacks:
         - mod music scraper
         - XMP Mod Player
       P2P: QbitTorrent
-      Video:
+      Videos:
         - KDEnlive
         - yt-dlp
       Books: 
