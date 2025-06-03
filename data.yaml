@@ -102,10 +102,18 @@ tools:
       name: "postmarketOS"
       url: "https://postmarketos.org"
       image: "postmarketos.jpg"
-    replicant:
+    Replicant:
       name: "replicant"
       url: "https://www.replicant.us"
-      image: "postmarketos.jpg"
+      image: "replicant.jpg"
+    CalyxOS:
+      name: "CalyxOS"
+      url: "http://calyxos.org"
+      image: "calyxos.jpg"
+    NixOS:
+      name: "NixOS"
+      url: "https://nixos.org"
+      image: "nixos.jpg"
   Browser_Desktop:
     Brave:
       name: "Brave"
@@ -135,6 +143,14 @@ tools:
       name: "Librefox"
       url: "https://librewolf.net"
       image: "Librefox.jpg"
+    Ladybird:
+      name: "Ladybird"
+      url: "https://ladybird.org"
+      image: "ladybird.jpg"
+    Dillo:
+      name: "Dillo"
+      url: "https://dillo.org"
+      image: "dillo.jpg"
   Browser_Mobile:
     Mull:
       name: "Mull"
@@ -869,6 +885,15 @@ tools:
       name: "OpenImmersive"
       url: "https://github.com/acuteimmersive/openimmersive"
       image: "github.png"
+  Syncing:
+    Syncthing:
+      name: "Syncthing"
+      url: "https://syncthing.net"
+      image: "syncing.jpg"
+    LocalSend:
+      name: "LocalSend"
+      url: "https://localsend.org"
+      image: "localsend.jpg"
   Data_Management:
     Wholeaked:
       name: "WholeLeaked"
@@ -1536,7 +1561,7 @@ stacks:
       Messenger: 
         - Signal
         - Session
-      Docs: ddocs
+      Docs: Ddocs
       VPN: Mullvad
       Search: DuckDuckGo
       Meeting: Jitsi
@@ -1557,16 +1582,16 @@ stacks:
       Routers: LibreCMC supported routers
       OS_Desktop: QubesOS
       OS_Mobile: 
-        - Replicant
+        - replicant
         - CalyxOS
-        - Mobile NixOS
+        - NixOS
       Browser security: 
       Browser fingerprinting: 
       Browser_Desktop: 
         - Mullvad
         - Ladybird
         - Dillo
-      File sync:
+      Syncing:
         - Syncthing
         - LocalSend
       Data: visidata
