@@ -24,6 +24,11 @@ tools:
       name: "Raspberry Pi"
       url: "https://www.raspberrypi.org/"
       image: "raspberrypi.jpg"
+  WiFi:
+    Atheros AR9462 ath9k:
+      name: "Atheros AR9462 ath9k"
+      url: "https://shop.vikings.net/product/wi-fi-4-802-11n-2-4-5ghz-atheros-qcnfa222-ar9462-bluetooth-4-0-m-2-ngff/?v=41d6ad0761a5"
+      image: "atherosar9462.jpg"
   OS_Desktop:
     QubesOS:
       name: "QubesOS"
@@ -528,6 +533,10 @@ tools:
       name: "pinephone"
       url: "https://pine64.org/devices/pinephone/"
       image: "pinephone.jpg"
+    oneplus-enchilada:
+      name: "oneplus-enchilada"
+      url: "https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)"
+      image: "oneplusenchilada.jpg"
   Archiving:
     OpenArchive:
       name: "Open Archive"
@@ -1593,9 +1602,9 @@ stacks:
         - Lenovo X230
         - Lenovo T430
         - Lenovo W530 (Libreboot, GNU Boot)
-      Wi-fi: blob-free Atheros AR9462 ath9k
+      WiFi: Atheros AR9462 ath9k
       Phone: 
-        - pinephone
+        - Pinephone
         - oneplus-enchilada
       Routers: LibreCMC supported routers
       OS_Desktop: QubesOS
