@@ -1765,3 +1765,43 @@ stacks:
       Cloud: Tresorit
       Email: ProtonMail
       VPN: Mullvad
+  Rachel-Rose O'Leary:
+    id: "Rachel-Rose O'Leary"
+    avatar: "rose.jpg"
+    name: "Rachel-Rose O'Leary"
+    org: "DarkFi"
+    tools:
+      Hardware: Framework 13
+      OS_Desktop: Void Linux
+      Desktop utilities: 100% aesthetic suckless.org
+      Phone: 
+        - Google Pixel
+        - OnePlus 9 Pro
+        - Nokia 8110 4G
+      OS_Mobile: 
+        - GrapheneOS
+        - LineageOS
+        - KaiOS 
+      Mobile app store: F-droid
+      Music: 
+        - XMP mod player 
+        - MusiKube
+      P2P: 
+        - qBittorent
+        - Soulseek
+        - NewPipe 
+        - Odysee
+      Calendar: 
+        - Calcurse, 
+      Task management: Tau 
+      Docs: LibreOffice 
+      Messenger: DarkIRC
+      Browser: 
+        - Librewolf
+        - Tor
+      Dev_tooling: Codeberg
+      Wallet: 
+        - Monerod
+        - Monero-cli
+      Weight lifting tracker: https://github.com/narodnik/pump
+      Girls stuff: drip
