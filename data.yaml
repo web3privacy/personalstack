@@ -290,6 +290,10 @@ tools:
       name: "xmpp"
       url: "https://xmpp.org"
       image: "xmpp.jpg"
+    irc-otr:
+      name: "irc-otr"
+      url: "https://otr.cypherpunks.ca"
+      image: "ircotr.jpg"
   Docs:
     Ddocs:
       name: "ddocs"
@@ -964,11 +968,15 @@ tools:
       name: "Boycat App"
       url: "https://www.boycat.io"
       image: "boycat.jpg"
-  TaskManager:
+  Task Manager:
     Tau:
       name: "Tau"
       url: "https://darkrenaissance.github.io/darkfi/misc/tau.html"
       image: "darkfi.jpg"
+    org-mode:
+      name: "org-mode"
+      url: "https://orgmode.org"
+      image: "orgmode.jpg"
   GirlsStuff:
     Drip:
       name: "Drip"
@@ -1369,7 +1377,7 @@ stacks:
         - revolutionirc
         - darkirc
       Media: mpv
-      Task manager: DarkFi Tau
+      Task manager: Tau
       Music: 
         - mod music scraper
         - xmp
@@ -1596,8 +1604,8 @@ stacks:
         - LocalSend
       Data: visidata
       Meeting: Jitsi
-      Organization: org-mode
-      Messeger: 
+      Task Manager: org-mode
+      Messenger: 
         - irc-otr
         - SimpleX
   Luis Bezzenberger:
