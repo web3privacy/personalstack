@@ -24,6 +24,10 @@ tools:
       name: "Raspberry Pi"
       url: "https://www.raspberrypi.org/"
       image: "raspberrypi.jpg"
+    System76:
+      name: "System76"
+      url: "https://system76.com"
+      image: "system76.jpg"
   WiFi:
     Atheros AR9462 ath9k:
       name: "Atheros AR9462 ath9k"
@@ -537,6 +541,10 @@ tools:
       name: "oneplus-enchilada"
       url: "https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)"
       image: "oneplusenchilada.jpg"
+    Pixel 8:
+      name: "Pixel 8"
+      url: "https://en.wikipedia.org/wiki/Pixel_8"
+      image: "pixel8.jpg"
   Archiving:
     OpenArchive:
       name: "Open Archive"
