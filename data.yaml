@@ -1673,7 +1673,7 @@ stacks:
         - Element
       Search: Kagi
       AI: codellama 34b local
-      Enail: (undisclosed)
+      Email: (undisclosed)
       Office:
         - Cryptpad
         - LibreOffice
