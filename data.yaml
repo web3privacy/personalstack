@@ -256,6 +256,10 @@ tools:
       name: "Citizen Wallet"
       url: "https://citizenwallet.xyz"
       image: "citizenwallet.jpg"
+    Undisclosed: 
+      name: "Undisclosed"
+      url: "https://Undisclosed"
+      image: "Undisclosed.jpg"
   Messenger:
     Signal:
       name: "Signal"
@@ -457,6 +461,10 @@ tools:
       name: "TutaNota"
       url: "https://mail.tutanota.com/"
       image: "tutanota.jpg"
+    Undisclosed: 
+      name: "Undisclosed"
+      url: "https://Undisclosed"
+      image: "Undisclosed.jpg"
   Password:
     KeePassXC:
       name: "KeePassXC"
