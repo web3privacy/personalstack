@@ -28,6 +28,10 @@ tools:
       name: "System76"
       url: "https://system76.com"
       image: "system76.jpg"
+    ThinkPad L13:
+      name: "ThinkPad L13"
+      url: "https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadl/thinkpad-l13/"
+      image: "thinkpadl13.jpg"
   WiFi:
     Atheros AR9462 ath9k:
       name: "Atheros AR9462 ath9k"
@@ -1686,7 +1690,7 @@ stacks:
     name: "afri"
     org: "Department of Decentralization"
     tools:
-      Notebook: Thinkpad L13
+      Hardware: Thinkpad L13
       OS_Desktop: ArchLinux
       Phone: Pixel 8 
       OS_Mobile: GrapheneOS
