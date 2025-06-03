@@ -696,6 +696,10 @@ tools:
       name: "Kobo"
       url: "https://www.kobo.com/us/en/ereaders"
       image: "kobo.jpg"
+    Kobo Libra:
+      name: "Kobo Libra"
+      url: "https://us.kobobooks.com/products/kobo-libra-colour"
+      image: "kobolibra.jpg"
   Keyboard:
     Futo:
       name: "Futo"
@@ -1062,7 +1066,14 @@ tools:
       name: "Libgen"
       url: "https://www.libgen.is"
       image: "libgen.jpg"
-
+    Zathura:
+      name: "Zathura"
+      url: "https://pwmt.org/projects/zathura/"
+      image: "zathura.jpg"
+    Plato reader:
+      name: "Plato reader"
+      url: "https://github.com/baskerville/plato"
+      image: "platoreader.jpg"
 stacks:
   AudreyTang:
     id: "audrey-tang"
@@ -1442,7 +1453,7 @@ stacks:
         - KDEnlive
         - yt-dlp
       Books: 
-        - Libgen.is
+        - Libgen
         - Zathura
         - Kobo Libre
         - Plato reader
@@ -1450,7 +1461,7 @@ stacks:
       Graphics:
         - GIMP
         - inkscape
-      Maps: OrganicMaps
+      Map: OrganicMaps
       Code: 
         - Nvim
         - Github
