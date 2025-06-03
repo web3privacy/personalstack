@@ -948,6 +948,14 @@ tools:
       name: "VLC"
       url: "https://www.videolan.org/"
       image: "vlc.png"
+    KDEnlive:
+      name: "KDEnlive"
+      url: "https://kdenlive.org"
+      image: "kdenlive.jpg"
+    yt-dlp:
+      name: "yt-dlp"
+      url: "https://github.com/yt-dlp/yt-dlp"
+      image: "ytdlp.jpg"
   XR:
     OpenImmersive:
       name: "OpenImmersive"
@@ -980,11 +988,15 @@ tools:
     XMPModPlayer:
       name: "XMP Mod Player"
       url: "https://xmp.sourceforge.net/"
-      image: ""
+      image: "xmp.jpg"
     Musikcube:
       name: "Musikcube"
       url: "https://musikcube.com/"
       image: "musikcube.png"
+    mod music scraper:
+      name: "mod music scraper"
+      url: "-"
+      image: "modmusicscraper.jpg"
   Cloud: 
     Tresorit:
       name: "Tresorit"
