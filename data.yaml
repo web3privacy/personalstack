@@ -1698,11 +1698,11 @@ stacks:
         - Element
       Search: Kagi
       AI: codellama 34 local
-      Email: (undisclosed)
+      Email: Undisclosed
       Docs:
         - Cryptpad
         - LibreOffice
-      Wallet: (undisclosed)
+      Wallet: Undisclosed
   Wesley:
     id: "Wesley"
     avatar: "wesley.jpg"
