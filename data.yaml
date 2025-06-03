@@ -148,6 +148,10 @@ tools:
       name: "Firefox"
       url: "https://www.mozilla.org/en-US/firefox/new/"
       image: "firefox.jpg"
+    Firefox Focus:
+      name: "Firefox Focus"
+      url: "https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/"
+      image: "firefoxfocus.jpg"
     Librefox:
       name: "Librefox"
       url: "https://librewolf.net"
@@ -1675,19 +1679,19 @@ stacks:
     org: "Department of Decentralization"
     tools:
       Notebook: Thinkpad L13
-      OS_Desktop: Archlinux
+      OS_Desktop: ArchLinux
       Phone: Pixel 8 
       OS_Mobile: GrapheneOS
       Browser_Desktop: 
-        - Firefox Desktop
+        - Firefox
         - Firefox Focus
       Messenger: 
         - Signal
         - Element
       Search: Kagi
-      AI: codellama 34b local
+      AI: codellama 34 local
       Email: (undisclosed)
-      Office:
+      Docs:
         - Cryptpad
         - LibreOffice
       Wallet: (undisclosed)
