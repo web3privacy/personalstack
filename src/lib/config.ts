@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Privacy Stack Explorer",
-  description: "Explore what privacy stack experts are using",
+  name: "Personal FOSS Stack Explorer",
+  description: "Explore what personal FOSS stacks experts are using",
   ogImage: "https://stacks.web3privacy.info/images/og.png",
 };
