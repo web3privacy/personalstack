@@ -168,6 +168,16 @@ tools:
       name: "Brave"
       url: "https://brave.com/"
       image: "brave.jpg"
+  Browser security:
+    article:
+      name: "article"
+      url: "https://medium.com/codex/mozilla-firefox-and-chromium-in-the-new-threat-landscape-electron-browser-security-forks-and-cbf8de716dfd"
+      image: "browsersecurity.jpg"
+  Browser fingerprinting:
+    article:
+      name: "article"
+      url: "https://coveryourtracks.eff.org"
+      image: "browserfingerprinting.jpg"
   Wallet:
     Railway:
       name: "Railway"
@@ -1593,8 +1603,8 @@ stacks:
         - replicant
         - CalyxOS
         - NixOS
-      Browser security: 
-      Browser fingerprinting: 
+      Browser security: article 
+      Browser fingerprinting: article 
       Browser_Desktop: 
         - Mullvad
         - Ladybird
