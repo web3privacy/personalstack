@@ -944,6 +944,11 @@ tools:
       name: "Musikcube"
       url: "https://musikcube.com/"
       image: "musikcube.png"
+  Cloud: 
+    Tresorit:
+      name: "Tresorit"
+      url: "https://tresorit.com"
+      image: "tresorit.jpg"
   P2P:
     BitTorrent:
       name: "BitTorrent"
@@ -1685,13 +1690,13 @@ stacks:
     org: "Ethereum Foundation"
     tools:
       Laptop: system76
-      OS_Desktop: Pop_OS
+      OS_Desktop: PopOS
       Phone: Pixel 8
       OS_Mobile: GrapheneOS
-      Browser: Firefox
+      Browser_Desktop: Firefox
       Messenger: Signal
-      Search: Startpage
-      Office: LibreOffice
+      Search: StartPage
+      Docs: LibreOffice
       Cloud: Tresorit
       Email: ProtonMail
       VPN: Mullvad
