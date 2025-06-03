@@ -1655,3 +1655,26 @@ stacks:
       Portfolio: Rotki
       Gaussian Splatting: torch-ngp
       3D Printing: PrusaSlicer
+  afri:
+    id: "luis-bezzenberger"
+    avatar: "Luis x Shutter.jpg"
+    name: "Luis Bezzenberger"
+    org: "Shutter Network"
+    tools:
+      Notebook: Thinkpad L13
+      OS_Desktop: Archlinux
+      Phone: Pixel 8 
+      OS_Mobile: GrapheneOS
+      Browser_Desktop: 
+        - Firefox Desktop
+        - Firefox Focus
+      Messenger: 
+        - Signal
+        - Element
+      Search: Kagi
+      AI: codellama 34b local
+      Enail: (undisclosed)
+      Office:
+        - Cryptpad
+        - LibreOffice
+      Wallet: (undisclosed)
