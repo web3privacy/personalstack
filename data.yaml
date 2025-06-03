@@ -1656,10 +1656,10 @@ stacks:
       Gaussian Splatting: torch-ngp
       3D Printing: PrusaSlicer
   afri:
-    id: "luis-bezzenberger"
-    avatar: "Luis x Shutter.jpg"
-    name: "Luis Bezzenberger"
-    org: "Shutter Network"
+    id: "afri"
+    avatar: "afri.jpg"
+    name: "afri"
+    org: "Department of Decentralization"
     tools:
       Notebook: Thinkpad L13
       OS_Desktop: Archlinux
