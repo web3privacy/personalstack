@@ -841,6 +841,10 @@ tools:
       name: "pfSense"
       url: "https://www.pfsense.org/download/"
       image: "pfsense.jpg"
+    LibreCMC supported routers:
+      name: "LibreCMC supported routers"
+      url: "https://gogs.librecmc.org/libreCMC/libreCMC/wiki/Supported_Hardware"
+      image: "librecmc.jpg"
   PDF:
     DangerZone:
       name: "Danger Zone"
@@ -1606,7 +1610,7 @@ stacks:
       Phone: 
         - Pinephone
         - oneplus-enchilada
-      Routers: LibreCMC supported routers
+      Router: LibreCMC supported routers
       OS_Desktop: QubesOS
       OS_Mobile: 
         - replicant
