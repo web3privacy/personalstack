@@ -103,10 +103,10 @@ tools:
       name: "LineageOS"
       url: "https://lineageos.org/"
       image: "lineageos.jpeg"
-    CubesOS:
-      name: "CubesOS"
+    QubesOS:
+      name: "QubesOS"
       url: "https://qubes-os.org"
-      image: "cubes.jpg"
+      image: "QubesOS.jpg"
     iOS:
       name: "iOS"
       url: "https://www.apple.com/ios/"
