@@ -527,6 +527,14 @@ tools:
       name: "Rust"
       url: "http://rust-lang.org"
       image: "rust.jpg"
+    Nvim:
+      name: "Nvim"
+      url: "https://neovim.io"
+      image: "nvim.jpg"
+    Github:
+      name: "Github"
+      url: "http://github.com"
+      image: "github.jpg"
   Marketplace:
     Vexl:
       name: "vexl"
@@ -835,6 +843,11 @@ tools:
       name: "Buttplug.io"
       url: "https://buttplug.io/"
       image: "buttplugio.png"
+  3D:
+    Blender:
+      name: "Blender"
+      url: "https://www.blender.org"
+      image: "blender.jpg"
   Pen testing: 
     Metasploit Framework:
       name: "Metasploit Framework"
@@ -1444,7 +1457,7 @@ stacks:
         - revolutionirc
         - darkirc
       Media: mpv
-      Task manager: Tau
+      Task Manager: Tau
       Music: 
         - mod music scraper
         - xmp
