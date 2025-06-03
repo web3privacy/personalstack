@@ -1678,3 +1678,20 @@ stacks:
         - Cryptpad
         - LibreOffice
       Wallet: (undisclosed)
+  Wesley:
+    id: "Wesley"
+    avatar: "wesley.jpg"
+    name: "Wesley"
+    org: "Ethereum Foundation"
+    tools:
+      Laptop: system76
+      OS_Desktop: Pop_OS
+      Phone: Pixel 8
+      OS_Mobile: GrapheneOS
+      Browser: Firefox
+      Messenger: Signal
+      Search: Startpage
+      Office: LibreOffice
+      Cloud: Tresorit
+      Email: ProtonMail
+      VPN: Mullvad
