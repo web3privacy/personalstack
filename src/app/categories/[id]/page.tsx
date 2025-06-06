@@ -57,7 +57,12 @@ export default async function CategoryDetails({
   const findUsersWithTool = (toolName: string): string[] => {
     return Object.values(data.stacks)
       .filter((stack) => {
-        return Object.values(stack.tools).some((tool) => tool === toolName);
+        return Object.values(stack.tools).some((tool) => {
+          if (Array.isArray(tool)) {
+            return tool.some(_tool => _tool === toolName)
+          }
+          return tool === toolName
+        });
       })
       .map((stack) =>
         stack.avatar.startsWith("http")
@@ -82,7 +87,7 @@ export default async function CategoryDetails({
     <main className="flex flex-col items-center">
       <PageHeader img="/images/banner.jpg" title="" tagline="" />
 
-      <div className="-mt-32 z-10 w-2/5 mb-16 border bg-neutral-900/80">
+      <div className="-mt-32 z-10 w-7/8 lg:w-3/5 mb-16 border bg-neutral-900/80">
         <div className="p-2 border-b">
           <h2 className="text-xl font-mono lowercase">
             {id.replace(/_/g, " ")}
@@ -101,11 +106,12 @@ export default async function CategoryDetails({
                     ? `${basePath}/images/icons/${tool.image}`
                     : `${basePath}/images/icons/placeholder.png`
                 }
-                className="w-3/5"
+                className="w-2/5"
               />
               <AvatarCircles
                 numPeople={userAvatars.length}
                 avatarUrls={userAvatars}
+                maxPeopleShow={10}
               />
             </div>
           );

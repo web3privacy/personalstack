@@ -43,14 +43,14 @@ export const StackCard = ({ stack, tools, preview = false }: Props) => {
           const toolKeyArray = Array.isArray(toolKeys) ? toolKeys : [toolKeys];
 
           return (
-            <div key={category} className="flex justify-between border-b p-2">
+            <div key={category} className="flex gap-2 justify-between border-b p-2">
               <Link
                 href={`/categories/${category}`}
-                className="text-sm font-semibold w-1/2"
+                className="text-sm font-semibold w-3/8"
               >
                 {category.replace(/_/g, " ")}
               </Link>
-              <div className="w-1/2 flex gap-4 overflow-x-scroll">
+              <div className="w-5/8 flex flex-wrap gap-4">
                 {toolKeyArray.map((toolKey) => {
                   const toolDetail = tools[category]?.[toolKey];
                   return toolDetail ? (
