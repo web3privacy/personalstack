@@ -1805,3 +1805,22 @@ stacks:
         - Monero-cli
       Weight lifting tracker: https://github.com/narodnik/pump
       Girls stuff: drip
+  Kate S:
+    id: "Kate S"
+    avatar: "Kate-S.png"
+    name: "Kate S"
+    org: "Inoo"
+    tools:
+      Hardware: Lenovo Thinkpad 2012 T100
+      OS_Desktop: Linux 
+      OS_Mobile: GrapheneOS
+      P2P: CipherDrop
+      Messenger: Signal
+      Browser_Desktop: DuckDuckGo
+      Wallet: Trust
+      Notes: Logseq
+      Maps: OpenStreetMap
+      Network: Tor
+      Search: YaCy
+      Storage: owncloud
+      Email: Proton mail
