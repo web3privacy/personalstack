@@ -1499,7 +1499,7 @@ stacks:
       Password: KeePassXC
       Wallet:
         - CakeWallet
-        - MoneroCli
+        - Monero-Cli
   JoshDavila:
     id: "josh-davila"
     avatar: "Josh Davila.jpg"
@@ -1576,7 +1576,7 @@ stacks:
       Forms: Tally
       VPN: 
         - NymVPN
-        - Proton
+        - ProtonVPN
       Email: ProtonMail
       Password: Bitwarden
       Portfolio: Rotki
@@ -1731,7 +1731,7 @@ stacks:
     name: "afri"
     org: "Department of Decentralization"
     tools:
-      Hardware: Thinkpad L13
+      Hardware: ThinkPad L13
       OS_Desktop: ArchLinux
       Phone: Pixel 8 
       OS_Mobile: GrapheneOS
@@ -1754,7 +1754,7 @@ stacks:
     name: "Wesley"
     org: "Ethereum Foundation"
     tools:
-      Laptop: system76
+      Laptop: System76
       OS_Desktop: PopOS
       Phone: Pixel 8
       OS_Mobile: GrapheneOS
@@ -1771,61 +1771,61 @@ stacks:
     name: "Rachel-Rose O'Leary"
     org: "DarkFi"
     tools:
-      Hardware: Framework 13
-      OS_Desktop: Void Linux
+      Hardware: Framework
+      OS_Desktop: VoidLinux
       Desktop utilities: 100% aesthetic suckless.org
       Phone: 
-        - Google Pixel
+        - Pixel
         - OnePlus 9 Pro
         - Nokia 8110 4G
       OS_Mobile: 
         - GrapheneOS
         - LineageOS
         - KaiOS 
-      Mobile app store: F-droid
+      Mobile app store: FDroid
       Music: 
-        - XMP mod player 
-        - MusiKube
+        - XMP Mod Player
+        - Musikcube
       P2P: 
-        - qBittorent
+        - QbitTorrent
         - Soulseek
         - NewPipe 
         - Odysee
       Calendar: 
-        - Calcurse, 
+        - Calcurse
       Task management: Tau 
       Docs: LibreOffice 
       Messenger: DarkIRC
-      Browser: 
+      Browser_Desktop: 
         - Librewolf
         - Tor
-      Dev_tooling: Codeberg
+      Dev_Environment: Codeberg
       Wallet: 
         - Monerod
-        - Monero-cli
+        - Monero-Cli
       Weight lifting tracker: https://github.com/narodnik/pump
-      Girls stuff: drip
+      Girls stuff: Drip
   Kate S:
     id: "Kate-S"
     avatar: "Kate-S.png"
     name: "Kate S"
     org: "Inoo"
     tools:
-      Hardware: Lenovo Thinkpad 2012 T100
-      OS_Desktop: Linux 
+      Hardware: Lenovo ThinkPad 2012 T100
+      OS_Desktop: Gnu/Linux 
       OS_Mobile: GrapheneOS
       P2P: CipherDrop
       Messenger: Signal
-      Browser_Desktop: DuckDuckGo
       Wallet: Trust
       Notes: Logseq
       Maps: OpenStreetMap
       Network: Tor
-      Search: YaCy
+      Search:
+        - DuckDuckGo
+        - YaCy
       Storage: owncloud
-      Email: Proton mail
-      
-  AntonioSeveso:
+      Email: ProtonMail
+ AntonioSeveso:
     id: "antonio-seveso"
     avatar: "AntonioSeveso.jfif"
     name: "Antonio Seveso"
@@ -1844,7 +1844,6 @@ stacks:
       Social: Farcaster
       Recording: OBS
       Drawing: Draw.io
-      
   Lanski:
     id: "lanski"
     avatar: "Lanski.png"
@@ -1868,4 +1867,3 @@ stacks:
       Notes: Obsidian
       Map: OsmAnd
       Self_Hosted_LLM: Ollama
-      
