@@ -1825,7 +1825,7 @@ stacks:
         - YaCy
       Storage: owncloud
       Email: ProtonMail
- AntonioSeveso:
+   AntonioSeveso:
     id: "antonio-seveso"
     avatar: "AntonioSeveso.jfif"
     name: "Antonio Seveso"
@@ -1844,7 +1844,7 @@ stacks:
       Social: Farcaster
       Recording: OBS
       Drawing: Draw.io
-  Lanski:
+   Lanski:
     id: "lanski"
     avatar: "Lanski.png"
     name: "Lanski"
