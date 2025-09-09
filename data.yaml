@@ -1825,3 +1825,45 @@ stacks:
         - YaCy
       Storage: owncloud
       Email: ProtonMail
+ AntonioSeveso:
+    id: "antonio-seveso"
+    avatar: "AntonioSeveso.jfif"
+    name: "Antonio Seveso"
+    org: "Fluidkey"
+    tools:
+      OS_Desktop: Ubuntu
+      Browser_Desktop: Brave
+      Messenger: Signal
+      Email: ProtonMail
+      Wallet: Fluidkey
+      VPN: ProtonVPN
+      Storage: Self-hosted NAS
+      Video: VLC
+      Password Manager: KeePassXC
+      3D prototyping: OpenSCAD
+      Social: Farcaster
+      Recording: OBS
+      Drawing: Draw.io
+  Lanski:
+    id: "lanski"
+    avatar: "Lanski.png"
+    name: "Lanski"
+    org: "Dappnode"
+    tools:
+      Hardware: MacBook
+      Phone: Pixel
+      OS_Desktop: MacOS
+      OS_Mobile: GrapheneOS
+      Messenger: Signal
+      Email: ProtonMail
+      Wallet: 
+        - Rabby
+        - Fluidkey
+      Network: 
+        - Tor
+        - Brave
+      VPN: Dappnode
+      Storage: Fileverse
+      Notes: Obsidian
+      Map: OsmAnd
+      Self_Hosted_LLM: Ollama
