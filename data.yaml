@@ -1866,4 +1866,56 @@ stacks:
       Storage: Fileverse
       Notes: Obsidian
       Map: OsmAnd
-      Self_Hosted_LLM: Ollama
+      Self_Hosted_LLM: Ollama      
+    Francesco Andreoli:
+    id: "francesco-andreoli"
+    avatar: "FrancescoAndreolie.jfif"
+    name: "Francesco Andreoli"
+    org: "Consensys"
+    tools:
+      OS_Mobile: - GrapheneOS
+      - iOS
+      Browser_Mobile: Brave
+      VPN:
+        - Mullvad
+      Messenger: Signal
+      Storage: ProtonDrive
+      Search: DuckDuckGo
+      Wallet:
+        - Ledger
+        - Metamask
+      Docs: Fileverse
+      Mail: ProtonMail
+    Zodomo:
+    id: "zodomo"
+    avatar: "Zodomo.png"
+    name: "Zodomo"
+    org: "Omni Network"
+    tools:
+      OS_Desktop: EndeavourOS
+      OS_Mobile: GrapheneOS
+      Browser_Desktop: Brave
+      Search: SearXNG
+      Messenger: SimpleX
+      Email: ProtonMail
+      Wallet: Ambire
+      VPN: Mullvad
+      Network_Privacy: 
+      - Tor
+      - Mullvad
+      - I2P
+      P2P: qBittorrent
+      Storage: NextCloud
+      Docs: Obsidian
+      Notes: Obsidian
+      Maps: Organic Maps
+      LLM: Qwen3 30B A3B 2507
+      Videos: Plex
+      Music: Plex
+      Password_Manager: Bitwarden
+      2FA: Aegis
+      Ethereum Node:
+      - Nethermind
+      - Prysm
+      PDF: Sumatra
+      Graphics: Regards
