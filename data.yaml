@@ -1867,7 +1867,7 @@ stacks:
       Notes: Obsidian
       Map: OsmAnd
       Self_Hosted_LLM: Ollama      
-    Francesco Andreoli:
+  FrancescoAndreoli:
     id: "francesco-andreoli"
     avatar: "FrancescoAndreolie.jfif"
     name: "Francesco Andreoli"
@@ -1886,7 +1886,7 @@ stacks:
         - Metamask
       Docs: Fileverse
       Mail: ProtonMail
-    Zodomo:
+  Zodomo:
     id: "zodomo"
     avatar: "Zodomo.png"
     name: "Zodomo"
