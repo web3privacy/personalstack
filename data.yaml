@@ -1873,8 +1873,9 @@ stacks:
     name: "Francesco Andreoli"
     org: "Consensys"
     tools:
-      OS_Mobile: - GrapheneOS
-      - iOS
+      OS_Mobile: 
+        - GrapheneOS
+        - iOS
       Browser_Mobile: Brave
       VPN:
         - Mullvad
