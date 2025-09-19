@@ -1944,7 +1944,6 @@ stacks:
       IDE: 
       - Webstorm
       - Psycharm
-      Graphics: Regards
   ChrisMcCabe:
     id: "chris-mccabe"
     avatar: "ChrisMcCabe.png"
@@ -1970,7 +1969,7 @@ stacks:
       - Session
       - Messenger
       Password: Bitwarden
-   Vlad Costea:
+   VladCostea:
     id: "vlad-costea"
     avatar: "VladCostea.png"
     name: "Vlad Costea"
