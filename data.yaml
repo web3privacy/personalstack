@@ -1969,7 +1969,7 @@ stacks:
       - Session
       - Messenger
       Password: Bitwarden
-   VladCostea:
+  VladCostea:
     id: "vlad-costea"
     avatar: "VladCostea.png"
     name: "Vlad Costea"
@@ -1998,4 +1998,3 @@ stacks:
       Audio: Audacity
       Meeting: Jitsi
       Password: Bitwarden
-   
