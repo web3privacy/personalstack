@@ -1920,7 +1920,7 @@ stacks:
       - Prysm
       PDF: Sumatra
       Graphics: Regards
-Pentacle:
+  Pentacle:
     id: "pentacle"
     avatar: "Pentacle.jpg"
     name: "Pentacle"
@@ -1945,7 +1945,7 @@ Pentacle:
       - Webstorm
       - Psycharm
       Graphics: Regards
-Chris McCabe:
+  Chris McCabe:
     id: "chris-mccabe"
     avatar: "ChrisMcCabe.png"
     name: "Chris McCabe"
@@ -1999,4 +1999,4 @@ Chris McCabe:
       Audio: Audacity
       Meeting: Jitsi
       Password: Bitwarden
-      
+   
