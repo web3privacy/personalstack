@@ -1920,3 +1920,83 @@ stacks:
       - Prysm
       PDF: Sumatra
       Graphics: Regards
+Pentacle:
+    id: "pentacle"
+    avatar: "Pentacle.jfif"
+    name: "Pentacle"
+    org: "Pentacle.xyz"
+    tools:
+      Hardware: MacBook
+      OS_Desktop: MacOS
+      OS_Mobile: iOS
+      Browser_Desktop: Brave
+      Messenger: Signal
+      Search: DuckDuckGo
+      Email: ProtonMail
+      Wallet: Rainbow
+      VPN: Snowstorm
+      Storage: NextCloud
+      Docs: Ddocs
+      Journaling: GitJournaling
+      Maps: Apple Maps
+      LLM: Claude code
+      Graphics: Photoshop
+      IDE: 
+      - Webstorm
+      - Psycharm
+            Graphics: Regards
+Chris McCabe:
+    id: "chris-mccabe"
+    avatar: "ChrisMcCabe.png"
+    name: "Chris McCabe"
+    org: "Session"
+    tools:
+      Hardware: Framework
+      OS_Desktop:
+      - Linux
+      - Ubuntu
+      OS_Mobile: GrapheneOS
+      Browser_Desktop: Brave
+      Messenger: Session
+      Search: DuckDuckGo
+      Email: ProtonMail
+      Wallet: Trezor
+      VPN: ProtonVPN
+      Storage: ProtonDrive
+      Docs: Fileverse
+      Graphics: GIMP
+      Videos: VLC
+      Meeting: 
+      - Session
+      - Messenger
+      Password: Bitwarden
+   Vlad Costea:
+    id: "vlad-costea"
+    avatar: "VladCostea.png"
+    name: "Vlad Costea"
+    org: "Bitcoin Takeover Podcast"
+    tools:
+      Hardware: Raspberry Pi 400
+      OS_Desktop: Raspbian
+      OS_Mobile: iOS
+      Browser_Desktop: Firefox
+      Network_Privacy: Nym
+      Messenger: Signal
+      Search: DuckDuckGo
+      Email: ProtonMail
+      Wallet: Electrum
+      P2P: qBittorrent
+      VPN: NymVPN
+      Storage: ProtonDrive
+      Docs: LibreOffice
+      Notes: Simplenote
+      Maps: Marble
+      Calendar: ProtonCalendar
+      LLM: PPQ AI
+      Graphics: GIMP
+      Videos: VLC
+      Music: VLC
+      Audio: Audacity
+      Meeting: Jitsi
+      Password: Bitwarden
+      
