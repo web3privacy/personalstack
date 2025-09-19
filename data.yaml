@@ -1827,7 +1827,7 @@ stacks:
       Email: ProtonMail
   Antonio Seveso:
     id: "antonio-seveso"
-    avatar: "AntonioSeveso.jfif"
+    avatar: "AntonioSeveso.jpg"
     name: "Antonio Seveso"
     org: "Fluidkey"
     tools:
@@ -1869,7 +1869,7 @@ stacks:
       Self_Hosted_LLM: Ollama      
   FrancescoAndreoli:
     id: "francesco-andreoli"
-    avatar: "FrancescoAndreolie.jfif"
+    avatar: "FrancescoAndreolie.jpg"
     name: "Francesco Andreoli"
     org: "Consensys"
     tools:
@@ -1922,7 +1922,7 @@ stacks:
       Graphics: Regards
 Pentacle:
     id: "pentacle"
-    avatar: "Pentacle.jfif"
+    avatar: "Pentacle.jpg"
     name: "Pentacle"
     org: "Pentacle.xyz"
     tools:
