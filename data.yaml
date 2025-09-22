@@ -1589,7 +1589,7 @@ stacks:
         - Calibre
         - Kiwix
         - Kobo
-  Kurt Opsahl:
+  KurtOpsahl:
     id: "kurt-opsahl"
     avatar: "Kurt Opsahl.jpg"
     name: "Kurt Opsahl"
@@ -1605,7 +1605,7 @@ stacks:
       Code: Rust
       Pen testing: Metasploit Framework
       Crypto: Zcash
-  Peter Van Valkenburgh:
+  PeterVanValkenburgh:
     id: "peter-vanvalkenburgh"
     avatar: "Peter van Valkenburgh.jpg"
     name: "Peter Van Valkenburgh"
@@ -1624,7 +1624,7 @@ stacks:
       Search: DuckDuckGo
       SecurityCamera:: Ubiquity
       Router: pfSense
-  Harry Halpin:
+  HarryHalpin:
     id: "harry-halpin"
     avatar: "Harry Halpin.jpg"
     name: "Harry Halpin"
@@ -1650,7 +1650,7 @@ stacks:
       Search: BraveSearch
       Storage: LUKSencryption
       ERP: OODO
-  Ahmed Ghappour:
+  AhmedGhappour:
     id: "ahmed-grappour"
     avatar: "Ahmed.jpg"
     name: "Ahmed Ghappour"
@@ -1670,7 +1670,7 @@ stacks:
       VPN: Mullvad
       Search: DuckDuckGo
       Meeting: Jitsi
-  Matthias Tarasiewicz:
+  MatthiasTarasiewicz:
     id: "matthias-tarasiewicz"
     avatar: "Matthias Tarasiewicz.png"
     name: "Matthias Tarasiewicz"
@@ -1705,7 +1705,7 @@ stacks:
       Messenger: 
         - irc-otr
         - SimpleX
-  Luis Bezzenberger:
+  LuisBezzenberger:
     id: "luis-bezzenberger"
     avatar: "Luis x Shutter.jpg"
     name: "Luis Bezzenberger"
@@ -1765,7 +1765,7 @@ stacks:
       Cloud: Tresorit
       Email: ProtonMail
       VPN: Mullvad
-  Rachel-Rose O'Leary:
+  Rachel-RoseO'Leary:
     id: "Rachel-Rose-OLeary"
     avatar: "Rachel-Rose.png"
     name: "Rachel-Rose O'Leary"
@@ -1805,7 +1805,7 @@ stacks:
         - Monero-Cli
       Weight lifting tracker: https://github.com/narodnik/pump
       Girls stuff: Drip
-  Kate S:
+  KateS:
     id: "Kate-S"
     avatar: "Kate-S.png"
     name: "Kate S"
@@ -1825,7 +1825,7 @@ stacks:
         - YaCy
       Storage: owncloud
       Email: ProtonMail
-  Antonio Seveso:
+  AntonioSeveso:
     id: "antonio-seveso"
     avatar: "AntonioSeveso.jpg"
     name: "Antonio Seveso"
@@ -1889,7 +1889,7 @@ stacks:
       Mail: ProtonMail
   Zodomo:
     id: "zodomo"
-    avatar: "Zodomo.png"
+    avatar: "zodomo.png"
     name: "Zodomo"
     org: "Omni Network"
     tools:
