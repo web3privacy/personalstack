@@ -2085,7 +2085,6 @@ stacks:
         - Shadowsocks
       Notes: CryptPad
       Network: I2P
-      Videos: Jellyfin
       P2P: Deluge
       Email: Jaromail
       Meeting: Jitsi
@@ -2100,4 +2099,3 @@ stacks:
         - FFMpeg
         - KDEnlive
       Graphics: GIMP
-
