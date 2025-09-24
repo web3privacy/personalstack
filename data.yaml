@@ -1869,7 +1869,7 @@ stacks:
       Self_Hosted_LLM: Ollama      
   FrancescoAndreoli:
     id: "francesco-andreoli"
-    avatar: "FrancescoAndreolie.jpg"
+    avatar: "FranceskoAndreolie.jpg"
     name: "Francesco Andreoli"
     org: "Consensys"
     tools:
@@ -1971,7 +1971,7 @@ stacks:
       Password: Bitwarden
   VladCostea:
     id: "vlad-costea"
-    avatar: "VladCostea.png"
+    avatar: "VladCostea.jpg"
     name: "Vlad Costea"
     org: "Bitcoin Takeover Podcast"
     tools:
@@ -2035,7 +2035,6 @@ stacks:
       Wallet: Cake Wallet
       Network_Privacy: Tor
       Notes: Neovim
-      Videos: Jellyfin
       Meeting: Jitsi
       Music: Mixxx
       Videos: VLC
