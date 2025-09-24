@@ -1127,7 +1127,7 @@ stacks:
       Journaling: GitJournal
       Knowledge_Base: AnythingLLM
       Reader: Calibre
-      : Jitsi
+      Meeting: Jitsi
       Map: OsmAnd
       Docs: LibreOffice
       Pomodoro: TomatoBar
