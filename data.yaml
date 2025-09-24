@@ -1969,7 +1969,7 @@ stacks:
       Docs: Fileverse
       Graphics: GIMP
       Videos: VLC
-      Meeting: Session Messenger
+      Meeting: Session
       Password: Bitwarden
   VladCostea:
     id: "vlad-costea"
