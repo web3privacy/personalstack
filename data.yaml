@@ -733,7 +733,7 @@ tools:
       name: "Jit.si"
       url: "https://jit.si/"
       image: "jitsi.jpg"
-    k:
+    Brave Talk:
       name: "Brave Talk"
       url: "https://brave.com/talk/"
       image: "brave.jpg"
@@ -1998,7 +1998,7 @@ stacks:
       Videos: VLC
       Music: VLC
       Audio: Audacity
-      : Jitsi
+      Meeting: Jitsi
       Password: Bitwarden
   Alisher:
     id: "alisher"
@@ -2037,7 +2037,7 @@ stacks:
       Wallet: Cake Wallet
       Network_Privacy: Tor
       Notes: Neovim
-      : Jitsi
+      Meeting: Jitsi
       Music: Mixxx
       Videos: VLC
       Graphics: IMV
@@ -2089,7 +2089,7 @@ stacks:
       Network: I2P
       P2P: Deluge
       Email: Jaromail
-      : Jitsi
+      Meeting: Jitsi
       Maps: OsmAnd
       LLM: Claude
       Music:
