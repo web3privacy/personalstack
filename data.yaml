@@ -737,6 +737,10 @@ tools:
       name: "Brave Talk"
       url: "https://brave.com/talk/"
       image: "brave.jpg"
+    Session:
+      name: "Session"
+      url: "https://getsession.org/"
+      image: "session.jpg"
   Multisig:
     ZKSafe:
       name: "ZKSafe"
@@ -1123,7 +1127,7 @@ stacks:
       Journaling: GitJournal
       Knowledge_Base: AnythingLLM
       Reader: Calibre
-      Meeting: Jitsi
+      : Jitsi
       Map: OsmAnd
       Docs: LibreOffice
       Pomodoro: TomatoBar
@@ -1269,7 +1273,7 @@ stacks:
         - Frame
       Email: ProtonMail
       Messenger: Signal
-      Meeting: BraveTalk
+      : BraveTalk
       Browser_Desktop: Brave
       VPN:
         - Mullvad
@@ -1401,7 +1405,7 @@ stacks:
       Map: OpenStreetMap
       Short_Links: MaglitMe
       Multisig: ZKSafe
-      Meeting: Jitsi
+      : Jitsi
       OnChain:
         - Railgun
         - Penumbra
@@ -1495,7 +1499,7 @@ stacks:
       Code: 
         - Nvim
         - Github
-      Meeting: Jitsi
+      : Jitsi
       Password: KeePassXC
       Wallet:
         - CakeWallet
@@ -1546,7 +1550,7 @@ stacks:
       Marketplace: Vexl
       Knowledge_Base: Obsidian 
       Bookmarking: Arena
-      Meeting: Jitsi
+      : Jitsi
       Password: KeePassXC
       PDF: DangerZone
       Crypto: 
@@ -1580,7 +1584,7 @@ stacks:
       Email: ProtonMail
       Password: Bitwarden
       Portfolio: Rotki
-      Meeting: Jitsi
+      : Jitsi
       OnChain_Security: Airgap
       Map: 
         - OsmAnd
@@ -1669,7 +1673,7 @@ stacks:
       Docs: Ddocs
       VPN: Mullvad
       Search: DuckDuckGo
-      Meeting: Jitsi
+      : Jitsi
   MatthiasTarasiewicz:
     id: "matthias-tarasiewicz"
     avatar: "Matthias Tarasiewicz.png"
@@ -1700,7 +1704,7 @@ stacks:
         - Syncthing
         - LocalSend
       Data_Management: Visidata
-      Meeting: Jitsi
+      : Jitsi
       Task Manager: org-mode
       Messenger: 
         - irc-otr
@@ -1965,9 +1969,7 @@ stacks:
       Docs: Fileverse
       Graphics: GIMP
       Videos: VLC
-      Meeting: 
-      - Session
-      - Messenger
+      Meeting: Session Messenger
       Password: Bitwarden
   VladCostea:
     id: "vlad-costea"
@@ -1996,7 +1998,7 @@ stacks:
       Videos: VLC
       Music: VLC
       Audio: Audacity
-      Meeting: Jitsi
+      : Jitsi
       Password: Bitwarden
   Alisher:
     id: "alisher"
@@ -2035,7 +2037,7 @@ stacks:
       Wallet: Cake Wallet
       Network_Privacy: Tor
       Notes: Neovim
-      Meeting: Jitsi
+      : Jitsi
       Music: Mixxx
       Videos: VLC
       Graphics: IMV
@@ -2087,7 +2089,7 @@ stacks:
       Network: I2P
       P2P: Deluge
       Email: Jaromail
-      Meeting: Jitsi
+      : Jitsi
       Maps: OsmAnd
       LLM: Claude
       Music:
