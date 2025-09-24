@@ -733,7 +733,7 @@ tools:
       name: "Jit.si"
       url: "https://jit.si/"
       image: "jitsi.jpg"
-    BraveTalk:
+    k:
       name: "Brave Talk"
       url: "https://brave.com/talk/"
       image: "brave.jpg"
@@ -1273,7 +1273,7 @@ stacks:
         - Frame
       Email: ProtonMail
       Messenger: Signal
-      : BraveTalk
+      Meeting: BraveTalk
       Browser_Desktop: Brave
       VPN:
         - Mullvad
