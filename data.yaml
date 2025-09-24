@@ -1593,7 +1593,7 @@ stacks:
         - Calibre
         - Kiwix
         - Kobo
-  Kurt Opsahl:
+  KurtOpsahl:
     id: "kurt-opsahl"
     avatar: "Kurt Opsahl.jpg"
     name: "Kurt Opsahl"
@@ -1609,7 +1609,7 @@ stacks:
       Code: Rust
       Pen testing: Metasploit Framework
       Crypto: Zcash
-  Peter Van Valkenburgh:
+  PeterVanValkenburgh:
     id: "peter-vanvalkenburgh"
     avatar: "Peter van Valkenburgh.jpg"
     name: "Peter Van Valkenburgh"
@@ -1626,9 +1626,9 @@ stacks:
         - DarkIRC
       VPN: DuckDuckGo
       Search: DuckDuckGo
-      SecurityCamera:: Ubiquiti
+      SecurityCamera: Ubiquiti
       Router: PfSense
-  Harry Halpin:
+  HarryHalpin:
     id: "harry-halpin"
     avatar: "Harry Halpin.jpg"
     name: "Harry Halpin"
@@ -1654,7 +1654,7 @@ stacks:
       Search: BraveSearch
       Storage: LUKSencryption
       ERP: OODO
-  Ahmed Ghappour:
+  AhmedGhappour:
     id: "ahmed-grappour"
     avatar: "Ahmed.jpg"
     name: "Ahmed Ghappour"
@@ -1674,7 +1674,7 @@ stacks:
       VPN: Mullvad
       Search: DuckDuckGo
       Meeting: Jitsi
-  Matthias Tarasiewicz:
+  MatthiasTarasiewicz:
     id: "matthias-tarasiewicz"
     avatar: "Matthias Tarasiewicz.png"
     name: "Matthias Tarasiewicz"
@@ -1710,7 +1710,7 @@ stacks:
       Messenger: 
         - irc-otr
         - SimpleX
-  Luis Bezzenberger:
+  LuisBezzenberger:
     id: "luis-bezzenberger"
     avatar: "Luis x Shutter.jpg"
     name: "Luis Bezzenberger"
@@ -1770,7 +1770,7 @@ stacks:
       Cloud: Tresorit
       Email: ProtonMail
       VPN: Mullvad
-  Rachel-Rose O'Leary:
+  Rachel-RoseO'Leary:
     id: "Rachel-Rose-OLeary"
     avatar: "Rachel-Rose.png"
     name: "Rachel-Rose O'Leary"
@@ -1810,7 +1810,7 @@ stacks:
         - MoneroCli
       Sports: Pump
       GirlStuff: Drip
-  Kate S:
+  KateS:
     id: "Kate-S"
     avatar: "Kate-S.png"
     name: "Kate S"
@@ -1832,7 +1832,7 @@ stacks:
         - YaCy
       Storage: owncloud
       Email: ProtonMail
-  Antonio Seveso:
+  AntonioSeveso:
     id: "antonio-seveso"
     avatar: "AntonioSeveso.jpg"
     name: "Antonio Seveso"
@@ -1896,7 +1896,7 @@ stacks:
       Email: ProtonMail
   Zodomo:
     id: "zodomo"
-    avatar: "Zodomo.png"
+    avatar: "zodomo.png"
     name: "Zodomo"
     org: "Omni Network"
     tools:
@@ -1946,7 +1946,7 @@ stacks:
       Docs: Ddocs
       Journaling: GitJournaling
       Maps: Apple Maps
-      LLM: Claude code
+      LLM: Claude
       Graphics: Photoshop
       IDE: 
       - Webstorm
@@ -2005,3 +2005,107 @@ stacks:
       Audio: Audacity
       Meeting: Jitsi
       Password: Bitwarden
+  Alisher:
+    id: "alisher"
+    avatar: "Alisher.png"
+    name: "Alisher"
+    org: "Logos"
+    tools:
+      Hardware: Frameworks
+      Browser_Desktop: Brave
+      Messenger: Status
+      Docs: Fileverse
+      Storage: Codex
+      Wallet: Keycard
+      Email: ProtonMail
+      P2P: qBittorrent
+      Notes: Anytype
+      Videos: Jellyfin
+      Music: MusicBee
+      Graphics: Gimp
+      Photo archive management: digiCam
+      Image upscale: Upscayl
+      Books management: Calibre
+      Audio: Equalizer APO
+  Aki:
+    id: "aki"
+    avatar: "Aki.png"
+    name: "Aki"
+    org: "Mycel"
+    tools:
+      OS_Desktop: NixOS
+      Browser:Desktop: Floorp
+      Messenger: Signal
+      Docs: CodiMD
+      Storage: Codex
+      VPN: Headscale
+      Wallet: Cake Wallet
+      Network_Privacy: Tor
+      Notes: Neovim
+      Videos: Jellyfin
+      Meeting: Jitsi
+      Music: Mixxx
+      Videos: VLC
+      Graphics: IMV
+      PDF: IMV
+  Jaromil:
+    id: "jaromil"
+    avatar: "Jaromil.png"
+    name: "Jaromil"
+    org: "Dyne.org"
+    tools:
+      Hardware:
+        - Lenovo
+        - Thinkpad      
+      OS_Desktop:
+        - LinuxMint
+        - Dynebolic
+        - Devuan
+        - Windows 
+      OS_Mobile: NothingOS
+      Browser_Desktop:
+        - Palemoon
+        - Falkon
+        - Thorium
+        - Edge
+      Messenger:
+        - Signal
+        - Bittlbee
+        - Weechad
+        - N8N
+      Docs: CryptPad
+      IDE: Emacs
+      Storage:
+        - Tomb
+        - Git
+        - ZFS
+      VPN:
+        - ProtonVPN
+        - Mullvad
+      Search:
+        - SearX
+        - Perplexity
+      Wallet:
+        - Bitcoin knots
+        - Electrum
+      Network_Privacy:
+        - Tor
+        - Shadowsocks
+      Notes: CryptPad
+      Network: I2P
+      Videos: Jellyfin
+      P2P: Deluge
+      Email: Jaromail
+      Meeting: Jitsi
+      Maps: OsmAnd
+      LLM: Claude
+      Music:
+        - MOC
+        - Pipewire
+      Videos:
+        - Frei0r
+        - FreeJ
+        - FFMpeg
+        - KDEnlive
+      Graphics: GIMP
+
