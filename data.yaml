@@ -1405,7 +1405,7 @@ stacks:
       Map: OpenStreetMap
       Short_Links: MaglitMe
       Multisig: ZKSafe
-      : Jitsi
+      Meeting: Jitsi
       OnChain:
         - Railgun
         - Penumbra
@@ -1499,7 +1499,7 @@ stacks:
       Code: 
         - Nvim
         - Github
-      : Jitsi
+      Meeting: Jitsi
       Password: KeePassXC
       Wallet:
         - CakeWallet
@@ -1550,7 +1550,7 @@ stacks:
       Marketplace: Vexl
       Knowledge_Base: Obsidian 
       Bookmarking: Arena
-      : Jitsi
+      Meeting: Jitsi
       Password: KeePassXC
       PDF: DangerZone
       Crypto: 
@@ -1584,7 +1584,7 @@ stacks:
       Email: ProtonMail
       Password: Bitwarden
       Portfolio: Rotki
-      : Jitsi
+      Meeting: Jitsi
       OnChain_Security: Airgap
       Map: 
         - OsmAnd
@@ -1673,7 +1673,7 @@ stacks:
       Docs: Ddocs
       VPN: Mullvad
       Search: DuckDuckGo
-      : Jitsi
+      Meeting: Jitsi
   MatthiasTarasiewicz:
     id: "matthias-tarasiewicz"
     avatar: "Matthias Tarasiewicz.png"
@@ -1704,7 +1704,7 @@ stacks:
         - Syncthing
         - LocalSend
       Data_Management: Visidata
-      : Jitsi
+      Meeting: Jitsi
       Task Manager: org-mode
       Messenger: 
         - irc-otr
