@@ -31,12 +31,12 @@ tools:
     ThinkPad L13:
       name: "ThinkPad L13"
       url: "https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadl/thinkpad-l13/"
-      image: "thinkpadl13.jpg"
+      image: "thinkpadl13.png"
   WiFi:
     Atheros AR9462 ath9k:
       name: "Atheros AR9462 ath9k"
       url: "https://shop.vikings.net/product/wi-fi-4-802-11n-2-4-5ghz-atheros-qcnfa222-ar9462-bluetooth-4-0-m-2-ngff/?v=41d6ad0761a5"
-      image: "atherosar9462.jpg"
+      image: "atheros.png"
   OS_Desktop:
     QubesOS:
       name: "QubesOS"
@@ -94,6 +94,18 @@ tools:
       name: "LinuxMint"
       url: "http://linuxmint.com"
       image: "mintlinux.jpeg"
+    Suckless:
+      name: "Suckless"
+      url: "https://suckless.org/"
+      image: "suckless.png"
+    EndeavourOS:
+      name: "EndeavourOS"
+      url: "https://endeavouros.com/"
+      image: "endeavouros.png"
+    Raspbian:
+      name: "Raspbian"
+      url: "https://www.raspberrypi.com/software/"
+      image: "raspberrypi.jpg"
   OS_Mobile:
     GrapheneOS:
       name: "GrapheneOS"
@@ -126,7 +138,11 @@ tools:
     NixOS:
       name: "NixOS"
       url: "https://nixos.org"
-      image: "nixos.jpg"
+      image: "nixos.png"
+    NothingOS:
+      name: "NothingOS"
+      url: "https://nothing.tech/pages/nothing-os-3"
+      image: "nothing.jpg"
   Browser_Desktop:
     Brave:
       name: "Brave"
@@ -168,6 +184,26 @@ tools:
       name: "Dillo"
       url: "https://dillo.org"
       image: "dillo.jpg"
+    Floorp:
+      name: "Floorp"
+      url: "https://www.floorp-app/"
+      image: "floorp.png"
+    Palemoon:
+      name: "Palemoon"
+      url: "https://www.palemoon.org/"
+      image: "palemoon.png"
+    Falkon:
+      name: "Falkon"
+      url: "https://www.falkon.org/"
+      image: "falkon.png"
+    Thorium:
+      name: "Thorium"
+      url: "https://www.thorium.rocks/"
+      image: "thorium.png"
+    Edge:
+      name: "Edge"
+      url: "https://www.microsoft.com/edge "
+      image: "edge.png"
   Browser_Mobile:
     Mull:
       name: "Mull"
@@ -264,6 +300,26 @@ tools:
       name: "Undisclosed"
       url: "https://Undisclosed"
       image: "Undisclosed.jpg"
+    Trust: 
+      name: "Trust"
+      url: "https://trustwallet.com"
+      image: "trust.png"
+    Fluidkey: 
+      name: "Fluidkey"
+      url: "https://fluidkey.com"
+      image: "fluidkey.png"
+    Ambire: 
+      name: "Ambire"
+      url: "https://ambire.com"
+      image: "ambire.png"
+    Rainbow: 
+      name: "Rainbow"
+      url: "https://rainbow.we"
+      image: "rainbow.png"
+    Electrum: 
+      name: "Electrum"
+      url: "https://electrum.org"
+      image: "electrum.png"
   Messenger:
     Signal:
       name: "Signal"
@@ -309,6 +365,14 @@ tools:
       name: "Keybase"
       url: "https://keybase.io/"
       image: "keybase.jpg"
+    Bittlbee:
+      name: "Bittlbee"
+      url: "https://bittlbee.org/"
+      image: "bittlbee.png"
+    N8N:
+      name: "N8N"
+      url: "https://n8n.io/"
+      image: "n8n.png"
     RevolutionIrc:
       name: "Revolution IRC"
       url: "https://f-droid.org/packages/io.mrarm.irc/"
@@ -324,7 +388,7 @@ tools:
     irc-otr:
       name: "irc-otr"
       url: "https://otr.cypherpunks.ca"
-      image: "ircotr.jpg"
+      image: "github.png"
   Docs:
     Ddocs:
       name: "ddocs"
@@ -349,7 +413,32 @@ tools:
     Fileverse:
       name: "Fileverse"
       url: "http://fileverse.io"
-      image: "fileverse.jpg"
+      image: "fileverse.png"
+    CodiMD:
+      name: "CodiMD"
+      url: "https://codimd.web.cern.ch/"
+      image: "codimd.png"
+  Notes:
+    AnyType:
+      name: "AnyType"
+      url: "https://anytype.io/"
+      image: "anytype.png"
+    Nvim:
+      name: "Nvim"
+      url: "https://neovim.io"
+      image: "nvim.jpg"
+    Logseq:
+      name: "Logseq"
+      url: "https://logseq.com"
+      image: "logseq.png"
+    Obsidian:
+      name: "Obsidian"
+      url: "https://obsidian.md"
+      image: "obsidian.png"
+    Simplenote:
+      name: "Simplenote"
+      url: "https://simplenote.com"
+      image: "simplenote.png"
   Drawings:
     DrawIo:
       name: "Draw.io"
@@ -369,6 +458,14 @@ tools:
       name: "GIMP"
       url: "https://www.gimp.org/"
       image: "gimp.png"
+    Regards:
+      name: "Regards"
+      url: "https://regardsoss.github.io/docs/setup"
+      image: "github.png"
+    Photoshop:
+      name: "Adobe Photoshop"
+      url: "https://www.adobe.com/products/photoshop.html"
+      image: "photoshop.png"
   Hypervisor:
     VirtualBox:
       name: "VirtualBox"
@@ -383,6 +480,42 @@ tools:
       name: "VeniceAI"
       url: "https://venice.ai"
       image: "veniceai.jpg"
+    ComfyUI:
+      name: "ComfyUI"
+      url: "https://comfy.org/"
+      image: "comfyui.png"
+    Pinokio:
+      name: "Pinokio"
+      url: "https://pinokio.co/"
+      image: "pinokion.png"
+    StabilityMatrix:
+      name: "Stability Matrix"
+      url: "https://github.com/LykosAI/StabilityMatrix"
+      image: "github.png"
+    LM Studio:
+      name: "LM Studio"
+      url: "https://lmstudio.ai/"
+      image: "lmstudio.png"
+    CodeLlama 34b:
+      name: "CodeLlama 34b"
+      url: "https://github.com/Meta%E2%80%91Llama/codellama/"
+      image: "github.png"
+    Qwen:
+      name: "Qwen"
+      url: "https://qwen.ai/"
+      image: "qwen.png"
+    Claude:
+      name: "Claude"
+      url: "https://claude.ai/"
+      image: "claude.png"
+    PPQ AI:
+      name: "PPQ AI"
+      url: "https://ppq.ai/"
+      image: "ppq.jpg"
+    Perplexity:
+      name: "Perplexity"
+      url: "https://perplexity.ai/"
+      image: "perplexity.png"
   Self_Hosted_LLM:
     Ollama:
       name: "Ollama"
@@ -405,6 +538,18 @@ tools:
       name: "Audacity"
       url: "https://audacity.com/"
       image: "audacity.png"
+    EqualizerAPO:
+      name: "Equalizer APO"
+      url: "https://equalizerapo.com/"
+      image: "equalizerapo.png"
+    Mixxx:
+      name: "Mixxx"
+      url: "https://mixxx.org/"
+      image: "mixxx.png"
+    Pipewire:
+      name: "Pipewire"
+      url: "https://pipewire.org/"
+      image: "pipewire.png"
   Download_Self_Hosted:
     HuggingFace:
       name: "HuggingFace"
@@ -456,6 +601,18 @@ tools:
       name: "DuckDuckGo"
       url: "https://duckduckgo.com/"
       image: "duckduckgo.png"
+    Dappnode:
+      name: "Dappnode"
+      url: "https://dappnode.com/"
+      image: "dappnode.png"
+    Snowstorm:
+      name: "Snowstorm"
+      url: "https://snowstorm.net/"
+      image: "snowstorm.png"
+    Headscale:
+      name: "Headscale"
+      url: "https://github.com/juanfont/headscale"
+      image: "github.png"
   Email:
     ProtonMail:
       name: "ProtonMail"
@@ -469,6 +626,10 @@ tools:
       name: "Undisclosed"
       url: "https://Undisclosed"
       image: "Undisclosed.jpg"
+    Jaromail:
+      name: "Jaromail"
+      url: "https://github.com/dyne/JaroMail/"
+      image: "github.png"
   Password:
     KeePassXC:
       name: "KeePassXC"
@@ -478,6 +639,11 @@ tools:
       name: "Bitwarden"
       url: "https://bitwarden.com/"
       image: "bitwarden.png"
+  2FA:
+    Aegis:
+      name: "Aegis"
+      url: "https://getaegis.app/"
+      image: "aegis.png"
   Search:
     Kagi:
       name: "Kagi"
@@ -495,6 +661,10 @@ tools:
       name: "SearX"
       url: "https://searx.space/"
       image: "searx.png"
+    SearXNG:
+      name: "SearXNG"
+      url: "https://searx.bndkt.io/"
+      image: "searxng.png"
     StartPage:
       name: "StartPage"
       url: "https://www.startpage.com"
@@ -517,6 +687,14 @@ tools:
       name: "Emacs"
       url: "https://www.gnu.org/software/emacs/"
       image: "emacs.png"
+    WebStorm:
+      name: "WebStorm"
+      url: "https://www.jetbrains.com/webstorm/"
+      image: "webstorm.png"
+    PyCharm:
+      name: "PyCharm"
+      url: "https://www.jetbrains.com/pycharm/"
+      image: "pycharm.png"
   Journaling:
     GitJournal:
       name: "GitJournal"
@@ -564,7 +742,7 @@ tools:
     oneplus-enchilada:
       name: "oneplus-enchilada"
       url: "https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)"
-      image: "oneplusenchilada.jpg"
+      image: "oneplusenchilada.png"
     Pixel 8:
       name: "Pixel 8"
       url: "https://en.wikipedia.org/wiki/Pixel_8"
@@ -644,6 +822,31 @@ tools:
       name: "Private Storage"
       url: "https://private.storage/"
       image: "privatestorage.jpg"
+    Fileverse:
+      name: "Fileverse"
+      url: "https://fileverse.io/"
+      image: "fileverse.png"
+    owncloud:
+      name: "owncloud"
+      url: "https://owncloud.com"
+      image: "owncloud.png"
+    Self-hosted NAS:
+      name: "Self-hosted NAS"
+      url: "-"
+      image: "server.png"
+    NextCloud:
+      name: "NextCloud"
+      url: "https://nextcloud.com/"
+      image: "nextcloud.png"
+    Tomb:
+      name: "Tomb"
+      url: "https://github.com/dyne/Tomb"
+      image: "github.png"
+  Socials:
+    Farcaster:
+      name: "Farcaster"
+      url: "https://www.farcaster.xyz/"
+      image: "farcaster.png"
   Map:
     OpenStreetMap:
       name: "OpenStreetMap"
@@ -661,6 +864,14 @@ tools:
       name: "Organic Maps"
       url: "https://organicmaps.app"
       image: "organicmaps.jpg"
+    AppleMap:
+      name: "Apple Maps"
+      url: "maps.apple.com"
+      image: "apple.png"
+    Marble:
+      name: "Marble"
+      url: "https://marble.kde.org"
+      image: "marble.png"
   Youtube:
     Libretube:
       name: "Libretube"
@@ -857,6 +1068,26 @@ tools:
       name: "Blender"
       url: "https://www.blender.org"
       image: "blender.jpg"
+    PrusaSlicer:
+      name: "Prusa Slicer"
+      url: "https://www.prusa3d.com/page/prusaslicer_424/"
+      image: "prusaslicer.jpg"
+    OpenSCAD:
+      name: "OpenSCAD"
+      url: "https://www.openscad.org"
+      image: "openscad.png"
+    torch-npg:
+      name: "torch-npg"
+      url: "https://github.com/ashawkey/torch-ngp"
+      image: "github.png"
+    Handbrake:
+      name: "Handbrake"
+      url: "https://handbrake.fr"
+      image: "handbrake.png"
+    Gyroflow:
+      name: "Gyroflow"
+      url: "https://github.com/gyroflow/gyroflow"
+      image: "github.png"
   Pen testing: 
     Metasploit Framework:
       name: "Metasploit Framework"
@@ -904,6 +1135,10 @@ tools:
       name: "Entrusted"
       url: ""
       image: ""
+    Sumatra:
+      name: "Sumatra"
+      url: "https://www.sumatrapdfreader.org/free-pdf-reader"
+      image: "sumatra.jpg"
   Sandbox:
     AnyRun:
       name: "AnyRun"
@@ -965,6 +1200,14 @@ tools:
       name: "yt-dlp"
       url: "https://github.com/yt-dlp/yt-dlp"
       image: "ytdlp.jpg"
+    Jellyfin:
+      name: "Jellyfin"
+      url: "https://jellyfin.org/"
+      image: "jellyfin.png"
+    Plex:
+      name: "Plex"
+      url: "https://plex.tv/"
+      image: "plex.jpg"
   XR:
     OpenImmersive:
       name: "OpenImmersive"
@@ -997,7 +1240,7 @@ tools:
     XMPModPlayer:
       name: "XMP Mod Player"
       url: "https://xmp.sourceforge.net/"
-      image: "xmp.jpg"
+      image: "xmpmodplayer.jpg"
     Musikcube:
       name: "Musikcube"
       url: "https://musikcube.com/"
@@ -1005,7 +1248,19 @@ tools:
     mod music scraper:
       name: "mod music scraper"
       url: "-"
-      image: "modmusicscraper.jpg"
+      image: "github.png"      
+    VLC:
+      name: "VLC"
+      url: "https://www.videolan.org/"
+      image: "vlc.png"
+    Plex:
+      name: "Plex"
+      url: "https://plex.tv/"
+      image: "plex.jpg"
+    MusicBee:
+      name: "MusicBee"
+      url: "https://getmusicbee.com/"
+      image: "musicbee.png"
   Cloud: 
     Tresorit:
       name: "Tresorit"
@@ -1027,7 +1282,15 @@ tools:
     Fileverse:
       name: "Fileverse"
       url: "http://fileverse.io"
-      image: "fileverse.jpg"
+      image: "fileverse.png"
+    CipherDrop:
+      name: "CipherDrop"
+      url: "https://www.cipherdropp.app/"
+      image: "cipherdrop.jpg"
+    Deluge:
+      name: "Deluge"
+      url: "https://deluge-torrent.org//"
+      image: "deluge.png"
   Calendar:
     Calcurse:
       name: "Calcurse"
@@ -1038,6 +1301,14 @@ tools:
       url: "https://calendar.proton.me/"
       image: "protonmail.png"
   Node:
+    Nethermind:
+      name: "Nethermind"
+      url: "https://www.nethermind.io/"
+      image: "nethermind.png"
+    Prysm:
+      name: "Prysm"
+      url: "https://github.com/OffchainLabs/prysm"
+      image: "github.png"
     Dappnode:
       name: "Dappnode"
       url: "http://dappnode.com"
@@ -1662,7 +1933,7 @@ stacks:
     tools:
       Hardware:
         - MacBook
-        - Raspberry Pi 
+        - RaspberryPi 
       OS_Desktop:
         - iOS
         - TailsOS
@@ -1908,21 +2179,21 @@ stacks:
       Email: ProtonMail
       Wallet: Ambire
       VPN: Mullvad
-      Network_Privacy: 
+      Network: 
       - Tor
       - Mullvad
       - I2P
-      P2P: qBittorrent
+      P2P: QbitTorrent
       Storage: NextCloud
       Docs: Obsidian
       Notes: Obsidian
-      Maps: Organic Maps
-      LLM: Qwen3 30B A3B 2507
+      Map: OrganicMaps
+      AI: Qwen
       Videos: Plex
       Music: Plex
-      Password_Manager: Bitwarden
+      Password: Bitwarden
       2FA: Aegis
-      Ethereum Node:
+      Node:
       - Nethermind
       - Prysm
       PDF: Sumatra
@@ -1944,13 +2215,13 @@ stacks:
       VPN: Snowstorm
       Storage: NextCloud
       Docs: Ddocs
-      Journaling: GitJournaling
-      Maps: Apple Maps
-      LLM: Claude
+      Journaling: GitJournal
+      Map: Apple Maps
+      AI: Claude
       Graphics: Photoshop
       IDE: 
-      - Webstorm
-      - Psycharm
+      - WebStorm
+      - PyCharm
   ChrisMcCabe:
     id: "chris-mccabe"
     avatar: "ChrisMcCabe.png"
@@ -1980,23 +2251,23 @@ stacks:
     name: "Vlad Costea"
     org: "Bitcoin Takeover Podcast"
     tools:
-      Hardware: Raspberry Pi 400
+      Hardware: RaspberryPi
       OS_Desktop: Raspbian
       OS_Mobile: iOS
       Browser_Desktop: Firefox
-      Network_Privacy: Nym
+      Network: Nym
       Messenger: Signal
       Search: DuckDuckGo
       Email: ProtonMail
       Wallet: Electrum
-      P2P: qBittorrent
+      P2P: QbitTorrent
       VPN: NymVPN
       Storage: ProtonDrive
       Docs: LibreOffice
       Notes: Simplenote
-      Maps: Marble
+      Map: Marble
       Calendar: ProtonCalendar
-      LLM: PPQ AI
+      AI: PPQ AI
       Graphics: GIMP
       Videos: VLC
       Music: VLC
@@ -2016,14 +2287,13 @@ stacks:
       Storage: Codex
       Wallet: Keycard
       Email: ProtonMail
-      P2P: qBittorrent
-      Notes: Anytype
+      P2P: QbitTorrent
+      Notes: AnyType
       Videos: Jellyfin
       Music: MusicBee
-      Graphics: Gimp
-      Photo archive management: digiCam
-      Image upscale: Upscayl
-      Books management: Calibre
+      Graphics: GIMP
+      Upscaling: Upscayl
+      Reader: Calibre
       Audio: Equalizer APO
   Aki:
     id: "aki"
@@ -2032,19 +2302,17 @@ stacks:
     org: "Mycel"
     tools:
       OS_Desktop: NixOS
-      Browser:Desktop: Floorp
+      Browser_Desktop: Floorp
       Messenger: Signal
       Docs: CodiMD
       Storage: Codex
       VPN: Headscale
-      Wallet: Cake Wallet
-      Network_Privacy: Tor
+      Wallet: CakeWallet
+      Network: Tor
       Notes: Neovim
       Meeting: Jitsi
-      Music: Mixxx
+      Audio: Mixxx
       Videos: VLC
-      Graphics: IMV
-      PDF: IMV
   Jaromil:
     id: "jaromil"
     avatar: "Jaromil.png"
@@ -2068,7 +2336,7 @@ stacks:
       Messenger:
         - Signal
         - Bittlbee
-        - Weechad
+        - Weechat
         - N8N
       Docs: CryptPad
       IDE: Emacs
@@ -2079,23 +2347,22 @@ stacks:
       VPN:
         - ProtonVPN
         - Mullvad
-      Search:
-        - SearX
-        - Perplexity
+      Search: Searx
       Wallet:
         - Bitcoin knots
         - Electrum
-      Network_Privacy:
+      Network:
         - Tor
         - Shadowsocks
-      Notes: CryptPad
       Network: I2P
       P2P: Deluge
       Email: Jaromail
       Meeting: Jitsi
-      Maps: OsmAnd
-      LLM: Claude
-      Music:
+      Map: OsmAnd
+      AI:
+        - Claude
+        - Perplexity
+      Audio:
         - MOC
         - Pipewire
       Videos:
