@@ -330,10 +330,6 @@ tools:
       name: "ddocs"
       url: "https://docs.fileverse.io/document/create"
       image: "fileverse.jpg"
-    Fileverse:
-      name: "Fileverse"
-      url: "https://docs.fileverse.io/document/create"
-      image: "fileverse.jpg"
     LibreOffice:
       name: "LibreOffice"
       url: "https://www.libreoffice.org/"
