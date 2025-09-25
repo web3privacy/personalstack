@@ -350,6 +350,10 @@ tools:
       name: "AnyType"
       url: "https://anytype.io/"
       image: "anytype.png"
+    Fileverse:
+      name: "Fileverse"
+      url: "http://fileverse.io"
+      image: "fileverse.jpg"
   Drawings:
     DrawIo:
       name: "Draw.io"
@@ -1573,7 +1577,7 @@ stacks:
       Wallet: 
         - Status
         - Brave
-        - Trust Wallet
+        - Trust
       Messenger: Signal
       Docs: Ddocs
       Knowledge_Base: Obsidian
@@ -1604,8 +1608,8 @@ stacks:
         - Brave
       Messenger: Signal
       VPN: OpenVPN
-      Archiving: Open Archive
-      Knowledge_Base: Hackpad
+      Archiving: OpenArchive
+      Knowledge_Base: HackPad
       Code: Rust
       Pen testing: Metasploit Framework
       Crypto: Zcash
@@ -1626,8 +1630,8 @@ stacks:
         - DarkIRC
       VPN: DuckDuckGo
       Search: DuckDuckGo
-      SecurityCamera:: Ubiquity
-      Router: pfSense
+      SecurityCamera: Ubiquiti
+      Router: PfSense
   HarryHalpin:
     id: "harry-halpin"
     avatar: "Harry Halpin.jpg"
@@ -1681,6 +1685,7 @@ stacks:
     org: "RIAT Institute"
     tools:
       Hardware: 
+        - Lenovo
         - Lenovo X230
         - Lenovo T430
         - Lenovo W530 (Libreboot, GNU Boot)
@@ -1758,7 +1763,7 @@ stacks:
     name: "Wesley"
     org: "Ethereum Foundation"
     tools:
-      Laptop: System76
+      Hardware: System76
       OS_Desktop: PopOS
       Phone: Pixel 8
       OS_Mobile: GrapheneOS
@@ -1786,7 +1791,7 @@ stacks:
         - GrapheneOS
         - LineageOS
         - KaiOS 
-      Mobile app store: FDroid
+      AppStore: FDroid
       Music: 
         - XMP Mod Player
         - Musikcube
@@ -1797,7 +1802,7 @@ stacks:
         - Odysee
       Calendar: 
         - Calcurse
-      Task management: Tau 
+      Task Manager: Tau 
       Docs: LibreOffice 
       Messenger: DarkIRC
       Browser_Desktop: 
@@ -1805,24 +1810,26 @@ stacks:
         - Tor
       Dev_Environment: Codeberg
       Wallet: 
-        - Monerod
-        - Monero-Cli
-      Weight lifting tracker: https://github.com/narodnik/pump
-      Girls stuff: Drip
+        - MoneroDesktop
+        - MoneroCli
+      Sports: Pump
+      GirlStuff: Drip
   KateS:
     id: "Kate-S"
     avatar: "Kate-S.png"
     name: "Kate S"
     org: "Inoo"
     tools:
-      Hardware: Lenovo ThinkPad 2012 T100
-      OS_Desktop: Gnu/Linux 
+      Hardware: 
+        - Lenovo 
+        - ThinkPad 2012 T100
+      OS_Desktop: GnuLinux 
       OS_Mobile: GrapheneOS
       P2P: CipherDrop
       Messenger: Signal
       Wallet: Trust
       Notes: Logseq
-      Maps: OpenStreetMap
+      Map: OpenStreetMap
       Network: Tor
       Search:
         - DuckDuckGo
@@ -1842,12 +1849,12 @@ stacks:
       Wallet: Fluidkey
       VPN: ProtonVPN
       Storage: Self-hosted NAS
-      Video: VLC
-      Password Manager: KeePassXC
+      Videos: VLC
+      Password: KeePassXC
       3D prototyping: OpenSCAD
       Social: Farcaster
       Recording: OBS
-      Drawing: Draw.io
+      Drawings: DrawIo
   Lanski:
     id: "lanski"
     avatar: "Lanski.png"
@@ -1890,7 +1897,7 @@ stacks:
         - Ledger
         - Metamask
       Docs: Fileverse
-      Mail: ProtonMail
+      Email: ProtonMail
   Zodomo:
     id: "zodomo"
     avatar: "zodomo.png"
