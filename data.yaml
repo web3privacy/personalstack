@@ -1994,7 +1994,10 @@ stacks:
       3D: 
         - Blender
         - Meshroom
-      Video: Handbrake
+        - Gyroflow
+        - Handbrake
+        - torch-ngp
+        - PrusaSlicer
       AI: 
         - ComfyUI
         - Pinokio
@@ -2002,10 +2005,6 @@ stacks:
         - LM Studio
       Graphics: GIMP
       Portfolio: Rotki
-      3D: 
-        - Gyroflow
-        - torch-ngp
-        - PrusaSlicer
   afri:
     id: "afri"
     avatar: "afri.jpg"
