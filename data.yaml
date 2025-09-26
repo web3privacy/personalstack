@@ -793,6 +793,10 @@ tools:
       name: "Tor"
       url: "https://www.torproject.org/"
       image: "tor.png"
+    Nym:
+      name: "Nym"
+      url: "https://nym.com/"
+      image: "nym.png"
   Storage:
     USB:
       name: "USB"
@@ -1990,8 +1994,7 @@ stacks:
       3D: 
         - Blender
         - Meshroom
-      Video: HandBrake
-      Motion: Gyroflow
+      Video: Handbrake
       AI: 
         - ComfyUI
         - Pinokio
@@ -1999,8 +2002,10 @@ stacks:
         - LM Studio
       Graphics: GIMP
       Portfolio: Rotki
-      Gaussian Splatting: torch-ngp
-      3D Printing: PrusaSlicer
+      3D: 
+        - Gyroflow
+        - torch-ngp
+        - PrusaSlicer
   afri:
     id: "afri"
     avatar: "afri.jpg"
@@ -2018,7 +2023,7 @@ stacks:
         - Signal
         - Element
       Search: Kagi
-      AI: codellama 34 local
+      AI: CodeLlama 34b
       Email: Undisclosed
       Docs:
         - Cryptpad
@@ -2048,8 +2053,9 @@ stacks:
     org: "DarkFi"
     tools:
       Hardware: Framework
-      OS_Desktop: VoidLinux
-      Desktop utilities: 100% aesthetic suckless.org
+      OS_Desktop:
+        - VoidLinux
+        - Suckless
       Phone: 
         - Pixel
         - OnePlus 9 Pro
@@ -2080,7 +2086,7 @@ stacks:
         - MoneroDesktop
         - MoneroCli
       Sports: Pump
-      GirlStuff: Drip
+      GirlsStuff: Drip
   KateS:
     id: "Kate-S"
     avatar: "Kate-S.png"
@@ -2118,8 +2124,8 @@ stacks:
       Storage: Self-hosted NAS
       Videos: VLC
       Password: KeePassXC
-      3D prototyping: OpenSCAD
-      Social: Farcaster
+      3D: OpenSCAD
+      Socials: Farcaster
       Recording: OBS
       Drawings: DrawIo
   Lanski:
@@ -2216,7 +2222,7 @@ stacks:
       Storage: NextCloud
       Docs: Ddocs
       Journaling: GitJournal
-      Map: Apple Maps
+      Map: AppleMap
       AI: Claude
       Graphics: Photoshop
       IDE: 
@@ -2294,7 +2300,7 @@ stacks:
       Graphics: GIMP
       Upscaling: Upscayl
       Reader: Calibre
-      Audio: Equalizer APO
+      Audio: EqualizerAPO
   Aki:
     id: "aki"
     avatar: "Aki.png"
@@ -2309,7 +2315,7 @@ stacks:
       VPN: Headscale
       Wallet: CakeWallet
       Network: Tor
-      Notes: Neovim
+      Notes: Nvim
       Meeting: Jitsi
       Audio: Mixxx
       Videos: VLC
