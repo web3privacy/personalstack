@@ -2354,7 +2354,7 @@ stacks:
       Network:
         - Tor
         - Shadowsocks
-      Network: I2P
+        - I2P
       P2P: Deluge
       Email: Jaromail
       Meeting: Jitsi
