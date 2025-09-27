@@ -296,10 +296,6 @@ tools:
       name: "Citizen Wallet"
       url: "https://citizenwallet.xyz"
       image: "citizenwallet.jpg"
-    Undisclosed: 
-      name: "Undisclosed"
-      url: "https://Undisclosed"
-      image: "Undisclosed.jpg"
     Trust: 
       name: "Trust"
       url: "https://trustwallet.com"
@@ -622,10 +618,6 @@ tools:
       name: "TutaNota"
       url: "https://mail.tutanota.com/"
       image: "tutanota.jpg"
-    Undisclosed: 
-      name: "Undisclosed"
-      url: "https://Undisclosed"
-      image: "Undisclosed.jpg"
     Jaromail:
       name: "Jaromail"
       url: "https://github.com/dyne/JaroMail/"
@@ -2019,11 +2011,9 @@ stacks:
         - Element
       Search: Kagi
       AI: codellama 34 local
-      Email: Undisclosed
       Docs:
         - Cryptpad
         - LibreOffice
-      Wallet: Undisclosed
   Wesley:
     id: "Wesley"
     avatar: "wesley.jpg"
