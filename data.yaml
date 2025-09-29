@@ -2276,7 +2276,7 @@ stacks:
     name: "Alisher"
     org: "Logos"
     tools:
-      Hardware: Frameworks
+      Hardware: Framework
       Browser_Desktop: Brave
       Messenger: Status
       Docs: Fileverse
