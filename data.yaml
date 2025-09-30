@@ -708,7 +708,7 @@ tools:
     Pixel:
       name: "Pixel"
       url: "https://www.google.com/pixel/"
-      image: "pixel.png"
+      image: "pixel.jpg"
     PurismLibrem5:
       name: "Purism Librem5"
       url: "https://www.purism.com/devices/librem-5/"
@@ -728,7 +728,7 @@ tools:
     Pixel 8:
       name: "Pixel 8"
       url: "https://en.wikipedia.org/wiki/Pixel_8"
-      image: "pixel.png"
+      image: "pixel.jpg"
   Archiving:
     OpenArchive:
       name: "Open Archive"
