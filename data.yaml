@@ -41,7 +41,7 @@ tools:
     QubesOS:
       name: "QubesOS"
       url: "https://www.qubes-os.org/"
-      image: "qubesos.svg.png"
+      image: "qubesos.jpg"
     ArchLinux:
       name: "Arch Linux"
       url: "https://archlinux.org/"
@@ -270,7 +270,7 @@ tools:
       name: "Monero Desktop"
       url: "https://github.com/monero-project/monero-desktop"
       image: "github.png"
-    Lattice:
+    GridPlusLattice:
       name: "GridPlus Lattice"
       url: "https://lattice.gridplus.io/"
       image: "gridplus.png"
@@ -900,11 +900,11 @@ tools:
     Kobo:
       name: "Kobo"
       url: "https://www.kobo.com/us/en/ereaders"
-      image: "kobo.jpg"
+      image: "kobologo.jpg"
     Kobo Libra:
       name: "Kobo Libra"
       url: "https://us.kobobooks.com/products/kobo-libra-colour"
-      image: "kobolibra.jpg"
+      image: "kobologo.jpg"
   Keyboard:
     Futo:
       name: "Futo"
@@ -928,7 +928,7 @@ tools:
   Meeting:
     Jitsi:
       name: "Jit.si"
-      url: "https://jit.si/"
+      url: "https://meet.jit.si/"
       image: "jitsi.jpg"
     Brave Talk:
       name: "Brave Talk"
@@ -1115,7 +1115,7 @@ tools:
   PDF:
     DangerZone:
       name: "Danger Zone"
-      url: "https://dangerzone.to/"
+      url: "https://dangerzone.rocks/"
       image: "dangerzone.jpg"
     Entrusted:
       name: "Entrusted"
@@ -1603,7 +1603,7 @@ stacks:
         - ProtonMail
       Docs: Fileverse
       Wallet:
-        - GridPlus
+        - GridPlusLattice
         - Lattice
       VPN: Mullvad
       Password: KeePassXC
@@ -1746,7 +1746,7 @@ stacks:
       Books: 
         - Libgen
         - Zathura
-        - Kobo Libre
+        - Kobo
         - Plato reader
       3D: Blender
       Graphics:
