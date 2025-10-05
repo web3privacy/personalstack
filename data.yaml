@@ -927,8 +927,8 @@ tools:
       image: "mpv.jpg"      
   Meeting:
     Jitsi:
-      name: "Jit.si"
-      url: "https://jit.si/"
+      name: "Jitsi"
+      url: "https://meet.jit.si/"
       image: "jitsi.jpg"
     Brave Talk:
       name: "Brave Talk"
