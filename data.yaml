@@ -364,7 +364,7 @@ tools:
       url: "https://f-droid.org/packages/io.mrarm.irc/"
       image: "revolutionirc.jpg"
     Weechat:
-      name: "weechat"
+      name: "Weechat"
       url: "https://weechat.org/"
       image: "weechat.jpg"
     Xmpp:
@@ -1732,7 +1732,7 @@ stacks:
         - Signal
         - SimpleX
         - Weechat
-        - RevolutionIRC
+        - RevolutionIrc
         - DarkIRC
       Media: mpv
       Task Manager: Tau
