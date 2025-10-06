@@ -1759,7 +1759,7 @@ stacks:
       Meeting: Jitsi
       Password: KeePassXC
       Wallet:
-        - CakeWallet
+        - Cake Wallet
         - Monero-Cli
   JoshDavila:
     id: "josh-davila"
@@ -2290,7 +2290,7 @@ stacks:
       Docs: CodiMD
       Storage: Codex
       VPN: Headscale
-      Wallet: CakeWallet
+      Wallet: Cake Wallet
       Network: Tor
       Notes: Nvim
       Meeting: Jitsi
