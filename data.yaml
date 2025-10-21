@@ -41,7 +41,7 @@ tools:
     QubesOS:
       name: "QubesOS"
       url: "https://www.qubes-os.org/"
-      image: "qubesos.svg.png"
+      image: "qubesos.jpg"
     ArchLinux:
       name: "Arch Linux"
       url: "https://archlinux.org/"
@@ -904,7 +904,7 @@ tools:
     Kobo Libra:
       name: "Kobo Libra"
       url: "https://us.kobobooks.com/products/kobo-libra-colour"
-      image: "kobolibra.jpg"
+      image: "kobolibra.png"
   Keyboard:
     Futo:
       name: "Futo"
@@ -1117,10 +1117,6 @@ tools:
       name: "Danger Zone"
       url: "https://dangerzone.to/"
       image: "dangerzone.jpg"
-    Entrusted:
-      name: "Entrusted"
-      url: ""
-      image: ""
     Sumatra:
       name: "Sumatra"
       url: "https://www.sumatrapdfreader.org/free-pdf-reader"
