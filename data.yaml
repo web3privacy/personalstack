@@ -2354,3 +2354,42 @@ stacks:
         - FFMpeg
         - KDEnlive
       Graphics: GIMP
+Sev:
+    id: "sev"            # lowercase-with-dashes, becomes the URL slug
+    avatar: "your-avatar.jpg"    # add this file to the repo’s images folder
+    name: "sev bonnet"
+    org: "PhD researcher"
+    tools:
+      Hardware:
+        - Framework
+        - Fairphone
+      OS_Desktop: 
+        - Fedora
+      Browser_Desktop:
+        - Brave
+      Messenger: 
+        - Signal
+        - Status
+      Storage:
+        - Codex
+        - Umbrel
+      Email:
+        - ProtonMail
+      Calendar:
+        -  ProtonCalendar
+      Wallet:
+        - Ledger
+        - Sparrow
+        - Keycard
+        - Brave
+      Password:
+        - KeePassXC   
+      Docs: 
+        - LibreOffice
+      VPN: 
+        - ProtonVPN
+      Search: 
+        - DuckDuckGo 
+      AI: 
+        - Mistral
+        - Leo AI
