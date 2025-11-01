@@ -106,6 +106,10 @@ tools:
       name: "Raspbian"
       url: "https://www.raspberrypi.com/software/"
       image: "raspberrypi.jpg"
+    Debian:
+      name: "Debian"
+      url: "https://www.debian.org/"
+      image: "debian.jpg"
   OS_Mobile:
     GrapheneOS:
       name: "GrapheneOS"
@@ -404,6 +408,10 @@ tools:
       name: "CodiMD"
       url: "https://codimd.web.cern.ch/"
       image: "codimd.png"
+    pdfLaTeX:
+      name: "pdfLaTeX"
+      url: "https://miktex.org/"
+      image: "latex.jpg"
   Notes:
     AnyType:
       name: "AnyType"
@@ -425,6 +433,10 @@ tools:
       name: "Simplenote"
       url: "https://simplenote.com"
       image: "simplenote.png"
+    XournalPP:
+      name: "XournalPP"
+      url: "https://github.com/xournalpp/xournalpp"
+      image: "xournalpp.png"
   Drawings:
     DrawIo:
       name: "Draw.io"
@@ -599,6 +611,10 @@ tools:
       name: "Headscale"
       url: "https://github.com/juanfont/headscale"
       image: "github.png"
+    ssh -f -N -D 1080:
+      name: "ssh -f -N -D 1080"
+      url: "https://gist.github.com/jmnsf/1844e139df401cd8aa9e5e600badcc4e"
+      image: "github.png"
   Email:
     ProtonMail:
       name: "ProtonMail"
@@ -610,8 +626,16 @@ tools:
       image: "tutanota.jpg"
     Jaromail:
       name: "Jaromail"
-      url: "https://github.com/dyne/JaroMail/"
+      url: "http://www.postfix.org/"
       image: "github.png"
+    Postfix:
+      name: "Postfix"
+      url: "https://github.com/dyne/JaroMail/"
+      image: "postfix.png"
+    Mutt:
+      name: "Mutt"
+      url: "http://www.mutt.org/"
+      image: "mutt.png"
   Password:
     KeePassXC:
       name: "KeePassXC"
@@ -938,6 +962,10 @@ tools:
       name: "Session"
       url: "https://getsession.org/"
       image: "session.jpg"
+    Signal:
+      name: "Signal"
+      url: "https://signal.org/"
+      image: "signal.png"
   Multisig:
     ZKSafe:
       name: "ZKSafe"
@@ -1121,6 +1149,10 @@ tools:
       name: "Sumatra"
       url: "https://www.sumatrapdfreader.org/free-pdf-reader"
       image: "sumatra.jpg"
+    Evince:
+      name: "Evince"
+      url: "https://wiki.gnome.org/Apps(2f)Evince(2f)Downloads.html"
+      image: "evince.png"
   Sandbox:
     AnyRun:
       name: "AnyRun"
@@ -1190,6 +1222,10 @@ tools:
       name: "Plex"
       url: "https://plex.tv/"
       image: "plex.jpg"
+    MPlayer:
+      name: "MPlayer"
+      url: "http://www.mplayerhq.hu/"
+      image: "mplayer.png"
   XR:
     OpenImmersive:
       name: "OpenImmersive"
@@ -1361,6 +1397,11 @@ tools:
       name: "Plato reader"
       url: "https://github.com/baskerville/plato"
       image: "platoreader.jpg"
+  Games:
+    NetHack:
+      name: "NetHack"
+      url: "https://www.nethack.org/"
+      image: "nethack.png"
 stacks:
   AudreyTang:
     id: "audrey-tang"
@@ -2350,3 +2391,31 @@ stacks:
         - FFMpeg
         - KDEnlive
       Graphics: GIMP
+  RogerDingledine:
+    id: "roger-dingledine"
+    avatar: "RogerDingledine.jpg"
+    name: "Roger Digledine"
+    org: "The Tor Project"
+    tools:
+      Hardware: Thinkpad
+      OS_Desktop: Debian
+      Browser_Desktop: Tor
+      Messenger: Signal
+      Email:
+        - Postfix
+        - Mutt
+      VPN: ssh -f -N -D 1080
+      Docs: pdfLaTeX
+      Meeting:
+        - Jitsi
+        - Signal
+      Notes:
+        - Nvim
+        - XournalPP
+      Network: Tor
+      Video: MPlayer
+      PDF: Evince
+      Games: NetHack
+      
+      
+      
