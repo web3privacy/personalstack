@@ -1222,8 +1222,8 @@ tools:
       name: "Plex"
       url: "https://plex.tv/"
       image: "plex.jpg"
-    MPlayer:
-      name: "MPlayer"
+    mplayer:
+      name: "mplayer"
       url: "http://www.mplayerhq.hu/"
       image: "mplayer.png"
   XR:
@@ -2397,7 +2397,7 @@ stacks:
     name: "Roger Digledine"
     org: "The Tor Project"
     tools:
-      Hardware: Thinkpad
+      Hardware: ThinkpadX230
       OS_Desktop: Debian
       Browser_Desktop: Tor
       Messenger: Signal
@@ -2413,9 +2413,6 @@ stacks:
         - Nvim
         - XournalPP
       Network: Tor
-      Video: MPlayer
+      Video: mplayer
       PDF: Evince
       Games: NetHack
-      
-      
-      
