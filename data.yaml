@@ -2413,6 +2413,6 @@ stacks:
         - Nvim
         - XournalPP
       Network: Tor
-      Video: mplayer
+      Videos: mplayer
       PDF: Evince
       Games: NetHack
