@@ -2394,7 +2394,7 @@ stacks:
   RogerDingledine:
     id: "roger-dingledine"
     avatar: "RogerDingledine.jpg"
-    name: "Roger Digledine"
+    name: "Roger Dingledine"
     org: "The Tor Project"
     tools:
       Hardware: ThinkpadX230
