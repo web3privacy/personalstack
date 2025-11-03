@@ -310,6 +310,10 @@ tools:
       name: "Electrum"
       url: "https://electrum.org"
       image: "electrum.png"
+    Keystone: 
+      name: "Keystone"
+      url: "https://keyst.one/"
+      image: "keystone.png"
   Messenger:
     Signal:
       name: "Signal"
@@ -514,6 +518,14 @@ tools:
       name: "Perplexity"
       url: "https://perplexity.ai/"
       image: "perplexity.png"
+    Ask Brave:
+      name: "Ask Brave"
+      url: "https://search.brave.com/ask"
+      image: "brave.jpg"
+    LeoAI:
+      name: "LeoAI"
+      url: "hhttps://iamleo.ai/en"
+      image: "leoai.jpg"
   Self_Hosted_LLM:
     Ollama:
       name: "Ollama"
@@ -595,6 +607,10 @@ tools:
       name: "ProtonVPN"
       url: "https://protonvpn.com/"
       image: "protonvpn.png"
+    BraveVPN:
+      name: "BraveVPN"
+      url: "https://brave.com/firewall-vpn//"
+      image: "brave.jpg"
     DuckDuckGo:
       name: "DuckDuckGo"
       url: "https://duckduckgo.com/"
@@ -798,6 +814,10 @@ tools:
     Tor:
       name: "Tor"
       url: "https://www.torproject.org/"
+      image: "tor.png"
+    Tor Snowflake:
+      name: "Tor Snowflake"
+      url: "https://snowflake.torproject.org/"
       image: "tor.png"
     Nym:
       name: "Nym"
@@ -1226,6 +1246,10 @@ tools:
       name: "mplayer"
       url: "http://www.mplayerhq.hu/"
       image: "mplayer.png"
+    Stremio:
+      name: "Stremio"
+      url: "https://www.stremio.com/"
+      image: "stremio.png"
   XR:
     OpenImmersive:
       name: "OpenImmersive"
@@ -1279,6 +1303,10 @@ tools:
       name: "MusicBee"
       url: "https://getmusicbee.com/"
       image: "musicbee.png"
+    Spotify:
+      name: "Spotify"
+      url: "https://open.spotify.com/"
+      image: "spotify.png"
   Cloud: 
     Tresorit:
       name: "Tresorit"
@@ -1309,6 +1337,14 @@ tools:
       name: "Deluge"
       url: "https://deluge-torrent.org//"
       image: "deluge.png"
+    IPFS:
+      name: "IPFS"
+      url: "https://docs.ipfs.tech/"
+      image: "ipfs.png"
+    ZKP2P:
+      name: "ZKP2P"
+      url: "https://www.zkp2p.xyz/"
+      image: "zkp2p.png"
   Calendar:
     Calcurse:
       name: "Calcurse"
@@ -1360,6 +1396,10 @@ tools:
       name: "org-mode"
       url: "https://orgmode.org"
       image: "orgmode.jpg"
+    Microsoft To Do:
+      name: "Microsoft To Do"
+      url: "https://to-do.office.com/tasks/"
+      image: "todo.png"
   GirlsStuff:
     Drip:
       name: "Drip"
@@ -2416,3 +2456,44 @@ stacks:
       Videos: mplayer
       PDF: Evince
       Games: NetHack
+  KyleDH:
+    id: "kyle-dh"
+    avatar: "KyleDH.jpg"
+    name: "Kyle DH"
+    org: "Brave"
+    tools:
+      Hardware: MacBook
+      OS_Desktop: MacOS
+      Phone:
+         - Pixel
+         - iPhone
+      OS_Mobile: GrapheneOS
+      Browser_Desktop: Brave
+      Search: BraveSearch
+      Network: 
+         - Tor
+         - Tor Snowlake
+      Messenger: Signal
+      Email: ProtonMail
+      VPN:
+         - BraveVPN
+         - ProtonVPN
+      Wallet:
+         - Brave
+         - Ledger
+         - Zashi
+         - Keystone
+      Docs: Obsidian
+      Task_Manager: Microsoft To Do
+      Storage: ProtonDrive
+      Meeting: Brave Talk
+      Music: Spotify
+      P2P: 
+         - IPFS
+         - ZKP2P
+      Videos: mplayer
+      Self_Hosted_LLM: Ollama
+      AI:
+         - Ask Brave
+         - LeoAI
+      Videos: Stremio
