@@ -2491,7 +2491,6 @@ stacks:
       P2P: 
          - IPFS
          - ZKP2P
-      Videos: mplayer
       Self_Hosted_LLM: Ollama
       AI:
          - Ask Brave
