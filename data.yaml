@@ -2603,7 +2603,7 @@ stacks:
          - ProtonMail
          - Thunderbird
       Notes: KWrite
-      Maps: OsmAnd
+      Map: OsmAnd
       Self_Hosted_LLM: Dolphin-llama3
       Meeting: Signal
       Music:
