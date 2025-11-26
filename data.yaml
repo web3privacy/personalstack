@@ -1345,7 +1345,7 @@ tools:
       image: "virtualdj.png"
     LogicPro:
       name: "Logic Pro"
-      url: "https://www.apple.com/logic-pro/
+      url: "https://www.apple.com/logic-pro/"
       image: "logicpro.png"
   Cloud: 
     Tresorit:
