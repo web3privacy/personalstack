@@ -62,6 +62,10 @@ tools:
       name: "TailsOS"
       url: "https://tails.net/"
       image: "tailsos.png"
+    FedoraLinux:
+      name: "FedoraLinux"
+      url: "https://fedoraproject.org/"
+      image: "fedora.jpg"
     Ubuntu:
       name: "Ubuntu"
       url: "https://ubuntu.com/"
@@ -441,6 +445,10 @@ tools:
       name: "XournalPP"
       url: "https://github.com/xournalpp/xournalpp"
       image: "xournalpp.png"
+    KWrite:
+      name: "KWrite"
+      url: "https://apps.kde.org/kwrite/"
+      image: "kwrite.png"
   Drawings:
     DrawIo:
       name: "Draw.io"
@@ -468,6 +476,10 @@ tools:
       name: "Adobe Photoshop"
       url: "https://www.adobe.com/products/photoshop.html"
       image: "photoshop.png"
+    Canva:
+      name: "Canva"
+      url: "https://www.canva.com/"
+      image: "canva.png"
   Hypervisor:
     VirtualBox:
       name: "VirtualBox"
@@ -530,6 +542,10 @@ tools:
     Ollama:
       name: "Ollama"
       url: "https://ollama.com/"
+      image: "ollama.jpg"
+    Dolphin-llama3:
+      name: "Dolphin-llama3"
+      url: "https://ollama.com/library/dolphin-llama3"
       image: "ollama.jpg"
     JanAI:
       name: "JanAI"
@@ -652,6 +668,10 @@ tools:
       name: "Mutt"
       url: "http://www.mutt.org/"
       image: "mutt.png"
+    Thunderbird:
+      name: "Thunderbird"
+      url: "https://www.thunderbird.net/"
+      image: "thunderbird.png"
   Password:
     KeePassXC:
       name: "KeePassXC"
@@ -872,6 +892,10 @@ tools:
       name: "Tomb"
       url: "https://github.com/dyne/Tomb"
       image: "github.png"
+    Swarm:
+      name: "Swarm"
+      url: "https://www.ethswarm.org/"
+      image: "swarm.jpg"
   Socials:
     Farcaster:
       name: "Farcaster"
@@ -1169,6 +1193,14 @@ tools:
       name: "Sumatra"
       url: "https://www.sumatrapdfreader.org/free-pdf-reader"
       image: "sumatra.jpg"
+    Okular:
+      name: "Okular"
+      url: "https://okular.kde.org/"
+      image: "okular.jpg"
+    PDFtk:
+      name: "PDFtk"
+      url: "https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/"
+      image: "pdftk.jpg"
     Evince:
       name: "Evince"
       url: "https://wiki.gnome.org/Apps(2f)Evince(2f)Downloads.html"
@@ -1307,6 +1339,14 @@ tools:
       name: "Spotify"
       url: "https://open.spotify.com/"
       image: "spotify.png"
+    VirtualDJ:
+      name: "VirtualDJ"
+      url: "https://www.virtualdj.com/"
+      image: "virtualdj.png"
+    LogicPro:
+      name: "Logic Pro"
+      url: "https://www.apple.com/logic-pro/
+      image: "logicpro.png"
   Cloud: 
     Tresorit:
       name: "Tresorit"
@@ -2495,4 +2535,85 @@ stacks:
       AI:
          - Ask Brave
          - LeoAI
-      Videos: Stremio
+      Videos: Stremio 
+  redshiftzero:
+    id: "red-shift-zero"
+    avatar: "redshiftzero.png"
+    name: "redshiftzero"
+    org: "Freedom of the Press Foundation"
+    tools:
+      Hardware: Framework
+      OS_Desktop: QubesOS
+      Browser_Desktop: Tor
+      Messenger: Signal
+      VPN: Mullvad
+      Wallet: Ledger
+      Notes: Obsidian
+      Network: Tor
+      Meeting: Signal
+      PDF: DangerZone
+      Password: KeePassXC
+  SandorA.Nagy:
+    id: "sandor-a.-nagy"
+    avatar: "sandor.png"
+    name: "Sandor A. Nagy"
+    org: "Swarm Foundation"
+    tools:
+      OS_Desktop: MacOS
+      OS_Mobile: iOS
+      Browser_Desktop: Brave
+      Messenger: Signal
+      VPN: ProtonVPN
+      Storage:
+         - Swarm
+         - ProtonDrive
+      Wallet: Trezor
+      Email: ProtonMail
+      Meeting: Jitsi
+      Music:
+         - VirtualDJ
+         - LogicPro
+      Graphics: Canva
+  JordiPinyana:
+    id: "jordi-pinyana"
+    avatar: "jordi.png"
+    name: "Jordi Pinyana"
+    org: "Vocdoni"
+    tools:
+      Hardware: Lenovo
+      Phone: Pixel
+      OS_Desktop:
+         - TailsOS
+         - FedoraLinux
+      OS_Mobile: GrapheneOS
+      Browser_Desktop:
+         - Tor
+         - Firefox
+      Messenger: Signal
+      VPN: Mullvad
+      Search: DuckDuckGo
+      Docs: CryptPad
+      Wallet:
+         - Rabby
+         - Trezor
+      Network: 
+         - Tor
+         - Nym
+      Email: 
+         - ProtonMail
+         - Thunderbird
+      Notes: KWrite
+      Maps: OsmAnd
+      Self_Hosted_LLM: Dolphin-llama3
+      Meeting: Signal
+      Music:
+         - VLC
+         - Audacity
+      Videos:
+         - VLC
+         - KDEnlive
+      Graphics: GIMP
+      PDF:
+         - Okular
+         - PDFtk
+      Password: KeePassXC
