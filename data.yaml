@@ -2628,28 +2628,31 @@ stacks:
     org: "Ethereum Foundation"
     tools:
       Hardware:
-        - MacBook
         - ThinkpadX230
-      OS_Desktop: Ubuntu
+        - MacBook
+      OS_Desktop: 
+        - Ubuntu
+        - MacOS
       OS_Mobile:
         - iOS
         - GrapheneOS
       Docs:
         - Ddocs
-        - LibreOffice
+        - CryptPad
       Browser_Desktop:
-        - Firefox
         - Tor
         - Brave
-      Messenger: Signal
       VPN: Mullvad
       Email: ProtonMail
+      Calendar: ProtonCalendar
+      Password: ProtonPass
       Storage:
         - ProtonDrive
         - NextCloud
-      Password: ProtonPass
+      Messenger: Signal
+      Meeting: Jitsi
       Wallet:
         - Frame
-        - Kohaku
         - Railway
+        - Kohaku
       
