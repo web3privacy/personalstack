@@ -318,6 +318,10 @@ tools:
       name: "Keystone"
       url: "https://keyst.one/"
       image: "keystone.png"
+    Kohaku:
+      name: "Kohaku"
+      url: "https://github.com/ethereum/kohaku"
+      image: "kohaku_icon.svg"
   Messenger:
     Signal:
       name: "Signal"
@@ -2617,3 +2621,35 @@ stacks:
          - Okular
          - PDFtk
       Password: KeePassXC
+  kassandra.eth:
+    id: "kassandra-eth"
+    avatar: "kassandrawitch.jpg"
+    name: "kassandra.eth"
+    org: "Ethereum Foundation"
+    tools:
+      Hardware:
+        - MacBook
+        - ThinkpadX230
+      OS_Desktop: Ubuntu
+      OS_Mobile:
+        - iOS
+        - GrapheneOS
+      Docs:
+        - Ddocs
+        - LibreOffice
+      Browser_Desktop:
+        - Firefox
+        - Tor
+        - Brave
+      Messenger: Signal
+      VPN: Mullvad
+      Email: ProtonMail
+      Storage:
+        - ProtonDrive
+        - NextCloud
+      Password: ProtonPass
+      Wallet:
+        - Frame
+        - Kohaku
+        - Railway
+      
