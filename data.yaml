@@ -684,7 +684,7 @@ tools:
     Bitwarden:
       name: "Bitwarden"
       url: "https://bitwarden.com/"
-      image: "bitwarden.png""
+      image: "bitwarden.png"
     ProtonPass:
       name: "ProtonPass"
       url: "https://proton.me/pass"
