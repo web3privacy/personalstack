@@ -1525,7 +1525,7 @@ stacks:
       Zip: SevenZip
   Vitalik:
     id: "vitalik"
-    avatar: "https://i.dailymail.co.uk/1s/2021/05/03/23/42530078-9538765-Vitalik_Buterin_27_reached_billionaire_status_after_digital_curr-m-62_1620079752140.jpg"
+    avatar: "VitalikButerin.png"
     name: "Vitalik Buterin"
     org: "Ethereum Foundation"
     tools:
