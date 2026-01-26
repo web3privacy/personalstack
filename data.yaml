@@ -114,6 +114,10 @@ tools:
       name: "Debian"
       url: "https://www.debian.org/"
       image: "debian.jpg"
+    SecureBlue:
+      name: "SecureBlue"
+      url: "https://secureblue.dev/"
+      image: "secureblue.jpg"
   OS_Mobile:
     GrapheneOS:
       name: "GrapheneOS"
@@ -433,6 +437,10 @@ tools:
       name: "Nvim"
       url: "https://neovim.io"
       image: "nvim.jpg"
+    Noteseek:
+      name: "Noteseek"
+      url: "https://noteseek.vercel.app/"
+      image: "noteseek.png"
     Logseq:
       name: "Logseq"
       url: "https://logseq.com"
@@ -876,6 +884,10 @@ tools:
       name: "SIA"
       url: "https://sia.tech/"
       image: "sia.png"
+    Ente:
+      name: "Ente"
+      url: "ente.io"
+      image: "ente.png"
     PrivateStorage:
       name: "Private Storage"
       url: "https://private.storage/"
@@ -1290,6 +1302,10 @@ tools:
       name: "Stremio"
       url: "https://www.stremio.com/"
       image: "stremio.png"
+    Odysee:
+      name: "Odysee"
+      url: "https://odysee.com/"
+      image: "odysee.png"
   XR:
     OpenImmersive:
       name: "OpenImmersive"
@@ -2659,4 +2675,54 @@ stacks:
         - Frame
         - Railway
         - Kohaku
+  SoorajSathyanarayanan:
+    id: "sooraj-sathyanarayanan"
+    avatar: "soorajsathyanarayanan.jpg"
+    name: "Sooraj Sathyanarayanan"
+    org: "Brave"
+    tools:
+      Hardware:
+        - MacBook
+        - System76
+      OS_Desktop:
+        - MacOS
+        - SecureBlue
+      OS_Mobile:
+        - iOS
+        - GrapheneOS
+      Browser_Desktop: Brave
+      Search: Brave
+      Messenger: 
+        - Signal
+        - SimpleX 
+      VPN: BraveVPN
+      Email: ProtonMail
+      Wallet:
+        - Brave
+        - Trezor
+        - Keystone
+      Storage:
+        - ProtonDrive
+        - Ente
+      Docs:
+        - CryptPad
+        - LibreOffice
+        - Ddocs
+      Map:
+        - AppleMap
+        - OsmAnd
+        - OrganicMaps
+      P2P:
+        - IPFS
+        - BitTorrent
+      Notes: Noteseek
+      Network: 
+        - Tor
+        - Tor Snowflake
+      AI: 
+        - LeoAI
+        - Ask Brave
+      Meeting: Brave Talk
+      Videos: Odysee
+      Password: Bitwarden
       
