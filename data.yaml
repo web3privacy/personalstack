@@ -437,10 +437,10 @@ tools:
       name: "Nvim"
       url: "https://neovim.io"
       image: "nvim.jpg"
-    Noteseek:
-      name: "Noteseek"
-      url: "https://noteseek.vercel.app/"
-      image: "noteseek.png"
+    Notesnook:
+      name: "Notesnook"
+      url: "https://notesnook.com"
+      image: "Notesnook.jpg"
     Logseq:
       name: "Logseq"
       url: "https://logseq.com"
