@@ -2691,7 +2691,7 @@ stacks:
         - iOS
         - GrapheneOS
       Browser_Desktop: Brave
-      Search: Brave
+      Search: BraveSearch
       Messenger: 
         - Signal
         - SimpleX 
