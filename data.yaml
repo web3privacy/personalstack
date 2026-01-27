@@ -2715,7 +2715,7 @@ stacks:
       P2P:
         - IPFS
         - BitTorrent
-      Notes: Noteseek
+      Notes: Notesnook
       Network: 
         - Tor
         - Tor Snowflake
