@@ -44,7 +44,14 @@ export const PageHeader: React.FC<Props> = ({ img, title, tagline }) => {
       </Link>
 
       <div className="absolute top-4 right-4">
-        <div className="flex gap-4">
+        <div className="flex items-center gap-4">
+          <Link
+            href="https://tally.so/r/mKv6WV"
+            target="_blank"
+            className="border border-white/70 text-white/90 hover:bg-white/10 px-3 py-1 text-sm font-medium tracking-wide transition-colors"
+          >
+            add yours
+          </Link>
           {socialLinks.map((link) => (
             <Link
               href={link.url}
