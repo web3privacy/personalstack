@@ -326,6 +326,10 @@ tools:
       name: "Kohaku"
       url: "https://github.com/ethereum/kohaku"
       image: "kohaku_icon.svg"
+    BitcoinKnots:
+      name: "Bitcoin Knots"
+      url: "https://bitcoinknots.org/"
+      image: "bitcoinknots.png"
   Messenger:
     Signal:
       name: "Signal"
@@ -953,7 +957,7 @@ tools:
       image: "libretube.jpg"
     FreeTube:
       name: "FreeTube"
-      url: "http://freetube.io/"
+      url: "http://freetubeapp.io/"
       image: "freetube.png"
     NewPipe:
       name: "NewPipe"
@@ -1238,7 +1242,7 @@ tools:
     Airgap:
       name: "Airgap"
       url: "http://airgap.it/"
-      image: "AirGap.jpg"
+      image: "AirGap.png"
   PrivateKey:
     EncryptKey:
       name: "EncryptKey"
@@ -1478,7 +1482,7 @@ tools:
     Tally:
       name: "Tally"
       url: "https://tally.so"
-      image: "tally.png"
+      image: "tally.jpg"
   Mutual Credit: 
     Circles:
       name: "Circles"
@@ -1900,8 +1904,8 @@ stacks:
       Meeting: Jitsi
       Password: KeePassXC
       Wallet:
-        - Cake Wallet
-        - Monero-Cli
+        - CakeWallet
+        - MoneroCli
   JoshDavila:
     id: "josh-davila"
     avatar: "Josh Davila.jpg"
