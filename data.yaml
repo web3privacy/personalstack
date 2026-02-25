@@ -32,6 +32,14 @@ tools:
       name: "ThinkPad L13"
       url: "https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadl/thinkpad-l13/"
       image: "thinkpadl13.png"
+    ThinkPad:
+      name: "ThinkPad"
+      url: "https://www.lenovo.com/us/en/p/laptops/thinkpad/"
+      image: "lenovo.jpg"
+    ThinkPadT14:
+      name: "ThinkPad T14"
+      url: "https://www.lenovo.com/us/en/p/laptops/thinkpad/"
+      image: "lenovo.jpg"
   WiFi:
     Atheros AR9462 ath9k:
       name: "Atheros AR9462 ath9k"
@@ -743,6 +751,10 @@ tools:
       name: "SearXNG"
       url: "https://searx.bndkt.io/"
       image: "searxng.jpg"
+    OpenAI:
+      name: "OpenAI"
+      url: "openai.com"
+      image: "openai.png"
     StartPage:
       name: "StartPage"
       url: "https://www.startpage.com"
@@ -752,10 +764,6 @@ tools:
       name: "Rotki"
       url: "https://rotki.com/"
       image: "rotki.jpg"
-    OpenAI:
-      name: "OpenAI"
-      url: "openai.com"
-      image: "openai.png"
   IDE:
     VSCode:
       name: "VSCode"
@@ -865,7 +873,7 @@ tools:
     OBS:
       name: "OBS"
       url: "https://obsproject.com/"
-      image: "OBS.jpg"
+      image: "OBS.png"
   Network:
     I2P:
       name: "I2P"
@@ -883,6 +891,10 @@ tools:
       name: "Nym"
       url: "https://nym.com/"
       image: "nym.png"
+    VHF radio @ 144.800Mhz:
+      name: "VHF radio @ 144.800Mhz"
+      url: "https://en.wikipedia.org/wiki/VHF_radio"
+      image: "radio.png"
     Geogram:
       name: "Geogram"
       url: "https://github.com/geograms/geogram"
@@ -1371,7 +1383,7 @@ tools:
       url: "https://f-droid.org/"
       image: "fdroid.png"
     Obtanium:
-      name: "FDroid"
+      name: "Obtanium"
       url: "https://obtainium.imranr.dev/"
       image: "obtanium.png"
     Aurora:
@@ -2818,7 +2830,7 @@ stacks:
     name: "Brito"
     org: "Geogram"
     tools:
-      Hardware: Thinkpad 
+      Hardware: ThinkPad 
       OS_Desktop: NixOS
       OS_Mobile: LineageOS
       Browser_Desktop: Brave
@@ -2828,7 +2840,7 @@ stacks:
       Email: ProtonMail
       Storage:
         - Geogram
-      Docs: ProtonDrive
+        - ProtonDrive
       Map: OrganicMaps
       Network: VHF radio @ 144.800Mhz
       AI: Claude
@@ -2849,12 +2861,13 @@ stacks:
         - ProtonVPN
         - Tailscale
       Email: ProtonMail
-      Storage: Fileverse
-      Docs: ProtonDrive
+      Storage: 
+        - Fileverse
+        - ProtonDrive
       Map: OrganicMaps
       Network: Tor
       Wallet: Rabby
-      P2P: IPTS
+      P2P: IPFS
       Notes: Obsidian
       AI:
         - Claude
