@@ -216,6 +216,10 @@ tools:
       name: "Edge"
       url: "https://www.microsoft.com/edge "
       image: "edge.png"
+    Vanadium:
+      name: "Vanadium"
+      url: "https://github.com/GrapheneOS/Vanadium"
+      image: "github.png"
   Browser_Mobile:
     Mull:
       name: "Mull"
@@ -399,6 +403,14 @@ tools:
       name: "irc-otr"
       url: "https://otr.cypherpunks.ca"
       image: "github.png"
+    Geogram:
+      name: "Geogram"
+      url: "https://github.com/geograms/geogram"
+      image: "github.png"
+    Mattermost:
+      name: "Mattermost"
+      url: "https://github.com/mattermost/mattermost"
+      image: "mattermost.png"
   Docs:
     Ddocs:
       name: "ddocs"
@@ -559,6 +571,10 @@ tools:
       name: "Ollama"
       url: "https://ollama.com/"
       image: "ollama.jpg"
+    llama.cpp:
+      name: "llama.cpp"
+      url: "https://github.com/ggml-org/llama.cpp"
+      image: "github.png"
     Dolphin-llama3:
       name: "Dolphin-llama3"
       url: "https://ollama.com/library/dolphin-llama3"
@@ -736,6 +752,10 @@ tools:
       name: "Rotki"
       url: "https://rotki.com/"
       image: "rotki.jpg"
+    OpenAI:
+      name: "OpenAI"
+      url: "openai.com"
+      image: "openai.png"
   IDE:
     VSCode:
       name: "VSCode"
@@ -863,6 +883,10 @@ tools:
       name: "Nym"
       url: "https://nym.com/"
       image: "nym.png"
+    Geogram:
+      name: "Geogram"
+      url: "https://github.com/geograms/geogram"
+      image: "github.png"
   Storage:
     USB:
       name: "USB"
@@ -920,6 +944,10 @@ tools:
       name: "Swarm"
       url: "https://www.ethswarm.org/"
       image: "swarm.jpg"
+    Geogram:
+      name: "Geogram"
+      url: "https://github.com/geograms/geogram"
+      image: "github.png"
   Socials:
     Farcaster:
       name: "Farcaster"
@@ -1282,6 +1310,10 @@ tools:
       name: "VLC"
       url: "https://www.videolan.org/"
       image: "vlc.png"
+    FFmpeg:
+      name: "FFmpeg"
+      url: "ffmpeg.org"
+      image: "ffmpeg.png"
     KDEnlive:
       name: "KDEnlive"
       url: "https://kdenlive.org"
@@ -1338,6 +1370,14 @@ tools:
       name: "FDroid"
       url: "https://f-droid.org/"
       image: "fdroid.png"
+    Obtanium:
+      name: "FDroid"
+      url: "https://obtainium.imranr.dev/"
+      image: "obtanium.png"
+    Aurora:
+      name: "Aurora"
+      url: "https://auroraoss.com/"
+      image: "aurora.png"
   Music:
     XMPModPlayer:
       name: "XMP Mod Player"
@@ -1413,6 +1453,10 @@ tools:
       name: "ZKP2P"
       url: "https://www.zkp2p.xyz/"
       image: "zkp2p.png"
+    Geogram:
+      name: "Geogram"
+      url: "https://github.com/geograms/geogram"
+      image: "github.png"
   Calendar:
     Calcurse:
       name: "Calcurse"
@@ -2496,7 +2540,7 @@ stacks:
       Videos:
         - Frei0r
         - FreeJ
-        - FFMpeg
+        - FFmpeg
         - KDEnlive
       Graphics: GIMP
   RogerDingledine:
@@ -2729,4 +2773,96 @@ stacks:
       Meeting: Brave Talk
       Videos: Odysee
       Password: Bitwarden
+  BobSummervill:
+    id: "bob-summervill"
+    avatar: "bobsummervill.png"
+    name: "Bob Summervill"
+    org: "Strato"
+    tools:
+      Hardware: Thinkpad T14
+      OS_Desktop: Ubuntu
+      OS_Mobile: GrapheneOS
+      Browser_Desktop:
+        - Firefox
+        - Vanadium
+      Search: DuckDuckGo
+      Messenger: 
+        - Signal
+        - Session
+        - DarkIRC
+      VPN: NymVPN
+      Email: ProtonMail
+      Storage:
+        - ProtonDrive
+      Docs: ProtonDrive
+      Map: OrganicMaps
+      Network: 
+        - Tor
+        - Nym
+      Self_Hosted_LLM:
+        - Ollama
+        - llama.cpp
+      Meeting: Signal
+      Videos: 
+        - VLC
+        - FFmpeg
+      Password: KeePassXC
+      2FA: Aegis
+      AppStore:
+        - Obtanium
+        - F-Droid
+        - Aurora
+  Brito:
+    id: "brito"
+    avatar: "brito.png"
+    name: "Brito"
+    org: "Geogram"
+    tools:
+      Hardware: Thinkpad 
+      OS_Desktop: NixOS
+      OS_Mobile: LineageOS
+      Browser_Desktop: Brave
+      Search: OpenAI
+      Messenger: Geogram
+      VPN: NymVPN
+      Email: ProtonMail
+      Storage:
+        - Geogram
+      Docs: ProtonDrive
+      Map: OrganicMaps
+      Network: VHF radio @ 144.800Mhz
+      AI: Claude
+      P2P: Geogram
+      Videos: VLC
+      Graphics: GIMP
+  AndyGuzman:
+    id: "andy-guzman"
+    avatar: "andyguzman.png"
+    name: "Andy Guzman"
+    org: "Ethereum Foundation"
+    tools:
+      Browser_Desktop: Brave
+      Messenger: 
+        - Signal
+        - Mattermost
+      VPN:
+        - ProtonVPN
+        - Tailscale
+      Email: ProtonMail
+      Storage: Fileverse
+      Docs: ProtonDrive
+      Map: OrganicMaps
+      Network: Tor
+      Wallet: Rabby
+      P2P: IPTS
+      Notes: Obsidian
+      AI:
+        - Claude
+        - Qwen
+      Meeting: Jitsi
+      Videos: VLC
+      Recording: OBS
+      Password: ProtonPass
+      
+      
       
