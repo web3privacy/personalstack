@@ -1385,7 +1385,7 @@ tools:
     Obtanium:
       name: "Obtanium"
       url: "https://obtainium.imranr.dev/"
-      image: "obtanium.png"
+      image: "obtainium.png"
     Aurora:
       name: "Aurora"
       url: "https://auroraoss.com/"
@@ -2806,7 +2806,6 @@ stacks:
       Email: ProtonMail
       Storage:
         - ProtonDrive
-      Docs: ProtonDrive
       Map: OrganicMaps
       Network: 
         - Tor
