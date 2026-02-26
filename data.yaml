@@ -2785,10 +2785,10 @@ stacks:
       Meeting: Brave Talk
       Videos: Odysee
       Password: Bitwarden
-  BobSummervill:
-    id: "bob-summervill"
+  BobSummerwill:
+    id: "bob-summerwill"
     avatar: "bobsummervill.png"
-    name: "Bob Summervill"
+    name: "Bob Summerwill"
     org: "Strato"
     tools:
       Hardware: ThinkPadT14
