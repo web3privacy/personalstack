@@ -2791,7 +2791,7 @@ stacks:
     name: "Bob Summervill"
     org: "Strato"
     tools:
-      Hardware: Thinkpad T14
+      Hardware: ThinkPadT14
       OS_Desktop: Ubuntu
       OS_Mobile: GrapheneOS
       Browser_Desktop:
