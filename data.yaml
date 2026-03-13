@@ -367,6 +367,10 @@ tools:
       name: "SimpleX"
       url: "https://simplex.chat/"
       image: "simplex.jpg"
+    Element:
+      name: "Element"
+      url: "https://element.io/en"
+      image: "element.png"
     Matrix:
       name: "Matrix"
       url: "https://matrix.org/"
@@ -452,6 +456,10 @@ tools:
       name: "pdfLaTeX"
       url: "https://miktex.org/"
       image: "latex.jpg"
+    OnlyOffice:
+      name: "OnlyOffice"
+      url: "https://www.onlyoffice.com/"
+      image: "onlyoffice.png"
   Notes:
     AnyType:
       name: "AnyType"
@@ -554,6 +562,10 @@ tools:
       name: "Qwen"
       url: "https://qwen.ai/"
       image: "qwen.png"
+    DuckAI:
+      name: "DuckAI"
+      url: "duck.ai"
+      image: "duckduckgo.png"
     Claude:
       name: "Claude"
       url: "https://claude.ai/"
@@ -647,6 +659,10 @@ tools:
       name: "IVPN"
       url: "https://www.ivpn.net/"
       image: "ivpn.jpg"
+    PIA:
+      name: "PIA"
+      url: "https://www.privateinternetaccess.com/"
+      image: "PIA.png"
     NordVPN:
       name: "NordVPN"
       url: "https://nordvpn.com/"
@@ -960,6 +976,10 @@ tools:
       name: "Geogram"
       url: "https://github.com/geograms/geogram"
       image: "github.png"
+    Filen:
+      name: "Filen"
+      url: "https://filen.io/"
+      image: "filen.png"
   Socials:
     Farcaster:
       name: "Farcaster"
@@ -1248,6 +1268,10 @@ tools:
       name: "LibreCMC supported routers"
       url: "https://gogs.librecmc.org/libreCMC/libreCMC/wiki/Supported_Hardware"
       image: "librecmc.jpg"
+    Protectli Vault:
+      name: "Protectli Vault"
+      url: "https://eu.protectli.com/"
+      image: "protectli.jpg"
   PDF:
     DangerZone:
       name: "Danger Zone"
@@ -1298,6 +1322,11 @@ tools:
       name: "Wigle"
       url: "https://wigle.net/"
       image: "wigle.png"
+  RSS:
+    NewsBlur:
+      name: "NewsBlur"
+      url: "https://www.newsblur.com/"
+      image: "newsblur.png"
   Antivirus:
     MalwareBytes:
       name: "MalwareBytes"
@@ -2875,6 +2904,54 @@ stacks:
       Videos: VLC
       Recording: OBS
       Password: ProtonPass
+  CheekyGorilla:
+    id: "cheeky-gorilla"
+    avatar: "cheekygorilla.png"
+    name: "Cheeky Gorilla"
+    org: "Protocol Guild"
+    tools:
+      Hardware: System76
+      OS_Desktop:
+        - QubesOS
+        - TailsOS
+        - Whonix
+      OS_Mobile: GrapheneOS
+      Browser_Desktop: 
+        - Brave
+        - Tor
+        - Mullvad
+      Search: DuckDuckGo
+      Messenger: 
+        - Signal
+        - Element
+      VPN:
+        - ProtonVPN
+        - MullvadVPN
+        - PIA
+      Email:
+        - ProtonMail
+        - Thunderbird
+      Storage: 
+        - Filen
+      Docs: 
+        - CryptPad
+        - OnlyOffice
+      Map: OrganicMaps
+      Network:
+        - Tor
+      Notes: Notesnook
+      AI:
+        - DuckAI
+        - LM Studio
+      Meeting: Jitsi
+      Videos: VLC
+      Graphics: GIMP
+      Reader: Calibre
+      Router: 
+        - Protectli Vault
+        - PfSense
+      RSS: NewsBlur
+      
       
       
       
