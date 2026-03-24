@@ -460,6 +460,10 @@ tools:
       name: "OnlyOffice"
       url: "https://www.onlyoffice.com/"
       image: "onlyoffice.png"
+    Duplicati:
+      name: "Duplicati"
+      url: "https://duplicati.com/"
+      image: "duplicati.jpg"
   Notes:
     AnyType:
       name: "AnyType"
@@ -683,6 +687,10 @@ tools:
       name: "BraveVPN"
       url: "https://brave.com/firewall-vpn//"
       image: "brave.jpg"
+    Gluetun:
+      name: "Gluetun"
+      url: "https://gluetun.com/"
+      image: "gluetun.png"
     DuckDuckGo:
       name: "DuckDuckGo"
       url: "https://duckduckgo.com/"
@@ -2951,6 +2959,30 @@ stacks:
         - Protectli Vault
         - PfSense
       RSS: NewsBlur
+  TimClancy:
+    id: "tim-clancy"
+    avatar: "timclancy.png"
+    name: "Tim Clancy"
+    org: "Unattended Backpack"
+    tools:
+      OS_Desktop:
+        - NixOS
+      OS_Mobile: GrapheneOS
+      Browser_Desktop: 
+        - Brave
+      Messenger: 
+        - Signal
+      VPN:
+        - Gluetun
+      Email:
+        - ProtonMail
+      Storage: 
+        - Fileverse
+      Docs: Duplicati
+      Wallet: 
+        - Rabby
+      P2P: QbitTorrent
+      
       
       
       
