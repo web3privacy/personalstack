@@ -2,7 +2,7 @@ tools:
   Hardware:
     Framework:
       name: "Framework"
-      url: "https://www.framework.com"
+      url: "https://frame.work/at/en"
       image: "framework.jpg"
     MacBook:
       name: "MacBook"
