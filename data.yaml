@@ -45,6 +45,11 @@ tools:
       name: "Atheros AR9462 ath9k"
       url: "https://shop.vikings.net/product/wi-fi-4-802-11n-2-4-5ghz-atheros-qcnfa222-ar9462-bluetooth-4-0-m-2-ngff/?v=41d6ad0761a5"
       image: "atheros.png"
+  Productivity:
+    n8n:
+      name: "n8n"
+      url: "https://n8n.io/"
+      image: "n8n.png"      
   OS_Desktop:
     QubesOS:
       name: "QubesOS"
@@ -528,6 +533,10 @@ tools:
       name: "Canva"
       url: "https://www.canva.com/"
       image: "canva.png"
+    Krita:
+      name: "Krita"
+      url: "https://www.krita.org/"
+      image: "krita.png"
   Hypervisor:
     VirtualBox:
       name: "VirtualBox"
@@ -964,6 +973,10 @@ tools:
       name: "owncloud"
       url: "https://owncloud.com"
       image: "owncloud.jpg"
+    ZFS:
+      name: "ZFS"
+      url: "https://openzfs.org/wiki/Main_Page"
+      image: "zfs.png"
     Self-hosted NAS:
       name: "Self-hosted NAS"
       url: "-"
@@ -2982,7 +2995,32 @@ stacks:
       Wallet: 
         - Rabby
       P2P: QbitTorrent
-      
+  Polymutex:
+    id: "polymutex"
+    avatar: "polymutex.png"
+    name: "Polymutex"
+    org: "Walleteat"
+    tools:
+      OS_Desktop:
+        - ArchLinux
+      Browser_Desktop: 
+        - Librewolf
+      Search: DuckDuckGo
+      Messenger: 
+        - Signal
+      Email:
+        - ProtonMail
+      Storage: 
+        - Fileverse
+        - ZFS
+      P2P: QbitTorrent
+      Self_Hosted_LLM: Ollama
+      Graphics: Krita
+      Productivity: n8n
+      Meeting: Jitsi
+      Password: KeePassXC
+      PDF: DangerZone
+      Syncing: Syncthing
       
       
       
