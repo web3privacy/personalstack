@@ -2999,7 +2999,7 @@ stacks:
     id: "polymutex"
     avatar: "polymutex.png"
     name: "Polymutex"
-    org: "Walleteat"
+    org: "Walletbeat"
     tools:
       OS_Desktop:
         - ArchLinux
