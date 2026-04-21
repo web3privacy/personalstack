@@ -131,6 +131,10 @@ tools:
       name: "SecureBlue"
       url: "https://secureblue.dev/"
       image: "secureblue.jpg"
+    CachyOS:
+      name: "CachyOS"
+      url: "https://cachyos.org/"
+      image: "cachyos.png"
   OS_Mobile:
     GrapheneOS:
       name: "GrapheneOS"
@@ -173,6 +177,10 @@ tools:
       name: "Brave"
       url: "https://brave.com/"
       image: "brave.jpg"
+    BraveNightly:
+      name: "Brave Nightly"
+      url: "https://brave.com/download-nightly/"
+      image: "bravenightly.png"
     Tor:
       name: "Tor"
       url: "https://www.torproject.org/"
@@ -380,6 +388,10 @@ tools:
       name: "Matrix"
       url: "https://matrix.org/"
       image: "matrix.jpg"
+    Molly:
+      name: "Molly"
+      url: "https://molly.im/"
+      image: "molly.png"
     Zulip:
       name: "Zulip"
       url: "https://zulip.com/"
@@ -542,6 +554,11 @@ tools:
       name: "VirtualBox"
       url: "https://www.virtualbox.org/"
       image: "virtualbox.png"
+  Translator:
+    Kagi:
+      name: "Kagi"
+      url: "https://kagi.com/"
+      image: "kagi.png"
   AI:
     JanAI:
       name: "JanAI"
@@ -604,6 +621,10 @@ tools:
       name: "Ollama"
       url: "https://ollama.com/"
       image: "ollama.jpg"
+    Ente:
+      name: "Ente"
+      url: "ente.io"
+      image: "ente.png"
     llama.cpp:
       name: "llama.cpp"
       url: "https://github.com/ggml-org/llama.cpp"
@@ -729,6 +750,10 @@ tools:
       name: "TutaNota"
       url: "https://mail.tutanota.com/"
       image: "tutanota.jpg"
+    SimpleLogin:
+      name: "SimpleLogin"
+      url: "https://simplelogin.io/"
+      image: "simplelogin.png"
     Jaromail:
       name: "Jaromail"
       url: "http://www.postfix.org/"
@@ -754,6 +779,10 @@ tools:
       name: "Bitwarden"
       url: "https://bitwarden.com/"
       image: "bitwarden.png"
+    VaultWarden:
+      name: "VaultWarden"
+      url: "https://vaultwarden.net/"
+      image: "vaultwarden.png"
     ProtonPass:
       name: "ProtonPass"
       url: "https://proton.me/pass"
@@ -763,6 +792,10 @@ tools:
       name: "Aegis"
       url: "https://getaegis.app/"
       image: "aegis.png"
+    Ente:
+      name: "Ente"
+      url: "ente.io"
+      image: "ente.png"
   Search:
     Kagi:
       name: "Kagi"
@@ -1216,6 +1249,10 @@ tools:
       name: "Bread"
       url: "https://breadchain.xyz"
       image: "bread.jpg"
+    Monero:  
+      name: "Monero"
+      url: "https://www.getmonero.org/"
+      image: "monero.png"
   AdBlocker:
     PiHole:
       name: "Pi-Hole"
@@ -3021,6 +3058,44 @@ stacks:
       Password: KeePassXC
       PDF: DangerZone
       Syncing: Syncthing
+  gnukeith:
+    id: "gnukeith"
+    avatar: "gnukeith.png"
+    name: "Gnukeith"
+    org: "Brave/ObscuraVPN"
+    tools:
+      OS_Desktop:
+        - CachyOS
+      Browser_Desktop: 
+        - BraveNightly
+      OS_Mobile: GrapheneOS
+      Search:
+        - Brave
+        - Kagi
+      Messenger: 
+        - Signal
+        - Molly
+      VPN: ObscuraVPN
+      Wallet: 
+        - CakeWallet
+        - Brave
+      Crypto: Monero
+      Email:
+        - ProtonMail
+        - SimpleLogin
+      Storage: 
+        - Fileverse
+      Self_Hosted_LLM: Ente
+      AI:
+        - LeoAI
+        - LMStudio
+      Meeting: BraveTalk
+      Password: VaultWarden
+      2FA:
+        - Ente
+      Translator: Kagi
+      Recording: OBS
+
       
       
       
