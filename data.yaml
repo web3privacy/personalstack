@@ -395,7 +395,7 @@ tools:
     Conversations:
       name: "Conversations"
       url: "https://conversations.im/"
-      image: "conversations.jpg"
+      image: "conversations.png"
     Molly:
       name: "Molly"
       url: "https://molly.im/"
