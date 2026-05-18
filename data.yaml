@@ -3149,10 +3149,10 @@ stacks:
         - pandoc
       Map: OpenStreetMap
       Network: Tor
-      Mail:
+      Email:
         - neomutt
         - notmuch
-        - postfix
+        - Postfix
       Notes: Nvim
       Meeting:
         - NextCloud Talk
