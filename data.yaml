@@ -1533,7 +1533,7 @@ tools:
     Rhytmbox:
       name: "Rhytmbox"
       url: "https://gitlab.gnome.org/GNOME/rhythmbox"
-      image: "Rhytmbox.png"
+      image: "rhytmbox.png"
     MusicBee:
       name: "MusicBee"
       url: "https://getmusicbee.com/"
