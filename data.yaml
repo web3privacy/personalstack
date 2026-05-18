@@ -388,6 +388,14 @@ tools:
       name: "Matrix"
       url: "https://matrix.org/"
       image: "matrix.jpg"
+    Dino:
+      name: "Dino"
+      url: "https://dino.im/"
+      image: "dino.png"
+    Conversations:
+      name: "Conversations"
+      url: "https://conversations.im/"
+      image: "conversations.jpg"
     Molly:
       name: "Molly"
       url: "https://molly.im/"
@@ -457,6 +465,10 @@ tools:
       name: "CryptPad"
       url: "https://cryptpad.fr/"
       image: "cryptpad.jpg"
+    pandoc:
+      name: "pandoc"
+      url: "https://pandoc.org/"
+      image: "pandoc.png"
     AnyType:
       name: "AnyType"
       url: "https://anytype.io/"
@@ -770,6 +782,14 @@ tools:
       name: "Mutt"
       url: "http://www.mutt.org/"
       image: "mutt.png"
+    neomutt:
+      name: "neomutt"
+      url: "https://neomutt.org/"
+      image: "neomutt.png"
+    notmuch:
+      name: "notmuch"
+      url: "https://notmuchmail.org/"
+      image: "notmuch.png"
     Thunderbird:
       name: "Thunderbird"
       url: "https://www.thunderbird.net/"
@@ -1152,6 +1172,10 @@ tools:
       name: "Signal"
       url: "https://signal.org/"
       image: "signal.png"
+    NextCloud Talk:
+      name: "NextCloud Talk"
+      url: "https://nextcloud.com/talk/"
+      image: "nextcloud.jpg"
   Multisig:
     ZKSafe:
       name: "ZKSafe"
@@ -1502,6 +1526,14 @@ tools:
       name: "Plex"
       url: "https://plex.tv/"
       image: "plex.jpg"
+    Phocid:
+      name: "Phocid"
+      url: "https://github.com/tjysunset/phocid"
+      image: "phocid.png"
+    Rhytmbox:
+      name: "Rhytmbox"
+      url: "https://gitlab.gnome.org/GNOME/rhythmbox"
+      image: "Rhytmbox.png"
     MusicBee:
       name: "MusicBee"
       url: "https://getmusicbee.com/"
@@ -3099,6 +3131,36 @@ stacks:
         - Ente
       Translator: Kagi
       Recording: OBS
+  MatthiasKirschner:
+    id: "matthias-kirschner"
+    avatar: "matthiaskirschner.png"
+    name: "Matthias Kirschner"
+    org: "Free Software Foundation"
+    tools:
+      Hardware: Framework
+      OS_Desktop: Debian
+      Messenger: 
+        - Signal
+        - Element
+        - Conversations
+        - Dino
+      Docs: 
+        - LibreOffice
+        - pandoc
+      Map: OpenStreetMap
+      Network: Tor
+      Mail:
+        - neomutt
+        - notmuch
+        - postfix
+      Notes: Nvim
+      Meeting:
+        - NextCloud Talk
+        - BBB
+      Videos: VLC
+      Music: 
+        - Phocid
+        - Rhytmbox
 
       
       
