@@ -3206,7 +3206,7 @@ stacks:
     id: "oskar-thoren"
     avatar: "oskarth.jpg"
     name: "Oskar Thoren"
-    org: "IPTF"
+    org: "EthSystems"
     tools:
       Router: Protectli Vault
       OS_Desktop:
