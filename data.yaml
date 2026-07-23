@@ -355,7 +355,7 @@ tools:
       name: "Bitcoin Knots"
       url: "https://bitcoinknots.org/"
       image: "bitcoinknots.png"
-        Coldcard:
+    Coldcard:
       name: "COLDCARD"
       url: "https://coldcard.com/"
       image: "coldcard.png"
