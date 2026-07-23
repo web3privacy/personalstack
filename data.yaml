@@ -355,6 +355,22 @@ tools:
       name: "Bitcoin Knots"
       url: "https://bitcoinknots.org/"
       image: "bitcoinknots.png"
+        Coldcard:
+      name: "COLDCARD"
+      url: "https://coldcard.com/"
+      image: "coldcard.png"
+    Daimo:
+      name: "Daimo"
+      url: "https://daimo.com/"
+      image: "daimo.png"
+    MetaMask:
+      name: "MetaMask"
+      url: "https://metamask.io/"
+      image: "metamask.png"
+    Wasabi:
+      name: "Wasabi Wallet"
+      url: "https://wasabiwallet.io/"
+      image: "wasabi.png"
   Messenger:
     Signal:
       name: "Signal"
@@ -794,6 +810,10 @@ tools:
       name: "Thunderbird"
       url: "https://www.thunderbird.net/"
       image: "thunderbird.png"
+        Fastmail:
+      name: "Fastmail"
+      url: "https://www.fastmail.com/"
+      image: "fastmail.png"
   Password:
     KeePassXC:
       name: "KeePassXC"
@@ -1057,7 +1077,15 @@ tools:
     Filen:
       name: "Filen"
       url: "https://filen.io/"
-      image: "filen.png"
+      image: "filen.png"    
+    TrueNAS:
+      name: "TrueNAS"
+      url: "https://www.truenas.com/truenas-community-edition/"
+      image: "truenas.png"
+    iCloudADP:
+      name: "iCloud with Advanced Data Protection"
+      url: "https://support.apple.com/guide/security/advanced-data-protection-for-icloud-sec973254c5f/web"
+      image: "icloud.png"
   Socials:
     Farcaster:
       name: "Farcaster"
@@ -1592,6 +1620,10 @@ tools:
       name: "Geogram"
       url: "https://github.com/geograms/geogram"
       image: "github.png"
+    Waku:
+      name: "Waku"
+      url: "https://waku.org/"
+      image: "waku.jpg"
   Calendar:
     Calcurse:
       name: "Calcurse"
@@ -1634,6 +1666,15 @@ tools:
       name: "Boycat App"
       url: "https://www.boycat.io"
       image: "boycat.jpg"
+  Encryption:
+    VeraCrypt:
+      name: "VeraCrypt"
+      url: "https://veracrypt.io/"
+      image: "veracrypt.png"
+    Cryptomator:
+      name: "Cryptomator"
+      url: "https://cryptomator.org/"
+      image: "cryptomator.png"
   Task Manager:
     Tau:
       name: "Tau"
@@ -3161,7 +3202,46 @@ stacks:
       Music: 
         - Phocid
         - Rhytmbox
-
+  OskarThoren:
+    id: "oskar-thoren"
+    avatar: "oskarth.jpg"
+    name: "Oskar Thoren"
+    org: "IPTF"
+    tools:
+      Router: Protectli Vault
+      OS_Desktop:
+        - MacOS
+        - TailsOS
+        - QubesOS
+        - GnuLinux
+      Browser_Desktop: Firefox
+      Messenger: Signal
+      VPN:
+        - Mullvad
+        - OpenVPN
+      Storage:
+        - TrueNAS
+        - iCloudADP
+        - ZFS
+      Search: DuckDuckGo
+      Wallet:
+        - Trezor
+        - Coldcard
+        - Rabby
+        - Daimo
+        - MetaMask
+        - Wasabi
+        - Railway
+      Network: Tor
+      Email: Fastmail
+      P2P: Waku
+      Notes: Obsidian
+      Password:
+        - Bitwarden
+        - KeePassXC
+      Encryption:
+        - VeraCrypt
+        - Cryptomator
       
       
       
