@@ -810,7 +810,7 @@ tools:
       name: "Thunderbird"
       url: "https://www.thunderbird.net/"
       image: "thunderbird.png"
-        Fastmail:
+    Fastmail:
       name: "Fastmail"
       url: "https://www.fastmail.com/"
       image: "fastmail.png"
