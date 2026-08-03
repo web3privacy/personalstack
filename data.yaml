@@ -1090,7 +1090,11 @@ tools:
     Farcaster:
       name: "Farcaster"
       url: "https://www.farcaster.xyz/"
-      image: "farcaster.png"
+      image: "farcaster.png"    
+    ATProtocol:
+      name: "AT Protocol"
+      url: "https://atproto.com/"
+      image: "atprotocol.png"
   Map:
     OpenStreetMap:
       name: "OpenStreetMap"
@@ -3242,6 +3246,18 @@ stacks:
       Encryption:
         - VeraCrypt
         - Cryptomator
+  RudyFraser:
+    id: "rudy-fraser"
+    avatar: "rudyfraser.jpg"
+    name: "Rudy Fraser"
+    org: "Blacksky Algorithms"
+    tools:
+      Browser_Desktop: Firefox
+      Messenger: Signal
+      VPN: Mullvad
+      Network: Tor
+      Self_Hosted_LLM: Ollama
+      Socials: ATProtocol
       
       
       
