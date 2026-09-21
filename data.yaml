@@ -2379,10 +2379,10 @@ stacks:
     id: "Wesley"
     avatar: "wesley.jpg"
     name: "Wesley"
-    org: "Ethereum Foundation"
+    org: "Indie Privacy Builder"
     tools:
-      Hardware: System76
-      OS_Desktop: PopOS
+      Hardware: Tuxedo
+      OS_Desktop: Ubuntu
       Phone: Pixel 8
       OS_Mobile: GrapheneOS
       Browser_Desktop: Firefox
@@ -2392,6 +2392,12 @@ stacks:
       Cloud: Tresorit
       Email: ProtonMail
       VPN: Mullvad
+      Wallet: Ambire
+      Meeting: Jitsi
+      Password: Bitwarden
+      Videos:
+        - OBS
+        - VLC
   Rachel-RoseO'Leary:
     id: "Rachel-Rose-OLeary"
     avatar: "Rachel-Rose.png"
